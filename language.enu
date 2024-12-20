@@ -53,17 +53,25 @@ BADASS18 = "Bydgoszcz (Hell)";
 BADASS19 = "A Factory That Makes Stuff";
 BADASS20 = "Rogue-Like";
 BADASS21 = "Nacht Der Un Bad*ss";
+BADASS22 = "Bad*ss Unversity Thing";
+BADASS29 = "Big Timmy's Domain";
+BADASS30 = "Victory of Jaws";
+TESTICLE = "The very end of your PC if you're playing on GZDoom";
+
+DEATHSCREEN = "You fucked up";
 
 ENDLESSMODE = "Endless Mode";
 ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
+ENDLESS_PLAZA = "Paradise Plaza";
+ENDLESS_PARK = "Leisure Park";
 
 [eng] 
 
 GOTDSFDCSHOTGUN = "Got the UIBB shotgun!";
 GOTMARINELAUNCHER = "Got the marine launcher!";
 GOTMARINE = "Picked up a marine.";
-GOTMARINEBOX = "Picked up a chubby marine.";
-OB_SAWSAW = "%o was mutilated by %k's SawSaw.";
+GOTMARINEBOX = "Picked up a medium-sized marine.";
+OB_SAWSAW = "%o was butchered by %k's SawSaw.";
 
 BADASS02 = "I consume the concrete from the pavement";
 
@@ -98,7 +106,7 @@ GOTSAWSAW = "Zebrano PiłPiłę!"
 GOTSBFKAG = "Zebrano broń atomową marki SWKKD!";
 GOTSINGULARBULLET = "Zebrano pojedyńczy pocisk!";
 GOTOPRM = "Zebrano Ulepszony Karabin Plazmowy marki v1!";
-GOTMARINELAUNCHER = "Zebrano Wyrzutnię Żołnierzy!";
+GOTMARINELAUNCHER = "Zebrano wyrzutnię żołnierzy!";
 GOTMARINE = "Podniesiono żołnierza.";
 GOTMARINEBOX = "Podniesiono grubego żołnierza.";
 STEPPEDNUCLEARFUCKET = "Nadepnąłeś na grubego żołnierza.";
@@ -123,12 +131,24 @@ SKILL_ERECT = "Bezpłodność";
 ERECT_SURE = "Proszę nie";
 
 BADASS02 = "Jem beton z chodnika";
+BADASS03 = "Epicki Labirynt Śmierci Geoffa";
+BADASS04 = "Odbyt Geoffa";
+BADASS05 = "Wysadź Ich";
+BADASS06 = "Militarny Labirynt";
+BADASS07 = "Atomiczny Atak";
+BADASS08 = "Gówniany Atak (Mama powiedziała że teraz jest mój czas na xboxa)";
 BADASS14 = "Saper dla Twar***elów";
-BADASS15 = "Metro Zapełnione Krwią";
+BADASS15 = "Metro Wypełnione Krwią";
 BADASS16 = "Pije kwas";
 BADASS17 = "Miasto Smekkiego dla Twar***elów";
 BADASS18 = "Bydgoszcz (Piekło)";
 BADASS19 = "Fabryka Która Robi Rzeczy";
+BADASS29 = "Domena Wielkiego Timmy'ego";
+BADASS30 = "Wygrana Szczęk";
+TESTICLE = "Koniec twojego komputera jeśli korzystasz z GZDoom";
+
+DEATHSCREEN = "Spierdoliłeś";
 
 ENDLESSMODE = "Tryb Nieskończony";
 ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";
+ENDLESS_PARK = "Park Wypoczynku";

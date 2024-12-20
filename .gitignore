@@ -4,8 +4,9 @@ freedoom_badass_edition (wadinfo).wad
 freedoom_badass_edition (mappack_wadinfo).wad
 freedoom_badass_edition (wadinfo)
 freedoom_badass_edition (mappack_wadinfo)
-# Used
 freedoom_badass_edition.wad
+# Used
+freedoom_badass_edition.pk3
 *.bak
 *.backup1
 *.backup2
