@@ -6,6 +6,8 @@ made for zdoom-based sourceports
 
 discord: https://discord.gg/wsBdTfru9z
 
+official website: https://freedoom-badass-edition.github.io/
+
 ## launching the mod
 
 ### prerequisites

@@ -2,6 +2,10 @@ Episode BADASS01
 {
 	Name = "Freedoom Bad*ss Mappack"
 }
+Episode BADASS34
+{
+	Name = "Endless Mode"
+}
 Map BADASS01 "Hydroelectronic Plant"
 {
 	LevelNum = 1
@@ -274,6 +278,23 @@ Map BADASS32 "Breaking Bad*ss" {
 		Music = D_SANS
 		Par = 600
 		Author = rostuhan
+}
+Map BADASS33 "Boring Test Map" {
+		LevelNum = 33
+		Next = BADASS01
+		SecretNext = BADASS01
+		Sky1 = SKY3
+		Music = D_RUNNIN
+		Author = Saver310
+}
+Map BADASS34 "Endless Mode"
+ {
+		LevelNum = 34
+		Next = BADASS01
+		SecretNext = BADASS01
+		Sky1 = SKY3
+		Music = D_RUNNIN
+		Author = SmekkyBoy
 }
 Map BADASS86 "Bad*ss Apple" {
 	LevelNum = 86
