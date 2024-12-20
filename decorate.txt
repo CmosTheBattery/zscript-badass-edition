@@ -1,8 +1,8 @@
 ACTOR BadassPlayer : DoomPlayer replaces DoomPlayer
 {
-  Player.StartItem "ZoomPunch"
-  Player.StartItem "MarineGrenade"
   Player.StartItem "SingularBullet"
+  Player.StartItem "MarineGrenade"
+  Player.StartItem "ZoomPunch"
   Player.StartItem "Clip", 1
   Player.StartItem "RocketAmmo", 1  
   Player.WeaponSlot 1, ZoomPunch, SawSaw
@@ -20,8 +20,8 @@ ACTOR DumbassShitFuckDickCockShotgun : Shotgun replaces Shotgun
   Weapon.AmmoUse 1
   Weapon.AmmoGive 8
   Weapon.AmmoType "Shell"
-  Inventory.PickupMessage "Got the DSFDC shotgun!"
-  Obituary "%k blasted %o away."
+  Inventory.PickupMessage "$GOTDSFDCSHOTGUN"
+  Obituary "$OB_DSFDCSHOTGUN"
   Tag "DSFDC Shotgun"
   States
   {
@@ -84,8 +84,8 @@ ACTOR SmallButPackingChaingun : Chaingun replaces Chaingun
    Weapon.AmmoUse 50
    Weapon.AmmoGive 50
    Weapon.AmmoType "Clip"
-   Inventory.PickupMessage "Got the minigun! Something is off..." // "Got the chaingun"
-   Obituary "%o was deleted from existence by %k." // "%o was mowed down by %k's chaingun."
+   Inventory.PickupMessage "$GOTOVERCHARGEDMINIGUN"
+   Obituary "$OB_OVERCHARGEDMINIGUN"
    Tag "Overcharged Minigun"
    States
    {
@@ -134,8 +134,8 @@ ACTOR SingularBullet : Weapon
   Weapon.AmmoUse 1
   Weapon.AmmoGive 1 
   Weapon.AmmoType "Clip"  
-  Inventory.PickupMessage "Got a singular bullet!"  
-  Obituary "%o got shot up by a fist and a bullet."
+  Inventory.PickupMessage "$GOTSINGULARBULLET"  
+  Obituary "$OB_SINGULARBULLET"
   Tag "Singular Bullet"
   States
   {
@@ -179,8 +179,8 @@ ACTOR DuperShotgun : SuperShotgun replaces SuperShotgun
   Weapon.AmmoUse 6
   Weapon.AmmoGive 12
   Weapon.AmmoType "Shell"
-  Inventory.PickupMessage "Got the Duper Shotgun!"
-  Obituary "%o was eviscerated by %k's Duper Shotgun."
+  Inventory.PickupMessage "$GOTDUPERSHOTGUN"
+  Obituary "$OB_DUPERSHOTGUN"
   Tag "Duper Shotgun"
   States
   {
@@ -239,7 +239,7 @@ ACTOR Cocaine : Berserk replaces Berserk
 {
   +COUNTITEM
   +INVENTORY.ALWAYSPICKUP
-  Inventory.PickupMessage "Cocaine!" // "Berserk!"
+  Inventory.PickupMessage "$GOTCOCAINE"
   Inventory.PickupSound "misc/p_pkup"
   Tag "Cocaine"
   States
@@ -267,8 +267,8 @@ ACTOR SawSaw : Chainsaw replaces Chainsaw
   Weapon.SelectionOrder 2200
   Weapon.UpSound "silence"
   Weapon.ReadySound "silence"
-  Inventory.PickupMessage "Got the SawSaw!"
-  Obituary "%o was grinded up by %k's SawSaw."
+  Inventory.PickupMessage "$GOTSAWSAW"
+  Obituary "$OB_SAWSAW"
   Tag "SawSaw"
   +WEAPON.MELEEWEAPON
   States
@@ -557,7 +557,7 @@ ACTOR Fucket : Rocket replaces Rocket
   -ROCKETTRAIL
   Speed 20
   Damage 10
-  Obituary "%o rode %k's corpse."
+  Obituary "$OB_CORPSE"
   DeathSound "*fist"  
   States
   {
@@ -603,7 +603,7 @@ ACTOR ThatThingThatGoesBoom
   +DEHEXPLOSION
   +ROCKETTRAIL
   DeathSound "weapons/rocklx"
-  Obituary "%o got blown up by a corpse." // ""
+  Obituary "$OB_CORPSEBOOM"
   States
   {
   Spawn:
@@ -626,7 +626,7 @@ ACTOR BCG9000 : BFG9000 replaces BFG9000
   Weapon.AmmoGive 90
   Weapon.AmmoType "Cell"
   +WEAPON.NOAUTOFIRE
-  Inventory.PickupMessage "Got the SBFKAG!"
+  Inventory.PickupMessage "$GOTSBFKAG"
   Tag "SBFKAG"
   States
   {
@@ -668,7 +668,7 @@ ACTOR RechargablePlasmaRifleModelv1 : PlasmaRifle replaces PlasmaRifle
   Weapon.AmmoUse 300
   Weapon.AmmoGive 300
   Weapon.AmmoType "Cell"
-  Inventory.PickupMessage "Got the Overcharged Plasma Rifle Model v1!"
+  Inventory.PickupMessage "$GOTOPRM"
   Tag "Overcharged Plasma Rifle Model v1"
   States
   {
@@ -719,7 +719,7 @@ ACTOR PlasmaTesticle : PlasmaBall replaces PlasmaBall
   Alpha 0.75
   SeeSound "Sraka"
   DeathSound "*fist"
-  Obituary "%o had his testicles tickled by %k."
+  Obituary "$OB_TESTICLE"
   States
   {
   Spawn:
@@ -750,7 +750,7 @@ ACTOR PlasmaNuke : ThatThingThatGoesBoom
   +EXTREMEDEATH
   +FORCERADIUSDMG
   +FORCEPAIN
-  Obituary "%o got wiped from existence."
+  Obituary "$OB_NUKE"
   States
   {
   Spawn:
@@ -766,7 +766,7 @@ ACTOR PlasmaNuke : ThatThingThatGoesBoom
 
 ACTOR MarineBox : RocketAmmo replaces RocketBox
 {
-  Inventory.PickupMessage "Picked up a chonk fucket."
+  Inventory.PickupMessage "$GOTMARINEBOX"
   Inventory.Amount 5
   States
   {
@@ -779,12 +779,11 @@ ACTOR MarineBox : RocketAmmo replaces RocketBox
 ACTOR MarineAmmo : RocketAmmo replaces RocketAmmo
 {
   Scale 0.5
-  Inventory.PickupMessage "Picked up a fucket."
+  Inventory.PickupMessage "$GOTMARINE"
   Inventory.Amount 1
   Inventory.MaxAmount 50
   Ammo.BackpackAmount 1
   Ammo.BackpackMaxAmount 100
-  Inventory.Icon "PLAYA0"
   States
   {
   Spawn:
@@ -799,7 +798,7 @@ ACTOR MarineLauncher : RocketLauncher replaces RocketLauncher
   Weapon.AmmoUse 1
   Weapon.AmmoGive 2
   Weapon.AmmoType "RocketAmmo"
-  Inventory.PickupMessage "Got the fucket launcher!"
+  Inventory.PickupMessage "$GOTMARINELAUNCHER"
   Tag "Fucket Launcher"
 }
 
@@ -918,7 +917,7 @@ ACTOR TheNuker : Cyberdemon 26017
 
 Actor NuclearFucket : CustomInventory 26018 {
     Tag "Nuclear Fucket (goes boom)"
-    Inventory.PickupMessage "You stepped on a nuclear fucket."
+    Inventory.PickupMessage "$STEPPEDNUCLEARFUCKET"
     States {
         Spawn:
             PLAY ABCD 6 Bright A_SetScale(1,0.40)
@@ -937,7 +936,7 @@ Actor ZoomPunch : Fist {
             ZOOM A 20 A_PlaySound("ZUMUPANCHI")
             ZOOM A 4
             ZOOM B 4
-            ZOOM C 6 A_CustomPunch(10, false, 0, "", 200)
+            ZOOM C 6 A_CustomPunch(10, false, 0, "BulletPuff", 200)
             ZOOM D 4
             ZOOM B 4
             ZOOM A 4 A_ReFire
@@ -946,7 +945,7 @@ Actor ZoomPunch : Fist {
             ZOOM A 1 A_PlaySound("ZUMUPANCHIcocaine")
             ZOOM A 1
             ZOOM B 1
-            ZOOM C 3 A_CustomPunch(100, false, 0, "", 300)
+            ZOOM C 3 A_CustomPunch(100, false, 0, "BulletPuff", 300)
             ZOOM D 2
             ZOOM B 2
             ZOOM A 2 A_ReFire
@@ -956,7 +955,7 @@ Actor ZoomPunch : Fist {
 
 ACTOR SingularBulletAmmo : Clip
 {
-  Inventory.PickupMessage "Got a singular bullet!"  
+  Inventory.PickupMessage "$GOTSINGULARBULLET"
   Tag "Singular Bullet"
   Inventory.Amount 1
   States

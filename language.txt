@@ -1,0 +1,49 @@
+[enu default] 
+
+GOTDSFDCSHOTGUN = "Got the DSFDC shotgun!";
+GOTOVERCHARGEDMINIGUN = "Got the minigun! Something is off...";
+GOTDUPERSHOTGUN = "Got the Duper Shotgun!";
+GOTCOCAINE = "Cocaine!";
+GOTSAWSAW = "Got the SawSaw!";
+GOTSBFKAG = "Got the SBFKAG!";
+GOTSINGULARBULLET = "Got a singular bullet!";
+GOTOPRM = "Got the Overcharged Plasma Rifle Model v1!";
+GOTMARINELAUNCHER = "Got the fucket launcher!";
+GOTMARINE = "Picked up a fucket.";
+GOTMARINEBOX = "Picked up a chonk fucket.";
+STEPPEDNUCLEARFUCKET = "You stepped on a nuclear fucket.";
+
+OB_DSFDCSHOTGUN = "%k blasted %o away.";
+OB_OVERCHARGEDMINIGUN = "%o was deleted from existence by %k.";
+OB_SINGULARBULLET = "%o got shot up by a fist and a bullet.";
+OB_SAWSAW = "%o was grinded up by %k's SawSaw.";
+OB_CORPSE = "%o rode %k's corpse.";
+OB_CORPSEBOOM = "%o got blown up by a corpse.";
+OB_TESTICLE = "%o had his testicles tickled by %k.";
+OB_NUKE = "%o got wiped from existence.";
+OB_DUPERSHOTGUN = "%o was eviscerated by %k's Duper Shotgun."
+
+[pl] 
+
+GOTDSFDCSHOTGUN = "Zebrano strzelbę BPCS!";
+GOTOVERCHARGEDMINIGUN = "Zebrano minigun! Ale coś jest nie tak...";
+GOTDUPERSHOTGUN = "Zebrano Duper Shotgun!";
+GOTCOCAINE = "Kokaina!";
+GOTSAWSAW = "Zebrano PiłPiłę!"
+GOTSBFKAG = "Zebrano broń atomową marki SWKKD!";
+GOTSINGULARBULLET = "Zebrano pojedyńczy pocisk!";
+GOTOPRM = "Zebrano Ulepszony Karabin Plazmowy marki v1!";
+GOTMARINELAUNCHER = "Zebrano Wyrzutnię Żołnierzy!";
+GOTMARINE = "Podniesiono żołnierza.";
+GOTMARINEBOX = "Podniesiono grubego żołnierza.";
+STEPPEDNUCLEARFUCKET = "Nadepnąłeś na grubego żołnierza.";
+
+OB_DSFDCSHOTGUN = "%o został odstrzelony przez %k.";
+OB_OVERCHARGEDMINIGUN = "%o został skasowany z istnienia przez %k.";
+OB_SINGULARBULLET = "%o został zastrzelony pociskiem i pięścią.";
+OB_SAWSAW = "%o został rozerwany na kawałki przez %k.";
+OB_CORPSE = "%o został ztrupowany przez %k.";
+OB_CORPSEBOOM = "%o został wysadzony przez ciało.";
+OB_TESTICLE = "%o miał swoje jądra pogłaskane przez %k.";
+OB_NUKE = "$OB_OVERCHARGEDMINIGUN";
+OB_DUPERSHOTGUN = "%o został odstrzelony i rozerwany przez %k.";
