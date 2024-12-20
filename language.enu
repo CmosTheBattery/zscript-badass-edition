@@ -32,6 +32,28 @@ ERECTILE_SURE = "1 out of 43721 dentists recommend this difficulty";
 SKILL_ERECT = "Infertility";
 ERECT_SURE = "Fuck";
 
+BADASS01 = "Hydroelectronic Plant";
+BADASS02 = "I eat the concrete from the sidewalk";
+BADASS03 = "Geoff's Epic Maze of Death";
+BADASS04 = "Geoff's Asshole";
+BADASS05 = "Dave 3D 'em";
+BADASS06 = "Marine Maze";
+BADASS07 = "Atomic Attack";
+BADASS08 = "Shit Attack (Mom said it's my turn on the xbox)";
+BADASS09 = "Open World Bad*ssery";
+BADASS10 = "The Servants of David William";
+BADASS11 = "Light at the End of David William's Tunnel";
+BADASS12 = "Mission \"Ancient Troll\"";
+BADASS13 = "Sailor Moon";
+BADASS14 = "Bad*ss Minesweeper";
+BADASS15 = "Blood Filled Subway";
+BADASS16 = "I drink nukage";
+BADASS17 = "Smekky's Bad*ss City";
+BADASS18 = "Bydgoszcz (Hell)";
+BADASS19 = "A Factory That Makes Stuff";
+BADASS20 = "Rogue-Like";
+BADASS21 = "Nacht Der Un Bad*ss";
+
 ENDLESSMODE = "Endless Mode";
 ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
 
@@ -42,6 +64,9 @@ GOTMARINELAUNCHER = "Got the marine launcher!";
 GOTMARINE = "Picked up a marine.";
 GOTMARINEBOX = "Picked up a chubby marine.";
 OB_SAWSAW = "%o was mutilated by %k's SawSaw.";
+
+BADASS02 = "I consume the concrete from the pavement";
+
 SKILL_ASS = "I'm The Worst";
 ERECT_SURE = "Bollocks";
 
@@ -96,6 +121,14 @@ SKILL_ERECTILE = "Zaburzenia Erekcji";
 ERECTILE_SURE = "1 z 43721 dentystów poleca ten poziom trudności";
 SKILL_ERECT = "Bezpłodność";
 ERECT_SURE = "Proszę nie";
+
+BADASS02 = "Jem beton z chodnika";
+BADASS14 = "Saper dla Twar***elów";
+BADASS15 = "Metro Zapełnione Krwią";
+BADASS16 = "Pije kwas";
+BADASS17 = "Miasto Smekkiego dla Twar***elów";
+BADASS18 = "Bydgoszcz (Piekło)";
+BADASS19 = "Fabryka Która Robi Rzeczy";
 
 ENDLESSMODE = "Tryb Nieskończony";
 ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";

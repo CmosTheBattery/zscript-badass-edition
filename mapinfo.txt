@@ -6,7 +6,11 @@ Episode BADASS34
 {
 	Name = "$ENDLESSMODE"
 }
-Map BADASS01 "Hydroelectronic Plant"
+Episode TESTICLE
+{
+	Name = "TESTICLES.wad"
+}
+Map BADASS01 "$BADASS01"
 {
 	LevelNum = 1
 	Next = BADASS02
@@ -17,7 +21,7 @@ Map BADASS01 "Hydroelectronic Plant"
 	DeathSequence = "Deth"
 	Author = Saver310
 }
-Map BADASS02 "I eat the concrete from the sidewalk"
+Map BADASS02 "$BADASS02"
 {
 	LevelNum = 2
 	Next = BADASS03
@@ -27,7 +31,7 @@ Map BADASS02 "I eat the concrete from the sidewalk"
 	Music = D_STALKS
 	Author = Saver310
 }
-Map BADASS03 "Geoff's Epic Maze of Death"
+Map BADASS03 "$BADASS03"
 {
 	LevelNum = 3
 	Next = BADASS04
@@ -37,7 +41,7 @@ Map BADASS03 "Geoff's Epic Maze of Death"
 	Music = D_COUNTD
 	Author = Saver310
 }
-Map BADASS04 "Geoff's Asshole"
+Map BADASS04 "$BADASS04"
 {
 	LevelNum = 4
 	Next = BADASS05
@@ -47,7 +51,7 @@ Map BADASS04 "Geoff's Asshole"
 	Music = D_BETWEE
 	Author = Saver310
 }
-Map BADASS05 "Dave 3D 'em"
+Map BADASS05 "$BADASS05"
 {
 	LevelNum = 5
 	Next = BADASS06
@@ -58,7 +62,7 @@ Map BADASS05 "Dave 3D 'em"
 	Author = Saver310
 	NoCrouch
 }
-Map BADASS06 "Marine Maze"
+Map BADASS06 "$BADASS06"
 {
 	LevelNum = 6
 	Next = BADASS07
@@ -71,7 +75,7 @@ Map BADASS06 "Marine Maze"
 	NoCrouch
 	NoFreeLook
 }
-Map BADASS07 "Atomic Attack" 
+Map BADASS07 "$BADASS07" 
 {
 	LevelNum = 7
 	Next = BADASS08
@@ -81,7 +85,7 @@ Map BADASS07 "Atomic Attack"
 	Music = D_SHAWN
 	Author = rostuhan
 }
-Map BADASS08 "Shit Attack (Mom said it's my turn on the xbox)" 
+Map BADASS08 "$BADASS08" 
 {
 	LevelNum = 8
 	Next = BADASS09
@@ -91,7 +95,7 @@ Map BADASS08 "Shit Attack (Mom said it's my turn on the xbox)"
 	Music = D_DDTBLU
 	Author = SmekkyBoy
 }
-Map BADASS09 "Open World Bad*ssery" 
+Map BADASS09 "$BADASS09" 
 {
 	LevelNum = 9
 	Next = BADASS10
@@ -101,7 +105,7 @@ Map BADASS09 "Open World Bad*ssery"
 	Music = D_IN_CIT
 	Author = blitzdoughnuts
 }
-Map BADASS10 "The Servants of David William"
+Map BADASS10 "$BADASS10"
 {
 	LevelNum = 10
 	Next = BADASS11
@@ -111,7 +115,7 @@ Map BADASS10 "The Servants of David William"
 	Music = D_READ_M
 	Author = rostuhan
 }
-Map BADASS11 "Light at the End of David William's Tunnel"
+Map BADASS11 "$BADASS11"
 {
 	LevelNum = 11
 	Next = BADASS12
@@ -121,7 +125,7 @@ Map BADASS11 "Light at the End of David William's Tunnel"
 	Music = D_STLKS2
 	Author = Saver310
 }
-Map BADASS12 "Mission \"Ancient Troll\""
+Map BADASS12 "$BADASS12"
 {
 	LevelNum = 12
 	Next = BADASS13
@@ -131,7 +135,7 @@ Map BADASS12 "Mission \"Ancient Troll\""
 	Par = 120
 	Author = rostuhan
 }
-Map BADASS13 "Sailor Moon"
+Map BADASS13 "$BADASS13"
 {
 	LevelNum = 13
 	Next = BADASS14
@@ -141,7 +145,7 @@ Map BADASS13 "Sailor Moon"
 	Par = 25
 	Author = Saver310
 }
-Map BADASS14 "Bad*ss Minesweeper"
+Map BADASS14 "$BADASS14"
 {
 	LevelNum = 14
 	Next = BADASS15
@@ -152,7 +156,7 @@ Map BADASS14 "Bad*ss Minesweeper"
 	NoInfighting
 	RandomPlayerStarts
 }
-Map BADASS15 "Blood Filled Subway"
+Map BADASS15 "$BADASS15"
 {
 	LevelNum = 15
 	Next = BADASS16
@@ -163,7 +167,7 @@ Map BADASS15 "Blood Filled Subway"
 	Author = Saver310
 	ClipMidTextures
 }
-Map BADASS16 "I drink nukage" {
+Map BADASS16 "$BADASS16" {
 	LevelNum = 16
 	Next = BADASS17
 	SecretNext = BADASS17
@@ -172,7 +176,7 @@ Map BADASS16 "I drink nukage" {
 	Par = 150
 	Author = rostuhan
 }
-Map BADASS17 "Smekky's Bad*ss City"
+Map BADASS17 "$BADASS17"
 {
 	LevelNum = 17
 	Next = BADASS18
@@ -183,7 +187,7 @@ Map BADASS17 "Smekky's Bad*ss City"
 	Author = SmekkyBoy
 	AllowJump
 }
-Map BADASS18 "Bydgoszcz (Hell)"
+Map BADASS18 "$BADASS18"
 {
 	LevelNum = 18
 	Next = BADASS19
@@ -194,7 +198,7 @@ Map BADASS18 "Bydgoszcz (Hell)"
 	Par = 60
 	Author = Saver310
 }
-Map BADASS19 "A Factory That Makes Stuff"
+Map BADASS19 "$BADASS19"
 {
 	LevelNum = 19
 	Next = BADASS20
@@ -204,7 +208,7 @@ Map BADASS19 "A Factory That Makes Stuff"
 	Par = 30
 	Author = Saver310
 }
-Map BADASS20 "Rogue-Like" {
+Map BADASS20 "$BADASS20" {
 	LevelNum = 20
 	Next = BADASS21
 	SecretNext = BADASS21
@@ -213,7 +217,7 @@ Map BADASS20 "Rogue-Like" {
 	Par = 300
 	Author = rostuhan
 }
-Map BADASS21 "Nacht Der Un Bad*ss"
+Map BADASS21 "$BADASS21"
 {
 	LevelNum = 21
 	Next = BADASS29
@@ -303,6 +307,14 @@ Map BADASS86 "Bad*ss Apple" {
 	Music = D_APPLE
 	Author = rostuhan
 }
+Map TESTICLE "The very end of your PC if you're playing on GZDoom" {
+	Next = endsequence,TESTICLESEnd
+	Sky1 = SKY3
+	Music = D_TESTCL
+	Author = BPRD
+	NoJump
+	NoCrouch
+}
 
 Intermission Deth
 {
@@ -311,6 +323,17 @@ Intermission Deth
 		Background = "DEATHPIC"
 		Text = "You fucked up"
 	}
+}
+Intermission TESTICLESEnd
+{
+	TextScreen
+	{
+		Background = "FLOOR0_1", 1
+		Text = "After nuking everything you press the switch.",
+			   "After that you suddenly die",
+			   "The end"
+	}
+	Link = TheBadassCast
 }
 Intermission TheBadassEnd
 {
