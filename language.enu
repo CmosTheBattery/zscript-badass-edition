@@ -23,11 +23,12 @@ OB_TESTICLE = "%o had his testicles tickled by %k.";
 OB_NUKE = "%o got wiped from existence.";
 OB_DUPERSHOTGUN = "%o was eviscerated by %k's Duper Shotgun.";
 
-SKILL_BABY = "I'm Ass";
-SKILL_EASY = "I'm Bad";
-SKILL_NORMAL = "I'm Badass";
-SKILL_HARD = "I'm Bad*ss";
-SKILL_NIGHTMARE = "Erectile Disfunction";
+SKILL_ASS = "I'm Ass";
+SKILL_BAD = "I'm Bad";
+SKILL_BADASS= "I'm Badass";
+SKILL_BADASSER = "I'm Bad*ss";
+SKILL_ERECTILE = "Erectile Disfunction";
+ERECTILE_SURE = "1 out of 43721 dentists recommend this difficulty";
 SKILL_ERECT = "Infertility";
 ERECT_SURE = "Fuck";
 
@@ -56,10 +57,11 @@ OB_TESTICLE = "%o miał swoje jądra pogłaskane przez %k.";
 OB_NUKE = "$OB_OVERCHARGEDMINIGUN";
 OB_DUPERSHOTGUN = "%o został odstrzelony i rozerwany przez %k.";
 
-SKILL_BABY = "Jestem Ard";
-SKILL_EASY = "Jestem Twardy";
-SKILL_NORMAL = "Jestem Twardziel";
-SKILL_HARD = "Jestem Twar**el";
-SKILL_NIGHTMARE = "Zaburzenia Erekcji";
+SKILL_ASS = "Jestem Ard";
+SKILL_BAD = "Jestem Twardy";
+SKILL_BADASS = "Jestem Twardziel";
+SKILL_BADASSER = "Jestem Twar**el";
+SKILL_ERECTILE = "Zaburzenia Erekcji";
+ERECTILE_SURE = "1 z 43721 dentystów poleca ten poziom trudności";
 SKILL_ERECT = "Bezpłodność";
 ERECT_SURE = "Proszę nie";

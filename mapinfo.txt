@@ -332,33 +332,33 @@ Intermission TheBadassCast
 	Link = TheBadassCast
 }
 ClearSkills
-Skill Baby
+Skill Ass
 {
 	AutoUseHealth
 	AmmoFactor = 2
 	DamageFactor = 0.5
 	EasyBossBrain
 	SpawnFilter = Baby
-	Name = "I'm Ass"
+	Name = "$SKILL_ASS"
 }
-Skill Easy
+Skill Bad
 {
 	EasyBossBrain
 	SpawnFilter = Easy
-	Name = "I'm Bad"
+	Name = "$SKILL_BAD"
 }
-Skill Normal
+Skill Badass
 {
 	SpawnFilter = Normal
-	Name = "I'm Badass"
+	Name = "$SKILL_BADASS"
 	DefaultSkill
 }
-Skill Hard
+Skill Badasser
 {
 	SpawnFilter = Hard
-	Name = "I'm Bad*ss"
+	Name = "$SKILL_BADASSER"
 }
-Skill Nightmare
+Skill Erectile
 {
 	AmmoFactor = 2
 	FastMonsters
@@ -366,8 +366,8 @@ Skill Nightmare
 	DisableCheats
 	RespawnTime = 12
 	SpawnFilter = Nightmare
-	Name = "Erectile Disfunction"
-	MustConfirm
+	Name = "$SKILL_ERECTILE"
+	MustConfirm = "$ERECTILE_SURE"
 }
 Skill Erect
 {
@@ -380,8 +380,8 @@ Skill Erect
 	KickbackFactor = 4
 	DamageFactor = 2
 	SpawnFilter = Nightmare
-	Name = "Infertility"
-	MustConfirm = "Fuck"
+	Name = "$SKILL_ERECT"
+	MustConfirm = "$ERECT_SURE"
 }
 GameInfo
 {
