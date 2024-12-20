@@ -32,6 +32,10 @@ ERECTILE_SURE = "1 out of 43721 dentists recommend this difficulty";
 SKILL_ERECT = "Infertility";
 ERECT_SURE = "Fuck";
 
+[eng] 
+
+GOTDSFDCSHOTGUN = "Got the UITBP shotgun!";
+
 [pl] 
 
 GOTDSFDCSHOTGUN = "Zebrano strzelbę BPCS!";
