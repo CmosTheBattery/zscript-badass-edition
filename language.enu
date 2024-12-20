@@ -27,7 +27,7 @@ SKILL_ASS = "I'm Ass";
 SKILL_BAD = "I'm Bad";
 SKILL_BADASS= "I'm Badass";
 SKILL_BADASSER = "I'm Bad*ss";
-SKILL_ERECTILE = "Erectile Disfunction";
+SKILL_ERECTILE = "Erectile Dysfunction";
 ERECTILE_SURE = "1 out of 43721 dentists recommend this difficulty";
 SKILL_ERECT = "Infertility";
 ERECT_SURE = "Fuck";
@@ -35,6 +35,30 @@ ERECT_SURE = "Fuck";
 [eng] 
 
 GOTDSFDCSHOTGUN = "Got the UIBB shotgun!";
+GOTMARINELAUNCHER = "Got the marine launcher!";
+GOTMARINE = "Picked up a marine.";
+GOTMARINEBOX = "Picked up a chubby marine.";
+OB_SAWSAW = "%o was mutilated by %k's SawSaw.";
+SKILL_ASS = "I'm The Worst";
+ERECT_SURE = "Bollocks";
+
+[de]
+
+GOTCOCAINE = "Kokain!"
+SKILL_ERECTILE = "Erektile Dysfunktion";
+SKILL_ERECT = "Unfruchtbarkeit";
+ERECT_SURE = "Bitte nicht";
+
+[cs]
+
+GOTCOCAINE = "Kokain!";
+SKILL_ASS = "Jsem Chlap";
+SKILL_BAD = "Jsem Tvrdý";
+SKILL_BADASS = "Jsem Tvrdý Chlap";
+SKILL_BADASSER = "Jsem T***ý Chlap";
+SKILL_ERECTILE = "Erektilní Dysfunkce";
+SKILL_ERECT = "Neplodnost";
+ERECT_SURE = "Prosím ne";
 
 [pl] 
 
