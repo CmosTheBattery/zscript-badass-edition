@@ -32,6 +32,9 @@ ERECTILE_SURE = "1 out of 43721 dentists recommend this difficulty";
 SKILL_ERECT = "Infertility";
 ERECT_SURE = "Fuck";
 
+ENDLESSMODE = "Endless Mode";
+ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
+
 [eng] 
 
 GOTDSFDCSHOTGUN = "Got the UIBB shotgun!";
@@ -93,3 +96,6 @@ SKILL_ERECTILE = "Zaburzenia Erekcji";
 ERECTILE_SURE = "1 z 43721 dentystów poleca ten poziom trudności";
 SKILL_ERECT = "Bezpłodność";
 ERECT_SURE = "Proszę nie";
+
+ENDLESSMODE = "Tryb Nieskończony";
+ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";

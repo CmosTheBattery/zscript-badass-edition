@@ -11,7 +11,7 @@ Texture "s3dummy", 128, 128
 	Patch "textures/s3dummy.png", 0, 0
 }
 
-Texture "scrotumn", 512, 8
+Texture "scrotumn", 1024, 8
 {
 	Patch "textures/scrotumn.png", 0, 0
 }

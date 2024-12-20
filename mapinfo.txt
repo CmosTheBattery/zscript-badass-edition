@@ -4,7 +4,7 @@ Episode BADASS01
 }
 Episode BADASS34
 {
-	Name = "Endless Mode"
+	Name = "$ENDLESSMODE"
 }
 Map BADASS01 "Hydroelectronic Plant"
 {
