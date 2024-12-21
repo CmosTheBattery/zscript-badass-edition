@@ -315,7 +315,6 @@ Map TESTICLE "$TESTICLE" {
 	NoJump
 	NoCrouch
 }
-
 Intermission Deth
 {
 	TextScreen
@@ -329,9 +328,7 @@ Intermission TESTICLESEnd
 	TextScreen
 	{
 		Background = "FLOOR0_1", 1
-		Text = "After nuking everything you press the switch.",
-			   "After that you suddenly die",
-			   "The end"
+		Text = "$TESTICLETEXT"
 	}
 	Link = TheBadassCast
 }
@@ -340,8 +337,7 @@ Intermission TheBadassEnd
 	TextScreen
 	{
 		Background = "FLOOR0_1", 1
-		Text = "After pumping a shit ton of plasma testicles",
-			   "into the jaw the jaw dies"
+		Text = "$ENDTEXT"
 	}
 	Link = TheBadassCast
 }

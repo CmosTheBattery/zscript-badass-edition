@@ -59,6 +59,13 @@ BADASS30 = "Victory of Jaws";
 TESTICLE = "The very end of your PC if you're playing on GZDoom";
 
 DEATHSCREEN = "You fucked up";
+ENDTEXT =
+	"After pumping a shit ton of plasma testicles\n"
+	"into the jaw the jaw dies\n";
+TESTICLETEXT =
+	"After nuking everything you press the switch.\n"
+	"After that you suddenly die\n"
+	"The end\n";
 
 ENDLESSMODE = "Endless Mode";
 ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
@@ -70,8 +77,8 @@ ENDLESS_PARK = "Leisure Park";
 GOTDSFDCSHOTGUN = "Got the UIBB shotgun!";
 GOTMARINELAUNCHER = "Got the marine launcher!";
 GOTMARINE = "Picked up a marine.";
-GOTMARINEBOX = "Picked up a medium-sized marine.";
-OB_SAWSAW = "%o was butchered by %k's SawSaw.";
+GOTMARINEBOX = "Picked up an obese marine.";
+OB_SAWSAW = "%o was butchered by %k";
 
 BADASS02 = "I consume the concrete from the pavement";
 
@@ -102,7 +109,7 @@ GOTDSFDCSHOTGUN = "Zebrano strzelbę BPCS!";
 GOTOVERCHARGEDMINIGUN = "Zebrano minigun! Ale coś jest nie tak...";
 GOTDUPERSHOTGUN = "Zebrano Duper Shotgun!";
 GOTCOCAINE = "Kokaina!";
-GOTSAWSAW = "Zebrano PiłPiłę!"
+GOTSAWSAW = "Zebrano PiłPiłę!";
 GOTSBFKAG = "Zebrano broń atomową marki SWKKD!";
 GOTSINGULARBULLET = "Zebrano pojedyńczy pocisk!";
 GOTOPRM = "Zebrano Ulepszony Karabin Plazmowy marki v1!";
@@ -148,6 +155,13 @@ BADASS30 = "Wygrana Szczęk";
 TESTICLE = "Koniec twojego komputera jeśli korzystasz z GZDoom";
 
 DEATHSCREEN = "Spierdoliłeś";
+ENDTEXT =
+	"Po wystrzeleniu osiemset jąder plazmowych\n"
+	"w szczęki szczęki umierają\n";
+TESTICLETEXT =
+	"Po wysadzeniu wszystkiego wciskasz dźwignię.\n"
+	"Potem umierasz\n"
+	"Koniec\n";
 
 ENDLESSMODE = "Tryb Nieskończony";
 ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";
