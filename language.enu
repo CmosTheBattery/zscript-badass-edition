@@ -68,6 +68,16 @@ TESTICLETEXT =
 	"After that you suddenly die\n"
 	"The end\n";
 
+BD29_1 = "May 24: The Domain of Big Timmy";
+BD29_2 = "Royland, this is command. We've secured the area. Head in the portal, and do what comes natural.";
+BD29_3 = "Consider it done.";
+BD29_4 = "GREETINGS, BARNSTABLE. ARE YOU READY TO DIE?";
+BD29_5 = "Right back at you.";
+BD29_6 = "NO! YOU SON OF A BADASS!";
+BD29_7 = "Say hi to your brother in hell for me.";
+BD29_8 = "Roy! You magnificent bastard, you've done it! the population of Spain has been freed from the mind control!";
+BD29_9 = "Send word to Pete Enis, the enemy is vulnerable without spain. Time for the final attack!";
+
 ENDLESSMODE = "Endless Mode";
 ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
 ENDLESS_PLAZA = "Paradise Plaza";
@@ -164,6 +174,10 @@ TESTICLETEXT =
 	"Po wysadzeniu wszystkiego wciskasz dźwignię.\n"
 	"Potem umierasz\n"
 	"Koniec\n";
+
+BD29_1 = "Maj 24: Domena Wielkiego Timmy'ego";
+BD29_4 = "WITAM, BARNSTABLE. CZY JESTEŚ GOTOWY ABY UMRZEĆ?";
+BD29_5 = "Nawzajem.";
 
 ENDLESSMODE = "Tryb Nieskończony";
 ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";
