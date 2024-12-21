@@ -6,3 +6,11 @@ texture tvstatic
     pic textures/tvstatc.png tics 2
     pic textures/tvstatd.png tics 2
     pic textures/tvstate.png tics 2
+
+texture optional M_SKULL1
+	pic badskulb tics 8
+	pic badskula tics 3
+	pic badskulc tics 3
+	pic badskuld tics 4
+	pic badskule tics 6	
+	pic badskulc tics 3
