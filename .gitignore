@@ -1,12 +1,5 @@
-# Unused anymore
-freedoom_badass_mappack.wad
-freedoom_badass_edition (wadinfo).wad
-freedoom_badass_edition (mappack_wadinfo).wad
-freedoom_badass_edition (wadinfo)
-freedoom_badass_edition (mappack_wadinfo)
-freedoom_badass_edition.wad
-# Used
 freedoom_badass_edition.pk3
+freedoom-badass-edition.pk3
 *.bak
 *.backup1
 *.backup2
@@ -19,3 +12,10 @@ freedoom_badass_edition.pk3
 *.dbs
 Build
 screenshots
+# Unused
+freedoom_badass_mappack.wad
+freedoom_badass_edition (wadinfo).wad
+freedoom_badass_edition (mappack_wadinfo).wad
+freedoom_badass_edition (wadinfo)
+freedoom_badass_edition (mappack_wadinfo)
+freedoom_badass_edition.wad
