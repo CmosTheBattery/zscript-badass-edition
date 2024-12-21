@@ -1089,6 +1089,97 @@ ACTOR NukeBarrel : ExplosiveBarrel 26023
   }
 }
 
+ACTOR Convicts 32420
+{
+    Radius 20
+	health 9800
+    Height 56
+    Obituary "$OB_CONVICTS"
+    Speed 9
+    PainChance 200
+    Mass 200
+    +AMBUSH
+    +SOLID
+    +SHOOTABLE
+
+    States
+    {
+        Spawn:
+            CONV A 10 A_Look
+            Loop
+		See:
+			CONV A 2
+			CONV A 2 A_chase
+			CONV A 2 A_chase
+		 goto TrueSee
+		TrueSee:
+			CONV A 2 A_chase
+			CONV A 2 A_chase
+			CONV A 2 A_chase
+		 Loop
+        Missile:
+            CONV A 3 A_FaceTarget
+            CONV A 2 A_SpawnItem("BulletPuff")
+            CONV A 2 A_SpawnItem("BulletPuff")
+            CONV F 2 A_SpawnProjectile("BulletGuru", 64, 0, 0, 0, 0)
+            CONV F 2 A_SpawnProjectile("BulletGuru", 64, 0, 0, 0, 0)
+            CONV F 2 A_SpawnProjectile("BulletGuru", 64, 0, 0, 0, 0)
+            CONV F 2 A_SpawnProjectile("BulletGuru", 64, 0, 0, 0, 0)
+            CONV F 2 A_SpawnProjectile("BulletGuru", 64, 0, 0, 0, 0)
+            CONV F 2 A_SpawnProjectile("BulletGuru", 64, 0, 0, 0, 0)
+			CONV A 3 A_Chase
+			CONV A 3 A_Chase
+			CONV A 8 A_Chase
+			CONV A 3 A_Chase
+			CONV A 8 A_Chase
+			CONV A 8 A_Chase
+			CONV A 3 A_Chase
+			CONV A 3 A_Chase
+			CONV A 3 A_Chase
+			CONV A 8 A_Chase
+			CONV A 3 A_Chase
+			CONV A 3 A_Chase
+			CONV A 8 A_Chase
+			CONV A 8 A_Chase
+			CONV A 8 A_Chase
+			CONV A 8 A_Chase
+			CONV A 3 A_Chase
+			CONV A 3 A_Chase
+            CONV F 4 A_JumpIfTargetInLOS("Missile", 1)
+            goto TrueSee
+        Pain:
+            CONV A 2
+            CONV A 2 A_Pain
+            Goto TrueSee
+        Death:
+            CONV I 8 A_Scream
+            CONV J 8
+	    CONV K 8
+	    CONV L 8
+	    CONV M -1
+            Stop
+    }
+}
+
+
+ACTOR BulletGuru : doomimpball
+{
+	speed 69
+	SeeSound "weapons/pistol"
+    Damage 5
+    Decal "Scorch"
+	Obituary "$OB_CONVICTS"
+    +RIPPER
+	states
+{
+	spawn:
+		RFBT B 1
+	loop
+		
+
+}
+}
+
 ACTOR DriverSailorCast : WolfensteinSS
 {
   DeathSound "misc/gibbed"

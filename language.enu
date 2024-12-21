@@ -22,6 +22,7 @@ OB_CORPSEBOOM = "%o got blown up by a corpse.";
 OB_TESTICLE = "%o had his testicles tickled by %k.";
 OB_NUKE = "%o got wiped from existence.";
 OB_DUPERSHOTGUN = "%o was eviscerated by %k's Duper Shotgun.";
+OB_CONVICTS = "%o went guru.";
 
 SKILL_ASS = "I'm Ass";
 SKILL_BAD = "I'm Bad";
@@ -127,6 +128,7 @@ OB_CORPSEBOOM = "%o został wysadzony przez ciało.";
 OB_TESTICLE = "%o miał swoje jądra pogłaskane przez %k.";
 OB_NUKE = "$OB_OVERCHARGEDMINIGUN";
 OB_DUPERSHOTGUN = "%o został odstrzelony i rozerwany przez %k.";
+OB_CONVICTS = "%o został rozstrzelony przez więźniów.";
 
 SKILL_ASS = "Jestem Ard";
 SKILL_BAD = "Jestem Twardy";
