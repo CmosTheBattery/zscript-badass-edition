@@ -57,4 +57,9 @@ Texture "tvstatic", 40, 30
 	Patch "textures/tvstata.png", 0, 0
 }
 
+Texture "bdunive", 160, 64
+{
+	Patch "textures/bdunive.png", 0, 0
+}
+
 // End of texture definitions

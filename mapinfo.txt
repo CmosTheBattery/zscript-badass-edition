@@ -231,7 +231,7 @@ Map BADASS22 "$BADASS22"
 {
 	LevelNum = 22
 	Next = BADASS23
-	SecretNext = BADASS23
+	SecretNext = BADASS32
 	Sky1 = SKY3
 	Music = D_IN_CIT
 	Author = Saver310
@@ -276,8 +276,8 @@ Map BADASS31 "Warrens or something idk" {
 }
 Map BADASS32 "Breaking Bad*ss" {
 		LevelNum = 32
-		Next = BADASS16
-		SecretNext = BADASS16
+		Next = BADASS29
+		SecretNext = BADASS29
 		Sky1 = SKY3
 		Music = D_SANS
 		Par = 600
