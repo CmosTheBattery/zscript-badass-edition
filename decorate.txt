@@ -901,6 +901,9 @@ ACTOR NuclearActualFucket : Fucket
 {
   States
   {
+  Spawn:
+    DEBI M 1 Bright
+    Loop
   Death:
     MISL B 0 Bright A_Scream
     MISL B 0 Bright A_SpawnItemEx("NuclearMarine")  	
@@ -934,10 +937,10 @@ ACTOR NuclearMarine : FuckedMarine
   States
   {
   Death:
-    PLAY W 0 A_SpawnItemEx("PlasmaNuke")   
+    PLAY WWWWWWWWWWWW 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-3,3),random(-3,3),random(-3,3),random(-10,10),random(-10,10),random(-10,10))	
     PLAY W 0 A_Scream 
     PLAY W -1
-    Stop	
+    Stop
   }
 }
 
@@ -1173,12 +1176,20 @@ ACTOR MarineAmmo : RocketAmmo replaces RocketAmmo
 
 ACTOR MarineLauncher : RocketLauncher replaces RocketLauncher
 {
-  Weapon.SelectionOrder 2500
-  Weapon.AmmoUse 1
-  Weapon.AmmoGive 2
-  Weapon.AmmoType "RocketAmmo"
-  Inventory.PickupMessage "$GOTMARINELAUNCHER"
-  Tag "Fucket Launcher"
+  States
+  {
+  Fire:
+    MISG A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine")
+    MISG B 8 A_GunFlash
+    MISG B 12 A_FireMissile
+    MISG B 0 A_ReFire
+    Goto Ready
+  FireCocaine:
+    MISG B 12 A_GunFlash
+    MISG B 8 A_FireProjectile ("NuclearActualFucket")
+    MISG B 0 A_ReFire
+    Goto Ready
+  }
 }
 
 ACTOR MarineGrenade : DoomWeapon
@@ -1235,20 +1246,16 @@ ACTOR FucketGrenadeGravity : Fucket
     Stop
   }
 }
-ACTOR NuclearFucketGrenadeGravity : Fucket
+
+ACTOR NuclearFucketGrenadeGravity : FucketGrenadeGravity
 {
-  Speed 20
-  Gravity 0.5
-  BounceType Grenade  
-  BounceCount 5
-  -NOGRAVITY
   States
   {
   Spawn:
-    DEBI L 140
+    DEBI M 140
     GoTo Death
   Death:
-    PLAY W 0 A_SpawnItemEx("PlasmaNuke")   
+    PLAY WWWWWWWWWWWW 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-3,3),random(-3,3),random(-3,3),random(-10,10),random(-10,10),random(-10,10))	
     PLAY W 0 A_Scream 
     PLAY W -1
     Stop
