@@ -22,7 +22,7 @@ ACTOR DumbassShitFuckDickCockShotgun : Shotgun replaces Shotgun
   Weapon.AmmoType "Shell"
   Inventory.PickupMessage "$GOTDSFDCSHOTGUN"
   Obituary "$OB_DSFDCSHOTGUN"
-  Tag "DSFDC Shotgun"
+  Tag "$TAG_DSFDCSHOTGUN"
   States
   {
   Ready:
@@ -117,7 +117,7 @@ ACTOR SmallButPackingChaingun : Chaingun replaces Chaingun
    Weapon.AmmoType "Clip"
    Inventory.PickupMessage "$GOTOVERCHARGEDMINIGUN"
    Obituary "$OB_OVERCHARGEDMINIGUN"
-   Tag "Overcharged Minigun"
+   Tag "$TAG_OVERCHARGEDMINIGUN"
    States
    {
    Ready:
@@ -180,7 +180,7 @@ ACTOR SingularBullet : Weapon
   Weapon.AmmoType "Clip"  
   Inventory.PickupMessage "$GOTSINGULARBULLET"  
   Obituary "$OB_SINGULARBULLET"
-  Tag "Singular Bullet"
+  Tag "$TAG_SINGULARBULLET"
   States
   {
   Ready: 
@@ -223,7 +223,7 @@ ACTOR DuperShotgun : SuperShotgun replaces SuperShotgun
   Weapon.AmmoType "Shell"
   Inventory.PickupMessage "$GOTDUPERSHOTGUN"
   Obituary "$OB_DUPERSHOTGUN"
-  Tag "Duper Shotgun"
+  Tag "$TAG_DUPERSHOTGUN"
   States
   {
   Ready:
@@ -336,7 +336,7 @@ ACTOR SawSaw : Chainsaw replaces Chainsaw
   Weapon.ReadySound ""
   Inventory.PickupMessage "$GOTSAWSAW"
   Obituary "$OB_SAWSAW"
-  Tag "SawSaw"
+  Tag "$TAG_SAWSAW"
   +WEAPON.MELEEWEAPON
   States
   {
@@ -917,6 +917,7 @@ ACTOR FuckedMarine : GibbedMarine replaces GibbedMarineExtra
   +SHOOTABLE
   +NOTAUTOAIMED
   Health 10
+  Obituary "$OB_CORPSEBOOM"
   DeathSound "misc/gibbed"
   Tag "Fucked fucket"
   States
@@ -982,7 +983,7 @@ ACTOR BCG9000 : BFG9000 replaces BFG9000
   Weapon.AmmoType "Cell"
   +WEAPON.NOAUTOFIRE
   Inventory.PickupMessage "$GOTSBFKAG"
-  Tag "SBFKAG"
+  Tag "$TAG_SBFKAG"
   States
   {
   Ready:
@@ -1038,7 +1039,7 @@ ACTOR RechargablePlasmaRifleModelv1 : PlasmaRifle replaces PlasmaRifle
   Weapon.AmmoGive 300
   Weapon.AmmoType "Cell"
   Inventory.PickupMessage "$GOTOPRM"
-  Tag "Overcharged Plasma Rifle Model v1"
+  Tag "$TAG_OPRM"
   States
   {
   Ready:
@@ -1369,7 +1370,7 @@ ACTOR TheNuker : Cyberdemon 26017
 }
 
 Actor NuclearFucket : CustomInventory 26018 {
-    Tag "Nuclear Fucket (goes boom)"
+    Tag "Nuclear Fucket"
     Inventory.PickupMessage "$STEPPEDNUCLEARFUCKET"
     States {
         Spawn:
