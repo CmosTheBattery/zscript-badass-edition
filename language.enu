@@ -78,6 +78,9 @@ TESTICLETEXT =
 	"After that you suddenly die\n"
 	"The end\n";
 
+BD12_1 = "\c[Grey]Grey fucket:\c[Gold] Let's go!";
+BD12_2 = "\c[Grey]Grey fucket:\c[Gold] Oh fuck, you fucking fragged me, you bad*ss!";
+
 BD29_1 = "May 24: The Domain of Big Timmy";
 BD29_2 = "Royland, this is command. We've secured the area. Head in the portal, and do what comes natural.";
 BD29_3 = "Consider it done.";
@@ -177,6 +180,8 @@ BADASS05 = "Wysadź Ich";
 BADASS06 = "Militarny Labirynt";
 BADASS07 = "Atomiczny Atak";
 BADASS08 = "Gówniany Atak (Mama powiedziała że teraz jest mój czas na xboxa)";
+BADASS11 = "Światło na Końcu Tunelu";
+BADASS12 = "Misja \"Starożytny Troll\"";
 BADASS14 = "Saper dla Twar***elów";
 BADASS15 = "Metro Wypełnione Krwią";
 BADASS16 = "Pije kwas";
@@ -195,6 +200,9 @@ TESTICLETEXT =
 	"Po wysadzeniu wszystkiego wciskasz dźwignię.\n"
 	"Potem umierasz\n"
 	"Koniec\n";
+
+BD12_1 = "\c[Grey]Szary kurwiszon:\c[Gold] Naprzód!";
+BD12_2 = "\c[Grey]Szary kurwiszon:\c[Gold] O kurwa, ty mnie zabiłeś, ty twar***elu!";
 
 BD29_1 = "Maj 24: Domena Wielkiego Timmy'ego";
 BD29_2 = "Royland, to komenda. Zabezpieczyliśmy teren. Wejdź do portalu i załatw wszystkich.";
