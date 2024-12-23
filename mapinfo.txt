@@ -81,7 +81,7 @@ Map BADASS07 "$BADASS07"
 	Next = BADASS08
 	SecretNext = BADASS08
 	Sky1 = SKY1
-	Par = 70
+	Par = 45
 	Music = D_SHAWN
 	Author = rostuhan
 }
@@ -134,15 +134,17 @@ Map BADASS12 "$BADASS12"
 	Music = D_READ_M
 	Par = 120
 	Author = rostuhan
+	ResetHealth 
+	ResetInventory
 }
 Map BADASS13 "$BADASS13"
 {
 	LevelNum = 13
-	Next = BADASS14
-	SecretNext = BADASS14
+	Next = BADASS15
+	SecretNext = BADASS15
 	Sky1 = SKY2
 	Music = D_DOOM2
-	Par = 25
+	Par = 35
 	Author = Saver310
 }
 Map BADASS14 "$BADASS14"
@@ -201,8 +203,8 @@ Map BADASS18 "$BADASS18"
 Map BADASS19 "$BADASS19"
 {
 	LevelNum = 19
-	Next = BADASS20
-	SecretNext = BADASS20
+	Next = BADASS21
+	SecretNext = BADASS21
 	Sky1 = SKY3
 	Music = D_SHAWN2
 	Par = 30
