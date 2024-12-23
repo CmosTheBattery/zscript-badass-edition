@@ -12,6 +12,7 @@ ACTOR BadassPlayer : DoomPlayer replaces DoomPlayer
   Player.WeaponSlot 5, MarineGrenade, MarineLauncher
   Player.WeaponSlot 6, RechargablePlasmaRifleModelv1  
   Player.WeaponSlot 7, BCG9000
+  Player.Colorset 8, "Saver310",	0xC8, 0xCF,  0xCD
 }
 
 ACTOR DumbassShitFuckDickCockShotgun : Shotgun replaces Shotgun
@@ -967,6 +968,7 @@ ACTOR ThatThingThatGoesBoom
     GoTo Death
   Death:
     MISL B 0 Bright A_Scream
+    MISL B 0 A_Quake(2,8,0,400)
     MISL B 8 Bright A_Explode
     MISL C 6 Bright
     MISL D 4 Bright
@@ -1143,6 +1145,7 @@ ACTOR PlasmaNuke : ThatThingThatGoesBoom
     MISL A 1 Bright
     GoTo Death
   Death:
+    MISL B 0 Bright A_Quake(9,32,0,10000)
     MISL B 16 Bright A_Explode(100000,100000)
     MISL C 12 Bright
     MISL D 8 Bright A_Explode(1,100000)
@@ -1260,8 +1263,9 @@ ACTOR MarineGrenade : DoomWeapon
     Goto Ready
   FireCocaine:
     MNHR ABCDDC 2
-    MNHR E 2 A_FireProjectile("NuclearFucketGrenadeGravity")
-    MNHR FGH 2
+    MNGR E 2 A_FireProjectile("NuclearFucketGrenadeGravity")
+    MNGR FG 2
+    MNHR H 2
     MNHR I 2 A_ReFire
     Goto Ready
   }
@@ -1351,6 +1355,7 @@ Actor FucketSpawnLocation : PainElemental 26016
 
 ACTOR TheNuker : Cyberdemon 26017
 {
+  Obituary "$OB_NUKE_TRIPOD"
   Tag "The Nuker"
   States
   {

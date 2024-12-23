@@ -29,7 +29,8 @@ OB_SAWSAW = "%o was grinded up by %k's SawSaw.";
 OB_CORPSE = "%o rode %k's corpse.";
 OB_CORPSEBOOM = "%o got blown up by a corpse.";
 OB_TESTICLE = "%o had his testicles tickled by %k.";
-OB_NUKE = "%o got wiped from existence.";
+OB_NUKE = "%o got atomized.";
+OB_NUKE_TRIPOD = "%o got atomized by The Nuker.";
 OB_DUPERSHOTGUN = "%o was eviscerated by %k's Duper Shotgun.";
 OB_CONVICTS = "%o went guru.";
 
@@ -84,8 +85,8 @@ BD29_4 = "GREETINGS, BARNSTABLE. ARE YOU READY TO DIE?";
 BD29_5 = "Right back at you.";
 BD29_6 = "NO! YOU SON OF A BADASS!";
 BD29_7 = "Say hi to your brother in hell for me.";
-BD29_8 = "Roy! You magnificent bastard, you've done it! the population of Spain has been freed from the mind control!";
-BD29_9 = "Send word to Pete Enis, the enemy is vulnerable without spain. Time for the final attack!";
+BD29_8 = "Roy! You magnificent bastard, you've done it! The population of Spain has been freed from the mind control!";
+BD29_9 = "Send word to Pete Enis, the enemy is vulnerable without Spain. Time for the final attack!";
 
 ENDLESSMODE = "Endless Mode";
 ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
@@ -148,16 +149,17 @@ TAG_SINGULARBULLET = "Pojedyńczy Pocisk";
 TAG_OPRM = "Ulepszony Karabin Plazmowy Marki v1";
 TAG_MARINELAUNCHER = "Wyrzutnia Żołnierzy";
 
-OB_DSFDCSHOTGUN = "%o został odstrzelony przez %k.";
-OB_OVERCHARGEDMINIGUN = "%o został skasowany z istnienia przez %k.";
-OB_SINGULARBULLET = "%o został zastrzelony pociskiem i pięścią.";
-OB_SAWSAW = "%o został rozerwany na kawałki przez %k.";
-OB_CORPSE = "%o został ztrupowany przez %k.";
+OB_DSFDCSHOTGUN = "%o został@[ao_pl] odstrzelony przez %k.";
+OB_OVERCHARGEDMINIGUN = "%o został@[ao_pl] skasowany z istnienia przez %k.";
+OB_SINGULARBULLET = "%o został@[ao_pl] zastrzelony pociskiem i pięścią.";
+OB_SAWSAW = "%o został@[ao_pl] rozerwany na kawałki przez %k.";
+OB_CORPSE = "%o został@[ao_pl] ztrupowany przez %k.";
 OB_CORPSEBOOM = "%o został@[ao_pl] wysadzon@[adj_pl] przez ciało.";
-OB_TESTICLE = "%o miał swoje jądra pogłaskane przez %k.";
-OB_NUKE = "$OB_OVERCHARGEDMINIGUN";
-OB_DUPERSHOTGUN = "%o został odstrzelony i rozerwany przez %k.";
-OB_CONVICTS = "%o został rozstrzelony przez więźniów.";
+OB_TESTICLE = "%o miał@[ao_pl] swoje jądra pogłaskane przez %k.";
+OB_NUKE = "%o został@[ao_pl] zatomizowan@[adj_pl].";
+OB_NUKE_TRIPOD = "%o został@[ao_pl] zatomizowan@[adj_pl] przez Jądrowca.";
+OB_DUPERSHOTGUN = "%o został@[ao_pl] odstrzelony i rozerwany przez %k.";
+OB_CONVICTS = "%o został@[ao_pl] rozstrzelony przez więźniów.";
 
 SKILL_ASS = "Jestem Ard";
 SKILL_BAD = "Jestem Twardy";
@@ -195,8 +197,14 @@ TESTICLETEXT =
 	"Koniec\n";
 
 BD29_1 = "Maj 24: Domena Wielkiego Timmy'ego";
+BD29_2 = "Royland, to komenda. Zabezpieczyliśmy teren. Wejdź do portalu i załatw wszystkich.";
+BD29_3 = "Robi się.";
 BD29_4 = "WITAM, BARNSTABLE. CZY JESTEŚ GOTOWY ABY UMRZEĆ?";
 BD29_5 = "Nawzajem.";
+BD29_6 = "NIE! TY TWARDZIELSYNU!";
+BD29_7 = "Pozdrów swojego brata w piekle.";
+BD29_8 = "Roy! Udało ci się! Populacja Hiszpani jest uwolniona od kontroli umysłu!";
+BD29_9 = "Poinformuj Piotra Enisa, wróg jest zniszczalny bez Hiszpani. Pora na ostateczny atak!";
 
 ENDLESSMODE = "Tryb Nieskończony";
 ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";

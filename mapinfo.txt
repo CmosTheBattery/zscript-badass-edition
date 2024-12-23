@@ -294,8 +294,8 @@ Map BADASS33 "Boring Test Map" {
 Map BADASS34 "$ENDLESSMODE"
  {
 		LevelNum = 34
-		Next = BADASS01
-		SecretNext = BADASS01
+		Next = BADASS34
+		SecretNext = BADASS34
 		Sky1 = SKY3
 		Music = D_RUNNIN
 		Author = SmekkyBoy
