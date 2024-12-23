@@ -175,7 +175,7 @@ Map BADASS16 "$BADASS16" {
 	SecretNext = BADASS17
 	Sky1 = HELP
 	Music = D_READ_M
-	Par = 150
+	Par = 120
 	Author = rostuhan
 }
 Map BADASS17 "$BADASS17"
