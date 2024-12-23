@@ -957,7 +957,7 @@ ACTOR ThatThingThatGoesBoom
   Projectile
   +RANDOMIZE
   +DEHEXPLOSION
-  +ROCKETTRAIL
+  -ROCKETTRAIL
   DeathSound "weapons/rocklx"
   Obituary "$OB_CORPSEBOOM"
   States
@@ -1533,12 +1533,15 @@ ACTOR NukeBarrel : ExplosiveBarrel 26023
   Tag "Nuke Barrel"
   States
   {
+  Spawn:
+	NAR1 AB 6
+	Loop
   Death:
-    BEXP A 5 Bright
-    BEXP B 5 Bright A_Scream
-    BEXP C 5 Bright
-    BEXP D 5 Bright A_SpawnItemEx("PlasmaNuke")
-    BEXP E 10 Bright
+    NEXP A 5 Bright
+    NEXP B 5 Bright A_Scream
+    NEXP C 5 Bright
+    NEXP D 5 Bright A_SpawnItemEx("PlasmaNuke")
+    NEXP E 10 Bright
     Stop
   }
 }
