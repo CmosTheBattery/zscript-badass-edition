@@ -427,4 +427,5 @@ GameInfo
 {
    QuitSound = "Sraka"
    PlayerClasses = "BadassPlayer"
+  TitleMusic = "D_TITLE"
 }
