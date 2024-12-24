@@ -237,6 +237,7 @@ Map BADASS22 "$BADASS22"
 	Sky1 = SKY3
 	Music = D_IN_CIT
 	Author = Saver310
+	StrifeFallingDamage
 }
 Map BADASS23 "Destroy the Machine of Death!!! (the worst level please get rid of it)"
 {

@@ -62,4 +62,10 @@ Texture "bdunive", 160, 64
 	Patch "textures/bdunive.png", 0, 0
 }
 
+Texture "piss", 64, 64
+{
+	Patch "textures/pisage1.png", 0, 0
+}
+
+
 // End of texture definitions
