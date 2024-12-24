@@ -12,5 +12,7 @@ texture optional M_SKULL1
 	pic badskula tics 3
 	pic badskulc tics 3
 	pic badskuld tics 4
-	pic badskule tics 6	
+	pic badskule tics 3	
+	pic badskulf tics 3
+	pic badskule tics 3	
 	pic badskulc tics 3
