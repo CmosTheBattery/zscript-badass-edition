@@ -161,7 +161,7 @@ OB_CORPSEBOOM = "%o został@[ao_pl] wysadzon@[adj_pl] przez ciało.";
 OB_TESTICLE = "%o miał@[ao_pl] swoje jądra pogłaskane przez %k.";
 OB_NUKE = "%o został@[ao_pl] zatomizowan@[adj_pl].";
 OB_NUKE_TRIPOD = "%o został@[ao_pl] zatomizowan@[adj_pl] przez Jądrowca.";
-OB_DUPERSHOTGUN = "%o został@[ao_pl] odstrzelony i rozerwany przez %k.";
+OB_DUPERSHOTGUN = "%o został@[ao_pl] odstrzelony i rozerwany na strzępy przez %k.";
 OB_CONVICTS = "%o został@[ao_pl] rozstrzelony przez więźniów.";
 
 SKILL_ASS = "Jestem Ard";
@@ -179,7 +179,7 @@ BADASS04 = "Odbyt Geoffa";
 BADASS05 = "Wysadź Ich";
 BADASS06 = "Militarny Labirynt";
 BADASS07 = "Atomiczny Atak";
-BADASS08 = "Gówniany Atak (Mama powiedziała że teraz jest mój czas na xboxa)";
+BADASS08 = "Gówniany Atak (Mama powiedziała że teraz jest moja kolej na xboxa)";
 BADASS11 = "Światło na Końcu Tunelu";
 BADASS12 = "Misja \"Starożytny Troll\"";
 BADASS14 = "Saper dla Twar***elów";

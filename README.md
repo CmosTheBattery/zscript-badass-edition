@@ -4,6 +4,8 @@ the most bad*ss freedoom mod on earth
 
 made for gzdoom and lzdoom
 
+warning: this mod contains very b*d language!!!!
+
 if you're a mapper and want to contribute, see the credits file for open map slots
 
 the mod mostly works on doom 2 but it won't be a nice experience (after all it's freedoom bad*ss edition)
