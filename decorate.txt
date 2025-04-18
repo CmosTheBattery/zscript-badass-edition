@@ -1395,7 +1395,7 @@ Actor ZoomPunch : Fist {
             ZOOM A 20 A_PlaySound("ZUMUPANCHI")
             ZOOM A 4
             ZOOM B 4
-            ZOOM C 6 A_CustomPunch(random(15,40), false, 0, "BulletPuff", 200)
+            ZOOM C 6 A_CustomPunch(random(40,50), false, 0, "BulletPuff", 200)
             ZOOM D 4
             ZOOM B 4
             ZOOM A 4 A_ReFire
