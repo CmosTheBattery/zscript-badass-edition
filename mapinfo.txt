@@ -443,3 +443,15 @@ GameInfo
    PlayerClasses = "BadassPlayer"
   TitleMusic = "D_TITLE"
 }
+DoomEdNums
+{
+	26016 = "FucketSpawnLocation"
+	26017 = "TheNuker"
+	26018 = "NuclearFucket"
+	26019 = "TechnoSpiderDriver"
+	26020 = "DriverSailor"
+	26021 = "FakeDeathSailor"
+	26022 = "WorkerZombie"
+	26023 = "NukeBarrel"
+	32420 = "Convicts"
+}
