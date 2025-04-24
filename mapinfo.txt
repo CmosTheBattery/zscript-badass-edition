@@ -20,6 +20,7 @@ Map BADASS01 "$BADASS01"
 	Music = D_MAP01
 	DeathSequence = "Deth"
 	Author = Saver310
+	ResetHealth
 }
 Map BADASS02 "$BADASS02"
 {
@@ -30,6 +31,7 @@ Map BADASS02 "$BADASS02"
 	Par = 30	
 	Music = D_STALKS
 	Author = Saver310
+	ResetHealth
 }
 Map BADASS03 "$BADASS03"
 {
@@ -40,6 +42,7 @@ Map BADASS03 "$BADASS03"
 	Par = 45
 	Music = D_COUNTD
 	Author = Saver310
+	ResetHealth
 }
 Map BADASS04 "$BADASS04"
 {
@@ -50,6 +53,7 @@ Map BADASS04 "$BADASS04"
 	Par = 20
 	Music = D_BETWEE
 	Author = Saver310
+	ResetHealth
 }
 Map BADASS05 "$BADASS05"
 {
@@ -61,6 +65,8 @@ Map BADASS05 "$BADASS05"
 	Music = D_DOOM
 	Author = Saver310
 	NoCrouch
+	NoJump
+	ResetHealth
 }
 Map BADASS06 "$BADASS06"
 {
@@ -74,6 +80,7 @@ Map BADASS06 "$BADASS06"
 	NoJump
 	NoCrouch
 	NoFreeLook
+	ResetHealth
 }
 Map BADASS07 "$BADASS07" 
 {
@@ -84,6 +91,7 @@ Map BADASS07 "$BADASS07"
 	Par = 45
 	Music = D_SHAWN
 	Author = rostuhan
+	ResetHealth
 }
 Map BADASS08 "$BADASS08" 
 {
@@ -94,6 +102,7 @@ Map BADASS08 "$BADASS08"
 	Par = 3
 	Music = D_DDTBLU
 	Author = SmekkyBoy
+	ResetHealth
 }
 Map BADASS09 "$BADASS09" 
 {
@@ -104,6 +113,7 @@ Map BADASS09 "$BADASS09"
 	Par = 35
 	Music = D_IN_CIT
 	Author = blitzdoughnuts
+	ResetHealth
 }
 Map BADASS10 "$BADASS10"
 {
@@ -239,7 +249,7 @@ Map BADASS22 "$BADASS22"
 	Author = Saver310
 	StrifeFallingDamage
 }
-Map BADASS23 "Destroy the Machine of Death!!! (the worst level please get rid of it)"
+Map BADASS23 "This Map Fucking Sucks And I Am Ashamed Of It"
 {
 	LevelNum = 23
 	Next = BADASS24
@@ -258,6 +268,7 @@ Map BADASS29 "$BADASS29"
 	Music = D_SHAWN3
 	Par = 20
 	Author = SmekkyBoy
+	ResetHealth
 }
 Map BADASS30 "$BADASS30"
 {
