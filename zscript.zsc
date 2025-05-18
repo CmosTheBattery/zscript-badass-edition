@@ -1186,7 +1186,7 @@ CLASS RechargablePlasmaRifleModelv1 : PlasmaRifle replaces PlasmaRifle {
 			Goto Ready;
 		Flash:
 			PLSF A 4 Bright A_Light1;
-			Goto LightDones;
+			Goto LightDone;
 			PLSF B 4 Bright A_Light1;
 			Goto LightDone;
 		Spawn:
