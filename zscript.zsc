@@ -19,7 +19,6 @@ CLASS BadassPlayer : DoomPlayer replaces DoomPlayer {
 
 CLASS DumbassShitFuckDickCockShotgun : Shotgun replaces Shotgun { 
 	Default {
-		
 		Weapon.SelectionOrder 1300;
 		Weapon.AmmoUse 1;
 		Weapon.AmmoGive 8;
