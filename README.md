@@ -36,6 +36,8 @@ official website: https://freedoom-badass-edition.github.io/
 
 * gzdoom v4.13.2: perfect
 * gzdoom v4.14.0: perfect
+* gzdoom v4.14.1: perfect
+* gzdoom v4.14.2: perfect
 * lzdoom v3.88a: perfect
 * qzdoom: might work
 * zandronum: doesn't work
