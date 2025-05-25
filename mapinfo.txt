@@ -213,8 +213,8 @@ Map BADASS18 "$BADASS18"
 Map BADASS19 "$BADASS19"
 {
 	LevelNum = 19
-	Next = BADASS21
-	SecretNext = BADASS21
+	Next = BADASS22
+	SecretNext = BADASS22
 	Sky1 = SKY3
 	Music = D_SHAWN2
 	Par = 30
