@@ -9,6 +9,16 @@ made for gzdoom/lzdoom and freedoom phase 2
 
  [official website](https://freedoom-badass-edition.github.io/)
 
+## screenshots
+
+<img src="screenshots/Screenshot_Doom_20250418_111330.png" width="480" height="270">
+<img src="screenshots/Screenshot_Doom_20250418_111230.png" width="480" height="270">
+<img src="screenshots/Screenshot_Doom_20250418_111812.png" width="480" height="270">
+<img src="screenshots/Screenshot_Doom_20250418_111152.png" width="480" height="270">
+<img src="screenshots/Screenshot_Doom_20250418_111916.png" width="480" height="270">
+<img src="screenshots/Screenshot_Doom_20250418_112044.png" width="480" height="270">
+<img src="screenshots/Screenshot_Doom_20250418_111313.png" width="480" height="270">
+
 ## launching the mod
 
 ### prerequisites
