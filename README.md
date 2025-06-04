@@ -19,7 +19,7 @@ made for gzdoom/lzdoom and freedoom phase 2
 <img src="screenshots/Screenshot_Doom_20250418_112044.png" width="480" height="270">
 <img src="screenshots/Screenshot_Doom_20250418_111313.png" width="480" height="270">
 
-## launching the mod
+## installing and launching the mod
 
 ### prerequisites
 
@@ -27,15 +27,41 @@ made for gzdoom/lzdoom and freedoom phase 2
 - a pulse
 - a device that runs your desired and supported sourceport
 - any supported sourceport (see "sourceport compatibility")
-- freedoom iwad
+- freedoom phase 2 iwad
+- git for the turbo nerd way
 
 ### instructions
 
-1. clone the repository or download zip 
+#### the stable way
 
-2. drag and drop the folder or file into your sourceport of choice
+1. click on releases
 
-3. enjoy (optional)
+2. click freedoom-badass-edition.pk3
+
+3. drag and drop the downloaded file into your sourceport of choice
+
+4. enjoy (optional)
+
+if you want the newest and most extreme experience you can try the other methods below
+#### the nice and quick way
+
+1. click on code > download zip
+
+2. click download zip
+
+3. drag and drop the downloaded file into your sourceport of choice
+
+4. enjoy (optional)
+
+#### the turbo nerd way
+
+1. open your terminal of choice
+
+2. write `git clone https://github.com/freedoom-badass-edition/freedoom-badass-edition.git` and press enter
+
+3. type in the name of the executable of your sourceport and `freedoom-badass-edition` following it (`gzdoom freedoom-badass-edition` for example)
+
+4. enjoy (optional)
 
 # faq
 
@@ -111,14 +137,18 @@ too bad
 > "we're so back I inserted 5 words into readme" - Saver310
 
 
-> "human rights REVOKED!!!!!" - SmekkyBoy
+> "WHITOID SPOTTED" - SmekkyBoy
 
 > "get this NERD out of my sight.... doesnt know who David William is..." - SmekkyBoy
 
-> "WHITOID SPOTTED" - SmekkyBoy
+> "human rights REVOKED!!!!!" - SmekkyBoy
+
 
 > "Imagine if Freedoom: Bad*ss Edition had a water gun that broke balls" - rostuhan
 
 > "Bad*ss life support" - rostuhan
+
+
+> "ill start working on map31 soon (when I feel like it)" - Xiaojun Yue (Dari)
 
 > "Oops" - Everyone after a pull request is pushed to the main branch and it breaks everything
