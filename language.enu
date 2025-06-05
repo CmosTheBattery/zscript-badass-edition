@@ -72,6 +72,12 @@ TESTICLE = "The very end of your PC if you're playing on GZDoom";
 TITLEMAP = "Stupid fucking TITLEMAP, which title you shouldn't see. Oh well.";
 
 DEATHSCREEN = "You fucked up";
+SECRETTEXT =
+	"You take a step into the crazy freaky teleporter\n"
+	"that opened in the lower floor of the subway.\n"
+	"A green color flashes in front of you, and everything\n"
+	"suddenly turns dark. After you wake up, you know\n"
+	"that you're in for a ride. Let's rock.";
 ENDTEXT =
 	"After pumping a shit ton of plasma testicles\n"
 	"into the mighty Jaw, the Jaw surely dies with\n"
@@ -203,6 +209,12 @@ TESTICLE = "Koniec twojego komputera jeśli korzystasz z GZDoom";
 TITLEMAP = "Debilna TITLEMAPa, której tytułu nie powinno się widzieć. Dupa.";
 
 DEATHSCREEN = "Spierdoliłeś";
+SECRETTEXT =
+	"Wchodzisz to tajemniczego teleportera który\n"
+	"otworzył się w dolnym piętrze metra.\n"
+	"Odcień zielonego świeci ci się przed oczami, i wszystko\n"
+	"się przyciemnia. Po 4 godzinach budzisz się, i już wiesz\n"
+	"że czeka na ciebie bolesna przygoda.";
 ENDTEXT =
 	"Po wystrzeleniu osiemset jąder plazmowych\n"
 	"w potężne szczęki, szczęki powoli umierają,\n"

@@ -277,39 +277,39 @@ Map BADASS30 "$BADASS30"
 	Author = Saver310
 }
 Map BADASS31 "$BADASS31" {
-		LevelNum = 31
-		Next = BADASS16
-		SecretNext = BADASS32
-		Sky1 = SKY1
-		Music = D_EVIL
-		Par = 90
-		Author = SmekkyBoy
+	Cluster = 1
+	LevelNum = 31
+	Next = BADASS16
+	SecretNext = BADASS32
+	Sky1 = SKY1
+	Music = D_EVIL
+	Par = 90
+	Author = SmekkyBoy
 }
 Map BADASS32 "Breaking Bad*ss" {
-		LevelNum = 32
-		Next = BADASS29
-		SecretNext = BADASS29
-		Sky1 = SKY3
-		Music = D_SANS
-		Par = 600
-		Author = rostuhan
+	LevelNum = 32
+	Next = BADASS29
+	SecretNext = BADASS29
+	Sky1 = SKY3
+	Music = D_SANS
+	Par = 600
+	Author = rostuhan
 }
 Map BADASS33 "Boring Test Map" {
-		LevelNum = 33
-		Next = BADASS01
-		SecretNext = BADASS01
-		Sky1 = SKY3
-		Music = D_RUNNIN
-		Author = Saver310
+	LevelNum = 33
+	Next = BADASS01
+	SecretNext = BADASS01
+	Sky1 = SKY3
+	Music = D_RUNNIN
+	Author = Saver310
 }
-Map BADASS34 "$ENDLESSMODE"
- {
-		LevelNum = 34
-		Next = BADASS34
-		SecretNext = BADASS34
-		Sky1 = SKY3
-		Music = D_RUNNIN
-		Author = SmekkyBoy
+Map BADASS34 "$ENDLESSMODE" {
+	LevelNum = 34
+	Next = BADASS34
+	SecretNext = BADASS34
+	Sky1 = SKY3
+	Music = D_RUNNIN
+	Author = SmekkyBoy
 }
 Map BADASS86 "Bad*ss Apple" {
 	LevelNum = 86
@@ -342,6 +342,12 @@ Intermission Deth
 		Background = "DEATHPIC"
 		Text = "$DEATHSCREEN"
 	}
+}
+Cluster 1
+{
+	flat = FLOOR5_1
+	music = D_LOW
+	entertext = "$SECRETTEXT"
 }
 Intermission TESTICLESEnd
 {
