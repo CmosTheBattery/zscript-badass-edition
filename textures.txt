@@ -82,4 +82,9 @@ Flat "keyboard", 128, 48
 	Patch "textures/keyboard.png", 0, 0
 }
 
+Texture "riptimmy", 128, 128
+{
+	Patch "textures/riptimmy.png", 0, 0
+}
+
 // End of texture definitions

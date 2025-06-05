@@ -96,9 +96,9 @@ Map BADASS08 "$BADASS08"
 	Next = BADASS09
 	SecretNext = BADASS09
 	Sky1 = SKY1
-	Par = 3
+	Par = 160
 	Music = D_DDTBLU
-	Author = SmekkyBoy
+	Author = Saver310
 	ResetHealth
 }
 Map BADASS09 "$BADASS09" 
