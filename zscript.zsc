@@ -263,9 +263,11 @@ CLASS DuperShotgun : SuperShotgun replaces SuperShotgun {
 	Default {
 		
 		Weapon.SelectionOrder 400;
-		Weapon.AmmoUse 6;
+		Weapon.AmmoUse1 6;
+		Weapon.AmmoUse2 12;
 		Weapon.AmmoGive 12;
-		Weapon.AmmoType "Shell";
+		Weapon.AmmoType1 "Shell";
+		Weapon.AmmoType2 "Shell";
 		Inventory.PickupMessage "$GOTDUPERSHOTGUN";
 		Obituary "$OB_DUPERSHOTGUN";
 		Tag "$TAG_DUPERSHOTGUN";
@@ -344,10 +346,59 @@ CLASS DuperShotgun : SuperShotgun replaces SuperShotgun {
 			SHT2 H 2 A_CloseShotgun2;
 			SHT2 A 3 A_ReFire;
 			Goto Ready;
+		AltFire:
+			SHT2 A 3;
+			SHD2 EDCBA 3;
+			SHD2 A 3;
+			SHD2 F 0
+			{
+			    A_Quake(8,12,0,1000);
+			    A_FireBullets (24, 14, 100, 75, "BulletPuff");
+			    A_PlaySound ("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(320);
+			}
+			SHD2 A 1 A_SetPitch(pitch-60);
+			SHD2 AAFFFAAAAA 1 A_SetPitch(pitch+6);
+			SHD2 A 7 A_SetPitch(0);
+			SHD2 ABCDE 2;
+			SHT2 AB 2;
+			SHT2 C 7 A_CheckReload;
+			SHT2 D 4 A_OpenShotgun2;
+			SHT2 E 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 G 6;
+			SHT2 H 6 A_CloseShotgun2;
+			SHT2 A 5 A_ReFire;
+			Goto Ready;
 		Flash:
 			SHT2 I 4 Bright A_Light1;
 			SHT2 J 3 Bright A_Light2;
 			Goto LightDone;
+		AltFlash:
+			SHE2 A 1 Bright A_Light1;
+			SHE2 B 2 Bright A_Light2;
+			Goto LightDone;	
 		Spawn:
 			SGN2 A -1;
 			Stop;
