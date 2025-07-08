@@ -2,6 +2,10 @@
 
 the most bad*ss freedoom mod on earth
 
+wide arsenal of bad*ss weapons
+
+20 new bad*ss community made maps
+
 made for gzdoom/lzdoom and freedoom phase 2
 
 
