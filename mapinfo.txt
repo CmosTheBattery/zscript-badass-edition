@@ -448,9 +448,10 @@ Skill Erect
 }
 GameInfo
 {
-   QuitSound = "Sraka"
-   PlayerClasses = "BadassPlayer"
-  TitleMusic = "D_TITLE"
+	QuitSound = "Sraka"
+	PlayerClasses = "BadassPlayer"
+	TitleMusic = "D_TITLE"
+	CursorPic = "graphics/cursor.png"
 }
 DoomEdNums
 {
