@@ -153,17 +153,17 @@ TAG_SINGULARBULLET = "Pojedyńczy Pocisk";
 TAG_OPRM = "Ulepszony Karabin Plazmowy Marki v1";
 TAG_MARINELAUNCHER = "Wyrzutnia Żołnierzy";
 
-OB_DSFDCSHOTGUN = "%o został@[ao_pl] odstrzelony przez %k.";
-OB_OVERCHARGEDMINIGUN = "%o został@[ao_pl] skasowany z istnienia przez %k.";
-OB_SINGULARBULLET = "%o został@[ao_pl] zastrzelony pociskiem i pięścią.";
-OB_SAWSAW = "%o został@[ao_pl] rozerwany na kawałki przez %k.";
-OB_CORPSE = "%o został@[ao_pl] ztrupowany przez %k.";
+OB_DSFDCSHOTGUN = "%o został@[ao_pl] odstrzelon@[adj_pl] przez %k.";
+OB_OVERCHARGEDMINIGUN = "%o został@[ao_pl] skasowan@[adj_pl] z istnienia przez %k.";
+OB_SINGULARBULLET = "%o został@[ao_pl] zastrzelon@[adj_pl] nabojem i pięścią.";
+OB_SAWSAW = "%o został@[ao_pl] rozerwan@[adj_pl] na kawałki przez %k.";
+OB_CORPSE = "%o został@[ao_pl] ztrupowan@[adj_pl] przez %k.";
 OB_CORPSEBOOM = "%o został@[ao_pl] wysadzon@[adj_pl] przez ciało.";
 OB_TESTICLE = "%o miał@[ao_pl] swoje jądra pogłaskane przez %k.";
 OB_NUKE = "%o został@[ao_pl] zatomizowan@[adj_pl].";
 OB_NUKE_TRIPOD = "%o został@[ao_pl] zatomizowan@[adj_pl] przez Jądrowca.";
-OB_DUPERSHOTGUN = "%o został@[ao_pl] odstrzelony i rozerwany na strzępy przez %k.";
-OB_CONVICTS = "%o został@[ao_pl] rozstrzelony przez więźniów.";
+OB_DUPERSHOTGUN = "%o został@[ao_pl] odstrzelon@[adj_pl] i rozerwan@[adj_pl] na strzępy przez %k.";
+OB_CONVICTS = "%o został@[ao_pl] rozstrzelon@[adj_pl] przez więźniów.";
 
 SKILL_ASS = "Jestem Ard";
 SKILL_BAD = "Jestem Twardy";
@@ -212,8 +212,8 @@ BD29_4 = "WITAM, BARNSTABLE. CZY JESTEŚ GOTOWY ABY UMRZEĆ?";
 BD29_5 = "Nawzajem.";
 BD29_6 = "NIE! TY TWARDZIELSYNU!";
 BD29_7 = "Pozdrów swojego brata w piekle.";
-BD29_8 = "Roy! Udało ci się! Populacja Hiszpani jest uwolniona od kontroli umysłu!";
-BD29_9 = "Poinformuj Piotra Enisa, wróg jest zniszczalny bez Hiszpani. Pora na ostateczny atak!";
+BD29_8 = "Roy! Udało ci się! Populacja Hiszpanii jest uwolniona od kontroli umysłu!";
+BD29_9 = "Poinformuj Piotra Enisa, wróg jest zniszczalny bez Hiszpanii. Pora na ostateczny atak!";
 
 ENDLESSMODE = "Tryb Nieskończony";
 ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";

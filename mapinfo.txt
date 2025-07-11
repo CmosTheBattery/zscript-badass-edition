@@ -175,7 +175,7 @@ Map BADASS15 "$BADASS15"
 	SecretNext = BADASS31
 	Sky1 = SKY2
 	Music = D_MAP15
-	Par = 70
+	Par = 30
 	Author = Saver310
 	ClipMidTextures
 }
@@ -207,7 +207,7 @@ Map BADASS18 "$BADASS18"
 	Sky1 = SKY2
 	Sky2 = SKY3
 	Music = D_ROMERO
-	Par = 60
+	Par = 45
 	Author = Saver310
 }
 Map BADASS19 "$BADASS19"
