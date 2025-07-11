@@ -329,6 +329,15 @@ Map TESTICLE "$TESTICLE" {
 	NoJump
 	NoCrouch
 }
+Map TITLEMAP "$TITLEMAP" 
+{
+	Next = BADASS01
+	Sky1 = SKY1
+	Author = Saver310
+	NoJump
+	NoFreeLook
+	NoCrouch
+}
 Intermission Deth
 {
 	TextScreen

@@ -69,6 +69,7 @@ BADASS29 = "Big Timmy's Domain";
 BADASS30 = "Victory of Jaws";
 BADASS31 = "A Bad*ss Ride to Them";
 TESTICLE = "The very end of your PC if you're playing on GZDoom";
+TITLEMAP = "Stupid fucking TITLEMAP, which title you shouldn't see. Oh well.";
 
 DEATHSCREEN = "You fucked up";
 ENDTEXT =
@@ -192,6 +193,7 @@ BADASS19 = "Fabryka Która Robi Rzeczy";
 BADASS29 = "Domena Wielkiego Timmy'ego";
 BADASS30 = "Wygrana Szczęk";
 TESTICLE = "Koniec twojego komputera jeśli korzystasz z GZDoom";
+TITLEMAP = "Debilna TITLEMAPa, której tytułu nie powinno się widzieć. Dupa.";
 
 DEATHSCREEN = "Spierdoliłeś";
 ENDTEXT =
