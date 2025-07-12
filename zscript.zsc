@@ -2045,13 +2045,121 @@ CLASS Saver310 : ACTOR {
 	States
 	{
 		See:
-			SAVR A 2 A_Chase;
+			CRED A 2 A_Chase;
 			Goto Missile;
 		Missile:
-			SAVR A 40;
+			CRED A 0;
 			Goto Death;
 		Death:
-			SAVR A 0;
+			CRED A 60;
+			Stop;
+	}
+}
+
+CLASS rostuhan : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED B 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED B 0;
+			Goto Death;
+		Death:
+			CRED B 60;
+			Stop;
+	}
+}
+
+CLASS SmekkyBoy : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED C 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED C 0;
+			Goto Death;
+		Death:
+			CRED C 60;
+			Stop;
+	}
+}
+
+CLASS blitzdoughnuts : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED D 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED D 0;
+			Goto Death;
+		Death:
+			CRED D 60;
+			Stop;
+	}
+}
+
+CLASS Dari : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED E 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED E 0;
+			Goto Death;
+		Death:
+			CRED E 60;
+			Stop;
+	}
+}
+
+CLASS Morris : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED F 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED F 0;
+			Goto Death;
+		Death:
+			CRED F 60;
+			Stop;
+	}
+}
+
+CLASS CmosTheBattery : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED G 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED G 0;
+			Goto Death;
+		Death:
+			CRED G 60;
 			Stop;
 	}
 }

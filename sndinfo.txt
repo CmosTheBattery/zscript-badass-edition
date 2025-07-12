@@ -1,5 +1,6 @@
 $random sawfail { DSSSTRT1 DSSSTRT2 }
 $limit weapons/rocklx 0
+$random menu/quit { Sraka bebech sailor/raise wolfss/sight door/break misc/secret }
 
 DSCOCK DSCOCK
 DSCOCKA DSCOCKA

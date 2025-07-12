@@ -74,11 +74,18 @@ TITLEMAP = "Stupid fucking TITLEMAP, which title you shouldn't see. Oh well.";
 DEATHSCREEN = "You fucked up";
 ENDTEXT =
 	"After pumping a shit ton of plasma testicles\n"
-	"into the jaw the jaw dies\n";
+	"into the mighty Jaw, the Jaw surely dies with\n"
+	"an agonizing shriek. You've saved the entire population\n"
+	"of Europe. You've done it. You have become\n"
+	"the Ultimate Bad*ss. Unfortunately after your\n"
+	"celebratory arrival in Romania, your every possesion\n"
+	"has been stolen in one millisecond. Too bad*ss.\n"
+	"\n"
+	"THE BAD*SS END.";
 TESTICLETEXT =
 	"After nuking everything you press the switch.\n"
 	"After that you suddenly die\n"
-	"The end\n";
+	"THE BAD*SS END.";
 
 BD12_1 = "\c[Grey]Grey fucket:\c[Gold] Let's go!";
 BD12_2 = "\c[Grey]Grey fucket:\c[Gold] Oh fuck, you fucking fragged me, you bad*ss!";
@@ -198,7 +205,15 @@ TITLEMAP = "Debilna TITLEMAPa, której tytułu nie powinno się widzieć. Dupa."
 DEATHSCREEN = "Spierdoliłeś";
 ENDTEXT =
 	"Po wystrzeleniu osiemset jąder plazmowych\n"
-	"w szczęki szczęki umierają\n";
+	"w potężne szczęki, szczęki powoli umierają,\n"
+	"głośno wyjąc. Uratowałeś całą populację Europy.\n"
+	"Udało ci się. Stałeś się Ostatecznym Twardzielem.\n"
+	"Niestety po twojej gratulacyjnej wyczieczce do\n"
+	"Rumunii, każda twoja posesja została ukradziona\n"
+	"w jedną milisekundę. Ojej.\n"
+	"\n"
+	"KONIEC.";
+
 TESTICLETEXT =
 	"Po wysadzeniu wszystkiego wciskasz dźwignię.\n"
 	"Potem umierasz\n"
