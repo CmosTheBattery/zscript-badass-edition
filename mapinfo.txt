@@ -369,7 +369,7 @@ Intermission TheBadassCast
 	Cast
 	{
 		Background = "FLOOR0_1", 1
-		Music = "D_EVIL"
+		Music = "D_LOW"
 		CastClass = "ZombieCast"
 		CastName = "Zombie"
 		AttackSound = "Missile", 1, "grunt/attack"
@@ -391,6 +391,48 @@ Intermission TheBadassCast
 		CastClass = "DriverSailorCast"
 		CastName = "Tough Sailor"
 		AttackSound = "Missile", 1, "wolfss/attack"
+	}
+	Cast
+	{
+		CastClass = "Saver310"
+		CastName = "Saver310"
+		AttackSound = "Missile", 1, "bebech"
+	}
+	Cast
+	{
+		CastClass = "rostuhan"
+		CastName = "rostuhan"
+		AttackSound = "Missile", 1, ""
+	}
+	Cast
+	{
+		CastClass = "SmekkyBoy"
+		CastName = "SmekkyBoy"
+		AttackSound = "Missile", 1, ""
+	}
+	Cast
+	{
+		CastClass = "blitzdoughnuts"
+		CastName = "blitzdoughnuts"
+		AttackSound = "Missile", 1, ""
+	}
+	Cast
+	{
+		CastClass = "Dari"
+		CastName = "Xiaojun Yue (Dari)"
+		AttackSound = "Missile", 1, ""
+	}
+	Cast
+	{
+		CastClass = "Morris"
+		CastName = "Morris"
+		AttackSound = "Missile", 1, ""
+	}
+	Cast
+	{
+		CastClass = "CmosTheBattery"
+		CastName = "CmosTheBattery"
+		AttackSound = "Missile", 1, ""
 	}
 	Link = TheBadassCast
 }
@@ -448,7 +490,7 @@ Skill Erect
 }
 GameInfo
 {
-	QuitSound = "Sraka"
+	QuitSound = "menu/quit"
 	PlayerClasses = "BadassPlayer"
 	TitleMusic = "D_TITLE"
 	CursorPic = "graphics/cursor.png"
