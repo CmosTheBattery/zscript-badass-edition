@@ -67,5 +67,9 @@ Texture "piss", 64, 64
 	Patch "textures/pisage1.png", 0, 0
 }
 
+Texture "mouseinbakedbeans", 256, 256
+{
+	Patch "textures/bah.png", 0, 0
+}
 
 // End of texture definitions

@@ -173,7 +173,7 @@ Map BADASS15 "$BADASS15"
 	LevelNum = 15
 	Next = BADASS16
 	SecretNext = BADASS31
-	Sky1 = SKY2
+	Sky1 = BADASS15SKY
 	Music = D_MAP15
 	Par = 30
 	Author = Saver310

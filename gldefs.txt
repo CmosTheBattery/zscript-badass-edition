@@ -1,0 +1,6 @@
+Skybox BADASS15SKY
+{
+  mouseinbakedbeans
+  mouseinbakedbeans
+  mouseinbakedbeans
+}
