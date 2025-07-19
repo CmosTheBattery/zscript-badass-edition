@@ -155,4 +155,10 @@ too bad
 
 > "ill start working on map31 soon (when I feel like it)" - Xiaojun Yue (Dari)
 
+> "i've had my job STOLEN i will be working on badass27 now if i feel like it" - Xiaojun Yue (Dari)
+
+
+> "why" - CMOS555
+
+
 > "Oops" - Everyone after a pull request is pushed to the main branch and it breaks everything
