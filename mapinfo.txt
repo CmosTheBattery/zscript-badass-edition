@@ -74,7 +74,7 @@ Map BADASS06 "$BADASS06"
 	Next = BADASS07
 	SecretNext = BADASS07
 	Sky1 = SKY1
-	Par = 30
+	Par = 120
 	Music = D_WALDEK
 	Author = Saver310
 	ResetHealth
