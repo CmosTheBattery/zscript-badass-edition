@@ -77,9 +77,6 @@ Map BADASS06 "$BADASS06"
 	Par = 30
 	Music = D_WALDEK
 	Author = Saver310
-	NoJump
-	NoCrouch
-	NoFreeLook
 	ResetHealth
 }
 Map BADASS07 "$BADASS07" 

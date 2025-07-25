@@ -72,4 +72,8 @@ Texture "mouseinbakedbeans", 256, 256
 	Patch "textures/bah.png", 0, 0
 }
 
+Texture "badasspc", 256, 128
+{
+	Patch "textures/badasspc.png", 0, 0
+}
 // End of texture definitions
