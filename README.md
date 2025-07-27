@@ -38,22 +38,22 @@ made for gzdoom/lzdoom and freedoom phase 2
 
 #### the stable way
 
-1. click on releases
+1. click on "Releases"
 
-2. click freedoom-badass-edition.pk3
+2. click "Source code"
 
-3. drag and drop the downloaded file into your sourceport of choice
+3. drag and drop the downloaded file into your sourceport of choice or use a launcher
 
 4. enjoy (optional)
 
-if you want the newest and most extreme experience you can try the other methods below
+if you want the newest experience you can try the other methods below
 #### the nice and quick way
 
-1. click on code > download zip
+1. click on "Code"
 
-2. click download zip
+2. click "Download ZIP"
 
-3. drag and drop the downloaded file into your sourceport of choice
+3. drag and drop the downloaded file into your sourceport of choice or use a launcher
 
 4. enjoy (optional)
 
@@ -91,7 +91,7 @@ you can just send an issue to our github page
 
 the generally recommended experience is playing the mod through freedoom phase 2
 
-phase 1 and the doom iwads work mostly fine, but you won't get the fullest and nicest experience (after all, it's **freedoom** bad*ss edition)
+phase 1 and the doom iwads work mostly fine, but it won't be a pleasant experience due to missing textures or sounds (after all, it's **freedoom** bad*ss edition)
 
 other iwads like strife, hexen, heretic and more are not guaranteed to work and you will definitely not have a good experience
 
@@ -111,16 +111,14 @@ too bad
 
 # sourceport compatibility
 
-* gzdoom v4.13.2: perfect
-* gzdoom v4.14.0: perfect
-* gzdoom v4.14.1: perfect
-* gzdoom v4.14.2: perfect
-* lzdoom v3.88a: perfect
+* gzdoom v4.13: perfect
+* gzdoom v4.14: perfect
+* lzdoom v3.88: perfect
 * qzdoom: untested but might work
 * gztoasterdoom: barely works
 * zandronum: doesn't work
-* zdoom v2.8.1: doesn't work
-* anything non-gzdoom/lzdoom based: doesn't work
+* zdoom: doesn't work
+* anything non-gzdoom/lzdoom based or vanilla ports: doesn't work
 
 # quotes
 
