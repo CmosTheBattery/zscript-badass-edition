@@ -76,4 +76,10 @@ Texture "badasspc", 256, 128
 {
 	Patch "textures/badasspc.png", 0, 0
 }
+
+Flat "keyboard", 128, 48
+{
+	Patch "textures/keyboard.png", 0, 0
+}
+
 // End of texture definitions
