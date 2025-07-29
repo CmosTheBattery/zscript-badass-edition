@@ -10,48 +10,55 @@ Freedoom - Assets and Sounds
 Freedoom Discord - Feedback
 Zdexium - Trilobyte Gib Sprites
 
-Maps:
-BADASS01 - Saver310
-BADASS02 - Saver310 - OPEN for replacement
-BADASS03 - Saver310
-BADASS04 - Saver310
-BADASS05 - Saver310
-BADASS06 - Saver310
-BADASS07 - rostuhan - OPEN for replacement
-BADASS08 - SmekkyBoy - OPEN for replacement
-BADASS09 - blitzdoughnuts - OPEN for replacement
-BADASS10 - rostuhan
-BADASS11 - Saver310
-BADASS12 - rostuhan
-BADASS13 - Saver310
-BADASS14 - Saver310 - OPEN for replacement
-BADASS15 - Saver310
-BADASS16 - rostuhan
-BADASS17 - SmekkyBoy
-BADASS18 - Saver310
-BADASS19 - Saver310 - OPEN for replacement
-BADASS20 - rostuhan - OPEN for replacement
-BADASS21 - SmekkyBoy
-BADASS22 - Saver310
-BADASS23 - Saver310 - OPEN for replacement
+C - Support for Co-op
+D - Support for Deathmatch
+✓ - Supported
+- - Only DM Spawns
+X - Unsupported
+BADASS01 - Saver310 - (C[✓]D[✓])
+BADASS02 - Saver310 - (C[✓]D[✓]) - OPEN
+BADASS03 - Saver310 - (C[✓]D[X])
+BADASS04 - Saver310 - (C[✓]D[✓])
+BADASS05 - Saver310 - (C[✓]D[X])
+BADASS06 - Saver310 - (C[✓]D[X])
+BADASS07 - rostuhan - (C[✓]D[X]) - OPEN
+BADASS08 - SmekkyBoy - (C[✓]D[X]) - OPEN
+BADASS09 - blitzdoughnuts - (C[✓]D[X]) - OPEN
+BADASS10 - rostuhan - (C[✓]D[-])
+BADASS11 - Saver310 - (C[✓]D[X])
+BADASS12 - rostuhan - (C[✓]D[-])
+BADASS13 - Saver310 - (C[✓]D[X])
+BADASS14 - Saver310 - (C[X]D[X]) - OPEN
+BADASS15 - Saver310 - (C[✓]D[X])
+BADASS16 - rostuhan - (C[✓]D[-])
+BADASS17 - SmekkyBoy - (C[✓]D[X])
+BADASS18 - Saver310 - (C[✓]D[X])
+BADASS19 - Saver310 - (C[X]D[X]) - OPEN
+BADASS20 - rostuhan - (C[✓]D[X]) - OPEN
+BADASS21 - SmekkyBoy - (C[X]D[X]) - OPEN
+BADASS22 - Saver310 - (C[✓]D[X]) - WIP
+BADASS23 - Saver310 - (C[✓]D[X]) - OPEN (it fucking sucks)
 BADASS24 - OPEN
 BADASS25 - OPEN
 BADASS26 - OPEN
 BADASS27 - OPEN
 BADASS28 - OPEN
-BADASS29 - SmekkyBoy
-BADASS30 - Saver310
-BADASS31 - SmekkyBoy and Saver310
-BADASS32 - rostuhan
-TESTICLE - B.P.R.D
+BADASS29 - SmekkyBoy - (C[X]D[X])
+BADASS30 - Saver310 - (C[✓]D[X])
+BADASS31 - SmekkyBoy and Saver310 - (C[✓]D[X])
+BADASS32 - rostuhan - (C[X]D[X])
+BADASS33 - Saver310 - (C[X]D[X]) - Testmap
+BADASS34 - SmekkyBoy - (C[X]D[X])
+BADASS86 - rostuhan - (C[X]D[X])
+TESTICLE - B.P.R.D - (C[✓]D[X])
 TITLEMAP - Saver310
 
 Music:
-D_MAP01 - Not My First Rodeo... by Lola Harvey (BlueWorrior) and edited by rostuhan
-D_MAP15 - Oxidine by Korp and Adam Kalmbach (jute)
-D_READ_M - untitled by Adam Kalmbach (jute) and remixed by SmekkyBoy
-D_SANS - Mow Them Down! by Lola Harvey (BlueWorrior) and remixed by rostuhan
+D_MAP01 - "Not My First Rodeo..." by Lola "BlueWorrior" Harvey and edited by rostuhan
+D_MAP15 - "Oxidine" by Korp, remix of dave3d35.mid by jute
+D_READ_M - dave3d07.mid by jute and remixed by SmekkyBoy
+D_SANS - "Mow Them Down!" by Lola "BlueWorrior" Harvey and remixed by rostuhan
 D_BOSS - ZUN (instrument change by rostuhan)
 D_APPLE - s__msgs
-D_WALDEK - Refrigeration by Korp & Tyler P. (Picklehammer) and remixed by Saver310
-D_LOW - Low by Wayne Dean (Captain Mellow)
+D_WALDEK - "Refrigeration" by Korp, based on "Dark Trail" by Tyler "Picklehammer" Pantella and remixed by Saver310
+D_LOW - "Low" by Wayne "Captain Mellow" Dean
