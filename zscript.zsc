@@ -475,7 +475,7 @@ CLASS CocainePower : Powerup {
 	Default {
 		
 		Powerup.Duration -90;
-		Powerup.Color "RedMap";
+		Powerup.Color "255, 0, 128, 0.25";
 		+INVENTORY.HUBPOWER;
 	}
 }

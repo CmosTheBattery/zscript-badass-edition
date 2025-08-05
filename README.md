@@ -113,7 +113,7 @@ too bad
 
 * gzdoom v4.13: perfect
 * gzdoom v4.14: perfect
-* lzdoom v3.88: perfect
+* lzdoom v3.88: almost perfect (missing text)
 * qzdoom: untested but might work
 * gztoasterdoom: barely works
 * zandronum: doesn't work
