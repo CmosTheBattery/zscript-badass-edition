@@ -1,3 +1,5 @@
+// This is the legacy DECORATE file for archival purposes. Edit the zscript.zsc file instead.
+
 ACTOR BadassPlayer : DoomPlayer replaces DoomPlayer
 {
   Player.StartItem "SingularBullet"
