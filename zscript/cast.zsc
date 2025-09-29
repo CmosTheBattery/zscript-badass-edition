@@ -1,0 +1,214 @@
+
+CLASS DriverSailorCast : WolfensteinSS { 
+	Default {
+		
+		DeathSound "misc/gibbed";
+	}
+	States
+	{
+		Missile:
+			SSWV G 1 Bright A_CPosAttack;
+			SSWV G 1 Bright A_CPosAttack;
+			SSWV F 1 A_CPosRefire;
+			Goto Missile+1;
+		Death:
+			SSWV N 5;
+			SSWV O 2 A_StartSound("wolfss/death");
+			SSWV O 3 A_XScream;
+			SSWV P 5 A_NoBlocking;
+			SSWV QRSTU 5;
+			SSWV V -1;
+			Stop;
+	}
+}
+
+CLASS TheNukerCast : TheNuker { 
+	Default {
+		
+		DeathSound "misc/gibbed";
+	}
+	States
+	{
+		Missile:
+			CYBR F 4 A_SpawnProjectile("PlasmaTesticle");
+			CYBR EA 8 A_FaceTarget;
+			Goto See;
+		Death:
+			CYBG A 4;
+			CYBG B 4 A_Scream;
+			CYBG C 4 A_NoBlocking;
+			CYBG D -1;
+			Stop;
+	}
+}
+
+CLASS ZombieCast : ZombieMan { 
+	Default {
+		
+	}
+	States
+	{
+		Missile:
+			POSS E 10 A_FaceTarget;
+			POSS F 8 A_PosAttack;
+			POSS E 8;
+			Goto See;
+		Death:
+			POSS H 5;
+			POSS I 5 A_Scream;
+			POSS J 5 A_NoBlocking;
+			POSS K 5;
+			POSS L -1;
+			Stop;
+	}
+}
+
+CLASS WorkerZombieCast : ZombieMan { 
+	Default {
+		
+		DeathSound "misc/gibbed";
+	}
+	States
+	{
+		See:
+			POSS AABBCCDD 3 A_Chase;
+			Loop;
+		Missile:
+			POSS E 10;
+			POSS A 4;
+			Goto See;
+		Death:
+			POSS M 5;
+			POSS N 5 A_Scream;
+			POSS O 5 A_NoBlocking;
+			POSS PQRST 5;
+			POSS U -1;
+			Stop;
+	}
+}
+
+CLASS Saver310 : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED A 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED A 0;
+			Goto Death;
+		Death:
+			CRED A 60;
+			Stop;
+	}
+}
+
+CLASS rostuhan : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED B 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED B 0;
+			Goto Death;
+		Death:
+			CRED B 60;
+			Stop;
+	}
+}
+
+CLASS SmekkyBoy : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED C 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED C 0;
+			Goto Death;
+		Death:
+			CRED C 60;
+			Stop;
+	}
+}
+
+CLASS blitzdoughnuts : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED D 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED D 0;
+			Goto Death;
+		Death:
+			CRED D 60;
+			Stop;
+	}
+}
+
+CLASS Dari : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED E 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED E 0;
+			Goto Death;
+		Death:
+			CRED E 60;
+			Stop;
+	}
+}
+
+CLASS Morris : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED F 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED F 0;
+			Goto Death;
+		Death:
+			CRED F 60;
+			Stop;
+	}
+}
+
+CLASS CmosTheBattery : ACTOR { 
+	Default {
+		
+	}
+	States
+	{
+		See:
+			CRED G 2 A_Chase;
+			Goto Missile;
+		Missile:
+			CRED G 0;
+			Goto Death;
+		Death:
+			CRED G 60;
+			Stop;
+	}
+}

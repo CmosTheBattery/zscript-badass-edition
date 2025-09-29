@@ -1,9 +1,28 @@
-#include "weapons.zsc"
+#include "zscript/weapons.zsc"
+#include "zscript/cast.zsc"
 
+CLASS BadassPlayer : DoomPlayer replaces DoomPlayer { 
+	Default {
+		Player.DisplayName "The Bad*ss";
+		Player.StartItem "SingularBullet";
+		Player.StartItem "MarineGrenade";
+		Player.StartItem "BadassFist";
+		Player.StartItem "Clip", 1;
+		Player.StartItem "RocketAmmo", 1 ;
+		Player.WeaponSlot 1, "BadassFist", "SawSaw";
+		Player.WeaponSlot 2, "SingularBullet";
+		Player.WeaponSlot 3, "DumbassShitFuckDickCockShotgun", "DuperShotgun";
+		Player.WeaponSlot 4, "SmallButPackingChaingun";
+		Player.WeaponSlot 5, "MarineGrenade", "MarineLauncher";
+		Player.WeaponSlot 6, "RechargablePlasmaRifleModelv1";
+		Player.WeaponSlot 7, "BCG9000";
+		Player.Colorset 8, "Saver310",0xC8, 0xCF,  0xCD;
+	}
+}
 
+// xdeath replacements
 CLASS CorpseTosser : Cyberdemon replaces Cyberdemon { 
 	Default {
-		
 		Tag "Corpse Tosser";
 	}
 	States
@@ -17,6 +36,23 @@ CLASS CorpseTosser : Cyberdemon replaces Cyberdemon {
 	}
 }
 
+CLASS Trilobyte : Cacodemon replaces Cacodemon { 
+	Default {
+		Tag "Trilobyte";	
+	}
+	States
+	{
+		XDeath:
+			HEAD M 5;
+			HEAD N 5 A_XScream;
+			HEAD O 5 A_NoBlocking;
+			HEAD PQ 5;
+			HEAD R -1;
+			Stop;
+	}
+}
+
+// custom monsters
 CLASS FucketSpawnLocation : PainElemental { // 26016 
 	Default {
 		
@@ -338,7 +374,6 @@ CLASS Convicts : ACTOR { //32420
 	}
 }
 
-
 CLASS BulletGuru : doomimpball { 
 	Default {
 		
@@ -356,236 +391,5 @@ CLASS BulletGuru : doomimpball {
 			loop;
 			
 			
-	}
-}
-
-CLASS DriverSailorCast : WolfensteinSS { 
-	Default {
-		
-		DeathSound "misc/gibbed";
-	}
-	States
-	{
-		Missile:
-			SSWV G 1 Bright A_CPosAttack;
-			SSWV G 1 Bright A_CPosAttack;
-			SSWV F 1 A_CPosRefire;
-			Goto Missile+1;
-		Death:
-			SSWV N 5;
-			SSWV O 2 A_StartSound("wolfss/death");
-			SSWV O 3 A_XScream;
-			SSWV P 5 A_NoBlocking;
-			SSWV QRSTU 5;
-			SSWV V -1;
-			Stop;
-	}
-}
-
-CLASS TheNukerCast : TheNuker { 
-	Default {
-		
-		DeathSound "misc/gibbed";
-	}
-	States
-	{
-		Missile:
-			CYBR F 4 A_SpawnProjectile("PlasmaTesticle");
-			CYBR EA 8 A_FaceTarget;
-			Goto See;
-		Death:
-			CYBG A 4;
-			CYBG B 4 A_Scream;
-			CYBG C 4 A_NoBlocking;
-			CYBG D -1;
-			Stop;
-	}
-}
-
-CLASS ZombieCast : ZombieMan { 
-	Default {
-		
-	}
-	States
-	{
-		Missile:
-			POSS E 10 A_FaceTarget;
-			POSS F 8 A_PosAttack;
-			POSS E 8;
-			Goto See;
-		Death:
-			POSS H 5;
-			POSS I 5 A_Scream;
-			POSS J 5 A_NoBlocking;
-			POSS K 5;
-			POSS L -1;
-			Stop;
-	}
-}
-
-CLASS WorkerZombieCast : ZombieMan { 
-	Default {
-		
-		DeathSound "misc/gibbed";
-	}
-	States
-	{
-		See:
-			POSS AABBCCDD 3 A_Chase;
-			Loop;
-		Missile:
-			POSS E 10;
-			POSS A 4;
-			Goto See;
-		Death:
-			POSS M 5;
-			POSS N 5 A_Scream;
-			POSS O 5 A_NoBlocking;
-			POSS PQRST 5;
-			POSS U -1;
-			Stop;
-	}
-}
-
-CLASS Trilobyte : Cacodemon replaces Cacodemon { 
-	Default {
-		
-	}
-	States
-	{
-		XDeath:
-			HEAD M 5;
-			HEAD N 5 A_XScream;
-			HEAD O 5 A_NoBlocking;
-			HEAD PQ 5;
-			HEAD R -1;
-			Stop;
-	}
-}
-
-
-CLASS Saver310 : ACTOR { 
-	Default {
-		
-	}
-	States
-	{
-		See:
-			CRED A 2 A_Chase;
-			Goto Missile;
-		Missile:
-			CRED A 0;
-			Goto Death;
-		Death:
-			CRED A 60;
-			Stop;
-	}
-}
-
-CLASS rostuhan : ACTOR { 
-	Default {
-		
-	}
-	States
-	{
-		See:
-			CRED B 2 A_Chase;
-			Goto Missile;
-		Missile:
-			CRED B 0;
-			Goto Death;
-		Death:
-			CRED B 60;
-			Stop;
-	}
-}
-
-CLASS SmekkyBoy : ACTOR { 
-	Default {
-		
-	}
-	States
-	{
-		See:
-			CRED C 2 A_Chase;
-			Goto Missile;
-		Missile:
-			CRED C 0;
-			Goto Death;
-		Death:
-			CRED C 60;
-			Stop;
-	}
-}
-
-CLASS blitzdoughnuts : ACTOR { 
-	Default {
-		
-	}
-	States
-	{
-		See:
-			CRED D 2 A_Chase;
-			Goto Missile;
-		Missile:
-			CRED D 0;
-			Goto Death;
-		Death:
-			CRED D 60;
-			Stop;
-	}
-}
-
-CLASS Dari : ACTOR { 
-	Default {
-		
-	}
-	States
-	{
-		See:
-			CRED E 2 A_Chase;
-			Goto Missile;
-		Missile:
-			CRED E 0;
-			Goto Death;
-		Death:
-			CRED E 60;
-			Stop;
-	}
-}
-
-CLASS Morris : ACTOR { 
-	Default {
-		
-	}
-	States
-	{
-		See:
-			CRED F 2 A_Chase;
-			Goto Missile;
-		Missile:
-			CRED F 0;
-			Goto Death;
-		Death:
-			CRED F 60;
-			Stop;
-	}
-}
-
-CLASS CmosTheBattery : ACTOR { 
-	Default {
-		
-	}
-	States
-	{
-		See:
-			CRED G 2 A_Chase;
-			Goto Missile;
-		Missile:
-			CRED G 0;
-			Goto Death;
-		Death:
-			CRED G 60;
-			Stop;
 	}
 }
