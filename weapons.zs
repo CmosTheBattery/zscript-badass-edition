@@ -1,0 +1,1331 @@
+CLASS BadassPlayer : DoomPlayer replaces DoomPlayer { 
+	Default {
+		Player.DisplayName "The Bad*ss";
+		Player.StartItem "SingularBullet";
+		Player.StartItem "MarineGrenade";
+		Player.StartItem "BadassFist";
+		Player.StartItem "Clip", 1;
+		Player.StartItem "RocketAmmo", 1 ;
+		Player.WeaponSlot 1, "BadassFist", "SawSaw";
+		Player.WeaponSlot 2, "SingularBullet";
+		Player.WeaponSlot 3, "DumbassShitFuckDickCockShotgun", "DuperShotgun";
+		Player.WeaponSlot 4, "SmallButPackingChaingun";
+		Player.WeaponSlot 5, "MarineGrenade", "MarineLauncher";
+		Player.WeaponSlot 6, "RechargablePlasmaRifleModelv1";
+		Player.WeaponSlot 7, "BCG9000";
+		Player.Colorset 8, "Saver310",0xC8, 0xCF,  0xCD;
+	}
+}
+
+CLASS DumbassShitFuckDickCockShotgun : Shotgun replaces Shotgun { 
+	Default {
+		Weapon.SelectionOrder 1300;
+		Weapon.AmmoUse 1;
+		Weapon.AmmoGive 8;
+		Weapon.AmmoType "Shell";
+		Inventory.PickupMessage "$GOTDSFDCSHOTGUN";
+		Obituary "$OB_DSFDCSHOTGUN";
+		Tag "$TAG_DSFDCSHOTGUN";
+	}
+	States
+	{
+		Ready:
+			SHTG A 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			SHTG A 1 A_Lower;
+			Loop;
+		Select:
+			SHTG A 1 A_Raise;
+			Loop;
+		Fire:
+			SHTG A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			SHTG A 3;
+			SHTG A 0
+			{
+			    A_FireBullets (5.6, 0, 7, 5);
+			    A_StartSound("DSSGFIRE", CHAN_WEAPON);
+			}
+			SHTG A 7 A_GunFlash;
+			SHTS A 0
+			{
+			    A_Quake(1,4,0,100);
+			    A_FireBullets(100, 100, 1000, random(1,2), "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(80);
+			}
+			SHTS A 1 A_SetPitch(pitch-5);
+			SHTS AAAB 1 A_SetPitch(pitch+1);
+			SHTS B 0
+			{
+			    A_Quake(1,4,0,100);
+			    A_FireBullets(50, 50, 500, 1, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(40);
+			}
+			SHTS B 1 A_SetPitch(pitch-5);
+			SHTS BBCC 1 A_SetPitch(pitch+1);
+			SHTS C 0
+			{
+			    A_FireBullets(10, 10, 100, 1, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			}
+			SHTS C 4 A_SetPitch(0);
+			SHTS ABCABCABC 4;
+			SHTG B 3 A_StartSound("DSCOCKA", CHAN_WEAPON);
+			SHTG C 3;
+			SHTG D 10 A_StartSound("DSCOCKB", CHAN_WEAPON);
+			SHTG CB 3;
+			SHTG A 7 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			SHTG A 3;
+			SHTG A 0
+			{
+			    A_FireBullets (5.6, 0, 7, 5);
+			    A_StartSound("DSSGFIRE", CHAN_WEAPON);
+			}
+			SHTG A 7 A_GunFlash;
+			SHTS A 0
+			{
+			    A_Quake(1,4,0,100);
+			    A_FireBullets(100, 100, 1000, random(1,2), "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(80);
+			}
+			SHTS A 1 A_SetPitch(pitch-5);
+			SHTS AAAB 1 A_SetPitch(pitch+1);
+			SHTS B 0
+			{
+			    A_Quake(1,4,0,100);
+			    A_FireBullets(50, 50, 500, 1, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(40);
+			}
+			SHTS B 1 A_SetPitch(pitch-5);
+			SHTS BBCC 1 A_SetPitch(pitch+1);
+			SHTS C 0
+			{
+			    A_FireBullets(10, 10, 100, 1, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			}
+			SHTS C 2 A_SetPitch(0);
+			SHTS A 5;
+			SHTG B 2 A_StartSound("DSCOCKA", CHAN_WEAPON);
+			SHTG C 2;
+			SHTG D 2 A_StartSound("DSCOCKB", CHAN_WEAPON);
+			SHTG CB 2;
+			SHTG A 4 A_ReFire;
+			Goto Ready;
+		Flash:
+			SHTF A 4 Bright A_Light1;
+			SHTF B 3 Bright A_Light2;
+			Goto LightDone;
+		Spawn:
+			SHOT A -1;
+			Stop;
+	}
+}
+
+CLASS SmallButPackingChaingun : Chaingun replaces Chaingun { 
+	Default {
+		
+		Weapon.BobRangeX 0.75;
+		Weapon.BobRangeY 0.25;
+		Weapon.BobSpeed 0.75 ;
+		Weapon.KickBack 30000;
+		Weapon.SelectionOrder 700;
+		Weapon.AmmoUse 100;
+		Weapon.AmmoGive 100;
+		Weapon.AmmoType "Clip";
+		Inventory.PickupMessage "$GOTOVERCHARGEDMINIGUN";
+		Obituary "$OB_OVERCHARGEDMINIGUN";
+		Tag "$TAG_OVERCHARGEDMINIGUN";
+	}
+	States
+	{
+		Ready:
+			CHGG A 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			CHGG A 1 A_Lower;
+			Loop;
+		Select:
+			CHGG A 1 A_Raise;
+			Loop;
+		Fire:
+			CHGG A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			CHGG A 10 ;
+			CHGG B 8;
+			CHGG AB 6;
+			CHGG ABAB 4;
+			CHGG ABABABAB 2;
+			CHGG ABABABABABABABAB 1;
+			CHGG A 0
+			{
+			    A_Quake(6,12,0,800);
+			    A_FireBullets(150, 50, 3000, 100, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_Recoil(60000);
+			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
+			}
+			CHGG A 4 A_SetPitch(-50);
+			CHGG ABABABABABABABAB 1;
+			CHGG ABABABABABABABAB 1 A_SetPitch(pitch+3.125);
+			CHGG ABAB 4 A_SetPitch(0);
+			CHGG AB 6;
+			CHGG A 0 A_ReFire;
+			Goto Ready;
+		FireCocaine: 
+			CHGG AB 4;
+			CHGG ABAB 2;
+			CHGG ABABABAB 1;
+			CHGG A 0
+			{
+			    A_Quake(6,12,0,800);
+			    A_FireBullets(150, 50, 3000, 100, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_Recoil(60000);
+			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
+			}
+			CHGG A 1 A_SetPitch(-50);
+			CHGG ABAB 2;
+			CHGG AB 4 A_SetPitch(0);
+			CHGG B 0 A_ReFire;
+			Goto Ready;
+		Flash:
+			CHGF A 2 Bright A_Light1;
+			CHGF B 2 Bright A_Light1;
+			Goto LightDone;
+		Spawn:
+			MGUN A -1;
+			Stop;
+	}
+}
+
+CLASS SingularBullet : Weapon { 
+	Default {
+		
+		Weapon.SelectionOrder 3700;
+		Weapon.Kickback 100;
+		Weapon.AmmoUse 1;
+		Weapon.AmmoGive 1;
+		Weapon.AmmoType "Clip" ;
+		Inventory.PickupMessage "$GOTSINGULARBULLET" ;
+		Obituary "$OB_SINGULARBULLET";
+		Tag "$TAG_SINGULARBULLET";
+	}
+	States
+	{
+		Ready: 
+			PUNG A 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			PUNG A 1 A_Lower;
+			Loop;
+		Select:
+			PUNG A 1 A_Raise;
+			Loop;
+		Fire:
+			PUNG A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			BULP HIJABCD 1;
+			BULP E 0
+			{
+			    A_StartSound("*fist", CHAN_AUTO);
+			    A_StartSound("weapons/pistol", CHAN_WEAPON);
+			}
+			BULP E 2 A_FireBullets(0, 0, 1, random(20,45), "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			BULP FG 1;
+			PUNG A 1 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			BULP HJB 1;
+			BULP E 0
+			{
+			    A_StartSound("*fist", CHAN_AUTO);
+			    A_StartSound("weapons/pistol", CHAN_WEAPON);
+			}
+			BULP E 1 A_FireBullets(1, 1, 3, random(20,45), "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			BULP FG 1;
+			PUNG A 1 A_ReFire;
+			Goto Ready;
+		Spawn:
+			BULL A -1;
+			Loop;
+	}
+}
+
+CLASS DuperShotgun : SuperShotgun replaces SuperShotgun { 
+	Default {
+		
+		Weapon.SelectionOrder 400;
+		Weapon.AmmoUse1 6;
+		Weapon.AmmoUse2 12;
+		Weapon.AmmoGive 12;
+		Weapon.AmmoType1 "Shell";
+		Weapon.AmmoType2 "Shell";
+		Inventory.PickupMessage "$GOTDUPERSHOTGUN";
+		Obituary "$OB_DUPERSHOTGUN";
+		Tag "$TAG_DUPERSHOTGUN";
+	}
+	States
+	{
+		Ready:
+			SHT2 A 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			SHT2 A 1 A_Lower;
+			Loop;
+		Select:
+			SHT2 A 1 A_Raise;
+			Loop;
+		Fire:
+			SHT2 A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			SHT2 A 3;
+			SHT2 A 0
+			{
+			    A_Quake(6,12,0,800);
+			    A_FireBullets (12, 7, 40, 120, "BulletPuff");
+			    A_StartSound ("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(160);
+			}
+			SHT2 A 1 A_SetPitch(pitch-40);
+			SHT2 AAAAAA 1 A_SetPitch(pitch+6);
+			SHT2 B 7 A_SetPitch(0);
+			SHT2 C 7 A_CheckReload;
+			SHT2 D 4 A_OpenShotgun2;
+			SHT2 E 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 G 6;
+			SHT2 H 6 A_CloseShotgun2;
+			SHT2 A 5 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			SHT2 A 2;
+			SHT2 A 0
+			{
+			    A_Quake(6,12,0,800);
+			    A_FireBullets (12, 7, 40, 120, "BulletPuff");
+			    A_StartSound ("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(160);
+			}
+			SHT2 A 1 A_SetPitch(pitch-40);
+			SHT2 AAAAAA 1 A_SetPitch(pitch+6);
+			SHT2 B 2 A_SetPitch(0);
+			SHT2 C 2 A_CheckReload;
+			SHT2 D 2 A_OpenShotgun2;
+			SHT2 E 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 G 1;
+			SHT2 H 2 A_CloseShotgun2;
+			SHT2 A 3 A_ReFire;
+			Goto Ready;
+		AltFire:
+			SHT2 A 0 A_JumpIfInventory("CocainePower", 1, "AltFireCocaine");
+			SHT2 A 3;
+			SHD2 EDCBA 3;
+			SHD2 A 3;
+			SHD2 F 0
+			{
+			    A_Quake(8,12,0,1000);
+			    A_FireBullets (32, 24, 120, 240, "BulletPuff");
+			    A_StartSound ("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(320);
+			}
+			SHD2 A 1 A_SetPitch(pitch-60);
+			SHD2 AAFFFAAAAA 1 A_SetPitch(pitch+6);
+			SHD2 A 7 A_SetPitch(0);
+			SHD2 ABCDE 2;
+			SHT2 AB 2;
+			SHT2 C 7 A_CheckReload;
+			SHT2 D 4 A_OpenShotgun2;
+			SHT2 E 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 4;
+			SHT2 F 4 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 DE 3;
+			SHT2 F 3 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 2;
+			SHT2 F 2 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 G 6;
+			SHT2 H 6 A_CloseShotgun2;
+			SHT2 A 5 A_ReFire;
+			Goto Ready;
+		AltFireCocaine:
+			SHT2 A 1;
+			SHD2 EDCBA 1;
+			SHD2 A 1;
+			SHD2 F 0
+			{
+			    A_Quake(8,12,0,1000);
+			    A_FireBullets (32, 24, 120, 240, "BulletPuff");
+			    A_StartSound ("weapons/sshotf", CHAN_WEAPON);
+			    A_GunFlash();
+			    A_Recoil(320);
+			}
+			SHD2 A 1 A_SetPitch(pitch-60);
+			SHD2 AFAA 1 A_SetPitch(pitch+12);
+			SHD2 A 1 A_SetPitch(0);
+			SHD2 ABCDE 2;
+			SHT2 AB 2;
+			SHT2 C 1 A_CheckReload;
+			SHT2 D 1 A_OpenShotgun2;
+			SHT2 E 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 DE 1;
+			SHT2 F 1 A_LoadShotgun2;
+			SHT2 G 1;
+			SHT2 H 2 A_CloseShotgun2;
+			SHT2 A 3 A_ReFire;
+			Goto Ready;
+		Flash:
+			SHT2 I 4 Bright A_Light1;
+			SHT2 J 3 Bright A_Light2;
+			Goto LightDone;
+		AltFlash:
+			SHE2 A 1 Bright A_Light1;
+			SHE2 B 2 Bright A_Light2;
+			Goto LightDone;	
+		Spawn:
+			SGN2 A -1;
+			Stop;
+	}
+}
+
+CLASS Cocaine : Berserk replaces Berserk { 
+	Default {
+		+COUNTITEM;
+		+INVENTORY.ALWAYSPICKUP;
+		Inventory.PickupMessage "$GOTCOCAINE";
+		Inventory.PickupSound "misc/p_pkup";
+		Tag "Cocaine";
+	}
+	States
+	{
+		Spawn:
+			PSTR A -1;
+			Stop;
+		Pickup:
+			TNT1 A 0 A_GiveInventory("CocainePower");
+			TNT1 A 0 HealThing(150, 2500);
+			Stop;
+	}
+}
+
+CLASS CocainePower : Powerup { 
+	Default {
+		
+		Powerup.Duration -90;
+		Powerup.Color "255, 0, 128, 0.25";
+		+INVENTORY.HUBPOWER;
+	}
+}
+
+CLASS SawSaw : Chainsaw replaces Chainsaw { 
+	Default {
+		
+		Weapon.Kickback -100;
+		Weapon.SelectionOrder 2200;
+		Weapon.UpSound "";
+		Weapon.ReadySound "";
+		Inventory.PickupMessage "$GOTSAWSAW";
+		Obituary "$OB_SAWSAW";
+		Tag "$TAG_SAWSAW";
+		+WEAPON.MELEEWEAPON;
+	}
+	States
+	{
+		Ready:
+			SAWG C 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			SAWG C 1 A_Lower;
+			Loop;
+		Select:
+			SAWG C 1 A_Raise;
+			Loop;
+		Fire:
+			SAWG C 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			SAWG C 2 A_StartSound("sawfail", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG DCDCDC 2;
+			SAWG DCDCD 4;
+			SAWG C 2;
+			SAWG C 2 A_StartSound("sawfail", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG DCDCDC 2;
+			SAWG DCDCD 4;
+			SAWG C 2;
+			SAWG C 2 A_StartSound("sawfail", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG DCDCDC 2;
+			SAWG DCDCD 4;
+			SAWG C 2;
+			SAWG C 2 A_StartSound("sawfail", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG DCDC 4;
+		Looper:
+			SAWG B 0 A_StartSound("DSSAWSAW", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 1 A_Recoil(-10);
+			SAWG B 1 A_Saw("","misc/gibbed",100);
+			SAWG A 0 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			SAWG C 1 A_StartSound("sawfail", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG DCDCDC 1;
+			SAWG C 1 A_StartSound("sawfail", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG DCDCDC 1;
+			SAWG C 1 A_StartSound("sawfail", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG DCDCDC 1;
+			SAWG C 1 A_StartSound("sawfail", CHAN_AUTO, CHANF_OVERLAP);
+			SAWG DCDCDC 1;
+			Goto Looper;
+		Spawn:
+			CSAW A -1;
+			Stop;
+	}
+}
+
+CLASS Fucket : Rocket replaces Rocket { 
+	Default {
+		
+		-ROCKETTRAIL;
+		Speed 20;
+		Damage 10;
+		Obituary "$OB_CORPSE";
+		DeathSound "*fist" ;
+	}
+	States
+	{
+		Spawn:
+			DEBI L 1 Bright;
+			Loop;
+		Death:
+			MISL B 0 Bright A_Scream;
+			MISL B 0 Bright A_SpawnItemEx("FuckedMarine") ;
+			Stop;
+	}
+}
+
+CLASS NuclearActualFucket : Fucket { 
+	Default {
+		
+	}
+	States
+	{
+		Spawn:
+			DEBI M 1 Bright;
+			Loop;
+		Death:
+			MISL B 0 Bright A_Scream;
+			MISL B 0 Bright A_SpawnItemEx("NuclearMarine") ;
+			Stop;
+	}
+}
+
+CLASS FuckedMarine : GibbedMarine replaces GibbedMarineExtra { 
+	Default {
+		
+		+PUSHABLE;
+		+SHOOTABLE;
+		+NOTAUTOAIMED;
+		Health 10;
+		Obituary "$OB_CORPSEBOOM";
+		DeathSound "misc/gibbed";
+		Tag "Fucked fucket";
+	}
+	States
+	{
+		Spawn:
+			DEBI L 1000;
+			GoTo Death;
+		Death:
+			PLAY W 0
+			{
+			    A_SpawnItemEx("ThatThingThatGoesBoom");
+			    A_Scream();
+			}
+			PLAY W -1;
+			Stop;
+	}
+}
+
+CLASS NuclearMarine : FuckedMarine { 
+	Default {
+		
+	}
+	States
+	{
+		Spawn:
+			DEBI M 1000;
+			GoTo Death;
+		Death:
+			PLAY WWWWWWWWWWWW 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-3,3),random(-3,3),random(-3,3),random(-10,10),random(-10,10),random(-10,10));
+			PLAY W 0 A_Scream;
+			PLAY W -1;
+			Stop;
+	}
+}
+
+CLASS ThatThingThatGoesBoom : ACTOR { 
+	Default {
+		
+		Radius 11;
+		Height 8;
+		Speed 20;
+		Damage 20;
+		Projectile;
+		+RANDOMIZE;
+		+DEHEXPLOSION;
+		-ROCKETTRAIL;
+		DeathSound "weapons/rocklx";
+		Obituary "$OB_CORPSEBOOM";
+	}
+	States
+	{
+		Spawn:
+			MISL A 1 Bright;
+			GoTo Death;
+		Death:
+			MISL B 0 Bright A_Scream;
+			MISL B 0 A_Quake(2,8,0,400);
+			MISL B 8 Bright A_Explode;
+			MISL C 6 Bright;
+			MISL D 4 Bright;
+			Stop;
+	}
+}
+
+CLASS BCG9000 : BFG9000 replaces BFG9000 { 
+	Default {
+		
+		Height 20;
+		Weapon.SelectionOrder 2800;
+		Weapon.AmmoUse 10;
+		Weapon.AmmoGive 90;
+		Weapon.AmmoType "Cell";
+		+WEAPON.NOAUTOFIRE;
+		Inventory.PickupMessage "$GOTSBFKAG";
+		Tag "$TAG_SBFKAG";
+	}
+	States
+	{
+		Ready:
+			BFGG A 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			BFGG A 1 A_Lower;
+			Loop;
+		Select:
+			BFGG A 1 A_Raise;
+			Loop;
+		Fire:
+			BFGG A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			BFGG A 35 A_BFGSound;
+			BFGG B 0
+			{
+			    A_Light0();
+			    A_FireShotgun();
+			    A_FireShotgun2();
+			    A_FireCGun();
+			    A_FireBFG();
+			}
+			BFGG BBBBBBBB 0 A_FireOldBFG;
+			BFGG B 0 A_FireRailgunLeft;
+			BFGG BB 0 A_FireRailgun;
+			BFGG B 0 A_FireRailgunRight;
+			BFGG B 35 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			BFGG A 10 A_BFGSound;
+			BFGG B 0
+			{
+			    A_Light0();
+			    A_FireShotgun();
+			    A_FireShotgun2();
+			    A_FireCGun();
+			    A_FireBFG();
+			}
+			BFGG BBBBBBBB 0 A_FireOldBFG;
+			BFGG B 0 A_FireRailgunLeft;
+			BFGG BB 0 A_FireRailgun;
+			BFGG B 0 A_FireRailgunRight;
+			BFGG B 10 A_ReFire;
+			Goto Ready;
+		Flash:
+			BFGF A 11 Bright A_Light1;
+			BFGF B 6 Bright A_Light2;
+			Goto LightDone;
+		Spawn:
+			BFUG A -1;
+			Stop;
+	}
+}
+
+CLASS RechargablePlasmaRifleModelv1 : PlasmaRifle replaces PlasmaRifle { 
+	Default {
+		
+		Weapon.SelectionOrder 100;
+		Weapon.AmmoUse 300;
+		Weapon.AmmoGive 300;
+		Weapon.AmmoType "Cell";
+		Inventory.PickupMessage "$GOTOPRM";
+		Tag "$TAG_OPRM";
+	}
+	States
+	{
+		Ready:
+			PLSG A 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			PLSG A 1 A_Lower;
+			Loop;
+		Select:
+			PLSG A 1 A_Raise;
+			Loop;
+		Fire:
+			PLSG A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			PLSG A 4
+			{
+			    A_Quake(1,4,0,200);
+			    A_Quake(2,4,0,250);
+			}
+			PLSG A 3
+			{
+			    A_Quake(3,3,0,300);
+			    A_Quake(4,3,0,600);
+			}
+			PLSG A 2 A_Quake(5,2,0,800);
+			PLSG A 8
+			{
+			    A_Quake(6,8,0,1000);
+			    A_Quake(7,8,0,1200);
+			}
+			PLSG A 35 A_Quake(8,35,0,1600);
+			PLSG A 0
+			{
+			    A_GunFlash();
+			    A_StartSound("Sraka",0,CHANF_DEFAULT,1.0,ATTN_NONE);
+			}
+			PLSG A 3 A_FirePlasma;
+			PLSG B 20 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			PLSG A 2
+			{
+			    A_Quake(1,2,0,400);
+			    A_Quake(2,2,0,500);
+			    A_Quake(3,2,0,600);
+			    A_Quake(4,2,0,1200);
+			}
+			PLSG A 1
+			{
+			    A_Quake(5,1,0,1600);
+			    A_Quake(6,1,0,2000);
+			    A_Quake(7,1,0,2400);
+			}
+			PLSG A 10 A_Quake(8,10,0,3200);
+			PLSG A 0
+			{
+			    A_GunFlash();
+			    A_StartSound("Sraka",0,CHANF_DEFAULT,1.0,ATTN_NONE);
+			}
+			PLSG A 3 A_FirePlasma;
+			PLSG B 15 A_ReFire;
+			Goto Ready;
+		Flash:
+			PLSF A 4 Bright A_Light1;
+			Goto LightDone;
+			PLSF B 4 Bright A_Light1;
+			Goto LightDone;
+		Spawn:
+			PLAS A -1;
+			Stop;
+	}
+}
+
+CLASS PlasmaTesticle : PlasmaBall replaces PlasmaBall { 
+	Default {
+		
+		Radius 13;
+		Height 8;
+		Speed 10;
+		Damage 1;
+		Projectile;
+		+RANDOMIZE;
+		+ZDOOMTRANS;
+		+FORCEPAIN;
+		RenderStyle "Add";
+		Alpha 0.75;
+		SeeSound "Sraka";
+		DeathSound "*fist";
+		Obituary "$OB_TESTICLE";
+	}
+	States
+	{
+		Spawn:
+			PLSS AB 6 Bright;
+			Loop;
+		Death:
+			PLSE ABCD 8 Bright;
+			PLSE E 17 Bright;
+			PLSE D 4 Bright;
+			PLSE C 3 Bright;
+			PLSE B 2 Bright;
+			PLSE A 0 Bright A_StartSound("weapons/rocklx",0,CHANF_DEFAULT,1.0,ATTN_NONE,0.9);
+			PLSE AAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-25,25),random(-25,25),random(-25,25),random(-100,100),random(-100,100),random(-100,100));
+			PLSE AAAAAAAAAAAAAA 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-12,12),random(-12,12),random(-12,12),random(-50,50),random(-50,50),random(-50,50));
+			PLSE AAAAAAAA 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-6,6),random(-6,6),random(-6,6),random(-25,25),random(-25,25),random(-25,25));
+			PLSE AAAA 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-3,3),random(-3,3),random(-3,3),random(-10,10),random(-10,10),random(-10,10));
+			PLSE AA 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-1,1),random(-1,1),random(-1,1),random(-5,5),random(-5,5),random(-5,5));
+			PLSE A 1 Bright A_SpawnItemEx("PlasmaNuke");
+			Stop;
+	}
+}
+
+CLASS PlasmaNuke : ThatThingThatGoesBoom { 
+	Default {
+		
+		Scale 25.0;
+		+FOILINVUL;
+		+FOILBUDDHA;
+		+EXTREMEDEATH;
+		+FORCERADIUSDMG;
+		+FORCEPAIN;
+		Obituary "$OB_NUKE";
+	}
+	States
+	{
+		Spawn:
+			MISL A 1 Bright;
+			GoTo Death;
+		Death:
+			MISL B 0 Bright A_Quake(9,32,0,10000);
+			MISL B 16 Bright A_Explode(100000,100000);
+			MISL C 12 Bright;
+			MISL D 8 Bright A_Explode(1,100000);
+			Stop;
+	}
+}
+
+CLASS MarineBox : RocketAmmo replaces RocketBox { 
+	Default {
+		
+		Inventory.PickupMessage "$GOTMARINEBOX";
+		Inventory.Amount 5;
+	}
+	States
+	{
+		Spawn:
+			PLAY ABCD 6 A_SetScale(1,0.40);
+			Loop;
+	}
+}
+
+CLASS MarineAmmo : RocketAmmo replaces RocketAmmo { 
+	Default {
+		
+		Scale 0.5;
+		Inventory.PickupMessage "$GOTMARINE";
+		Inventory.Amount 1;
+		Inventory.MaxAmount 50;
+		Ammo.BackpackAmount 1;
+		Ammo.BackpackMaxAmount 100;
+	}
+	States
+	{
+		Spawn:
+			PLAY ABCD 4;
+			Loop;
+	}
+}
+
+CLASS MarineLauncher : RocketLauncher replaces RocketLauncher { 
+	Default {
+		
+	}
+	States
+	{
+		Ready:
+			MISM A 0 A_JumpIfInventory("CocainePower", 1, "ReadyCocaine");
+			MISM A 1 A_WeaponReady;
+			Loop;
+		ReadyCocaine:
+			MISM C 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			MISM A 0 A_JumpIfInventory("CocainePower", 1, "DeselectCocaine");
+			MISM A 1 A_Lower;
+			Loop;
+		DeselectCocaine:
+			MISM C 1 A_Lower;
+			Loop;
+		Select:
+			MISM A 0 A_JumpIfInventory("CocainePower", 1, "SelectCocaine");
+			MISM A 1 A_Raise;
+			Loop;
+		SelectCocaine:
+			MISM C 1 A_Raise;
+			Loop;
+		Fire:
+			MISM A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			MISM B 8 A_GunFlash;
+			MISM B 12 A_FireMissile;
+			MISM B 0 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			MISM D 12 A_GunFlash;
+			MISM D 8 A_FireProjectile ("NuclearActualFucket");
+			MISM D 0 A_ReFire;
+			Goto Ready;
+		Flash:
+			MIMF A 3 Bright A_Light1;
+			MIMF B 4 Bright;
+			MIMF CD 4 Bright A_Light2;
+			Goto LightDone;
+	}
+}
+
+CLASS MarineGrenade : DoomWeapon { 
+	Default {
+		
+		Weapon.SelectionOrder 2500;
+		Weapon.AmmoUse 1;
+		Weapon.AmmoGive 1;
+		Weapon.AmmoType "RocketAmmo";
+	}
+	States
+	{
+		Ready:
+			MNGR A 0 A_JumpIfInventory("CocainePower", 1, "ReadyCocaine");
+			MNGR A 1 A_WeaponReady;
+			Loop;
+		ReadyCocaine:
+			MNHR A 1 A_WeaponReady;
+			Loop;
+		Deselect:
+			MNGR A 0 A_JumpIfInventory("CocainePower", 1, "DeselectCocaine");
+			MNGR A 1 A_Lower;
+			Loop;
+		DeselectCocaine:
+			MNHR A 1 A_Lower;
+			Loop;
+		Select:
+			MNGR A 0 A_JumpIfInventory("CocainePower", 1, "SelectCocaine");
+			MNGR A 1 A_Raise;
+			Loop;
+		SelectCocaine:
+			MNHR A 1 A_Raise;
+			Loop;
+		Fire:
+			MNGR A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			MNGR ABCDDC 3;
+			MNGR E 3 A_FireProjectile("FucketGrenadeGravity");
+			MNGR FGH 2;
+			MNGR I 2 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			MNHR ABCDDC 2;
+			MNGR E 2 A_FireProjectile("NuclearFucketGrenadeGravity");
+			MNGR FG 2;
+			MNHR H 2;
+			MNHR I 2 A_ReFire;
+			Goto Ready;
+	}
+}
+
+CLASS FucketGrenadeGravity : Fucket { 
+	Default {
+		
+		Speed 20;
+		Gravity 0.5;
+		BounceType 'Grenade';
+		BounceCount 5;
+		-NOGRAVITY;
+	}
+	States
+	{
+		Spawn:
+			DEBI L 140;
+			GoTo Death;
+		Death:
+			PLAY W 0
+			{
+			    A_SpawnItemEx("ThatThingThatGoesBoom");
+			    A_Scream();
+			}
+			PLAY W -1;
+			Stop;
+	}
+}
+
+CLASS NuclearFucketGrenadeGravity : FucketGrenadeGravity { 
+	Default {
+		
+	}
+	States
+	{
+		Spawn:
+			DEBI M 140;
+			GoTo Death;
+		Death:
+			PLAY WWWWWWWWWWWW 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-3,3),random(-3,3),random(-3,3),random(-10,10),random(-10,10),random(-10,10));
+			PLAY W 0 A_Scream;
+			PLAY W -1;
+			Stop;
+	}
+}
+
+CLASS BadassFist : Fist {
+	Default {
+		Weapon.SlotNumber 1;
+	}
+	States {
+		Fire:
+			OIJG A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
+			OIJG A 2 A_PlaySound("skeleton/swing");
+			OIJG BC 2;
+			OIJG D 2 A_CustomPunch(random(5,15), false, 0, "BulletPuff", 70,0,0,"ArmorBonus","HOWCANSHESLAP");
+			OIJG E 2;
+			OIJG F 2 A_ReFire;
+			Goto Ready;
+		FireCocaine:
+			OIJG A 1 A_PlaySound("skeleton/swing");
+			OIJG BC 1;
+			OIJG D 1 A_CustomPunch(random(40,120), false, 0, "BulletPuff", 70,0,0,"ArmorBonus","HOWCANSHESLAP");
+			OIJG E 1;
+			OIJG F 1 A_ReFire;
+			Goto Ready;
+		AltFire:
+			ZOOM A 0 A_JumpIfInventory("CocainePower", 1, "AltFireCocaine");
+			ZOOM A 24 A_StartSound("ZUMUPANCHI");
+			ZOOM B 4;
+			ZOOM C 6 A_CustomPunch(random(25,75), false, 0, "BulletPuff", 200);
+			ZOOM D 4;
+			ZOOM B 4;
+			ZOOM A 4 A_ReFire;
+			Goto Ready;
+		AltFireCocaine:
+			ZOOM A 1 A_StartSound("ZUMUPANCHIcocaine");
+			ZOOM B 1;
+			ZOOM C 4 A_CustomPunch(random(150,350), false, 0, "BulletPuff", 300);
+			ZOOM D 2;
+			ZOOM B 2;
+			ZOOM A 2 A_ReFire;
+			Goto Ready;
+	}
+}
+
+CLASS SingularBulletAmmo : Clip { 
+	Default {
+		
+		Inventory.PickupMessage "$GOTSINGULARBULLET";
+		Tag "Singular Bullet";
+		Inventory.Amount 1;
+	}
+	States
+	{
+		Spawn:
+			BULL A -1;
+			Stop;
+	}
+}
