@@ -19,3 +19,4 @@ door/break DOORBRK
 misc/secret SECRET
 IWANT3BIGMAC 3BIGMAC
 HOWCANSHESLAP SLAP
+cocaine/pickup "sounds/getcocaine.wav"
