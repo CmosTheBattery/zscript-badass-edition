@@ -501,7 +501,7 @@ class SawSaw : Chainsaw replaces Chainsaw {
 			SAWG B 0
 			{
 				A_StartSound("DSSAWSAW", CHAN_AUTO, CHANF_OVERLAP);
-				invoker.loops=100; //how many times to loop
+				invoker.loops=125; //how many times to loop
 			}
 		Looper:
 			SAWG A 1
