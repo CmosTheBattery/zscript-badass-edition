@@ -183,4 +183,4 @@ these are some other cool projects you should check out if you haven't!
 
 [SLADE](https://slade.mancubus.net/index.php), it's a doom editor and it is truly bad*ss
 
-[GZDoom](https://zdoom.org/downloads) is an unoptimized but powerful spawn of hell, which powers our mod
+[UZDoom](https://github.com/UZDoom/UZDoom) is a way better version of unoptimized but powerful spawn of hell, which powers our mod, that doesn't use ChatGPT
