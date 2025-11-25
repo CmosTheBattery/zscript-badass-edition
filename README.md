@@ -138,6 +138,8 @@ too bad
 
 > "Oops I accidentally created freedoom badass edition" - Saver310
 
+> "I'm gonna kill myself how do I change this" - Saver310
+
 > "What the fuck is even going on" - Saver310
 
 > "What the fuck is happening" - Saver310
@@ -151,16 +153,18 @@ too bad
 > "I swear to god if my computer breaks for the 6th time I'm gonna shoot myself with a 12gauge" - Saver310
 
 
+> "I'm gonna change myself, how do I kill this" - rostuhan
+
+> "Imagine if Freedoom: Bad*ss Edition had a water gun that broke balls" - rostuhan
+
+> "Bad*ss life support" - rostuhan
+
+
 > "WHITOID SPOTTED" - SmekkyBoy
 
 > "get this NERD out of my sight.... doesnt know who David William is..." - SmekkyBoy
 
 > "human rights REVOKED!!!!!" - SmekkyBoy
-
-
-> "Imagine if Freedoom: Bad*ss Edition had a water gun that broke balls" - rostuhan
-
-> "Bad*ss life support" - rostuhan
 
 
 > "ill start working on map31 soon (when I feel like it)" - Xiaojun Yue (Dari)
@@ -183,4 +187,4 @@ these are some other cool projects you should check out if you haven't!
 
 [SLADE](https://slade.mancubus.net/index.php), it's a doom editor and it is truly bad*ss
 
-[UZDoom](https://github.com/UZDoom/UZDoom) is a way better version of unoptimized but powerful spawn of hell, which powers our mod, that doesn't use ChatGPT
+[UZDoom](https://github.com/UZDoom/UZDoom) is a way better version of unoptimized but powerful spawn of hell, which powers our mod, [that doesn't use ChatGPT](https://github.com/ZDoom/gzdoom/issues/3395)

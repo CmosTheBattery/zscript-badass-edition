@@ -2,7 +2,6 @@ $random sawfail { DSSSTRT1 DSSSTRT2 }
 $limit weapons/rocklx 0
 $random menu/quit { Sraka bebech sailor/raise wolfss/sight door/break misc/secret }
 
-DSCOCK DSCOCK
 DSCOCKA DSCOCKA
 DSCOCKB DSCOCKB
 DSSGFIRE DSSGFIRE
@@ -20,3 +19,9 @@ misc/secret SECRET
 IWANT3BIGMAC 3BIGMAC
 HOWCANSHESLAP SLAP
 cocaine/pickup "sounds/getcocaine.wav"
+
+$rumble vent/break HEAVY
+$rumble door/break HEAVY
+$rumble Sraka HEAVY
+$rumble HOWCANSHESLAP HEAVY
+$rumble misc/secret SECRET
