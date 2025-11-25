@@ -494,7 +494,7 @@ Skill Erect
 GameInfo
 {
 	QuitSound = "menu/quit"
-	PlayerClasses = "BadassPlayer"
+	PlayerClasses = "BadassPlayer", "SpanishPlayer"
 	TitleMusic = "D_TITLE"
 	CursorPic = "graphics/cursor.png"
 }

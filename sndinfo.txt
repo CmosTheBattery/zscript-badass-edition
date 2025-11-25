@@ -25,3 +25,11 @@ $rumble door/break HEAVY
 $rumble Sraka HEAVY
 $rumble HOWCANSHESLAP HEAVY
 $rumble misc/secret SECRET
+
+$playersound	spanish	male	*death	DSSSDTH
+$playersound	spanish	male	*xdeath		DSSDIEHI
+$playersound	spanish	male	*pain100	DSSSPAIN
+$playersound	spanish	male	*pain75 DSSSPAIN
+$playersound	spanish	male	*pain50	DSSSPAIN
+$playersound	spanish	male	*pain25	DSSSPAIN
+$playersound	spanish	male	*jump	DSSSJUMP

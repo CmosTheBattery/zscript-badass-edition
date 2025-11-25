@@ -20,6 +20,52 @@ CLASS BadassPlayer : DoomPlayer replaces DoomPlayer {
 	}
 }
 
+CLASS SpanishPlayer : BadassPlayer { 
+	Default {
+		Player.Face "SSF";
+		Player.DisplayName "Spanish Sailor";
+		Player.SoundClass "spanish";
+		Player.StartItem "SpanishPistol";
+		Player.StartItem "MarineGrenade";
+		Player.StartItem "BadassFist";
+		Player.StartItem "Clip", 50;
+		Player.WeaponSlot 2, "SpanishPistol";
+	}
+	States
+	{
+	Spawn:
+		SSWV A -1;
+		Loop;
+	See:
+		SSWV AABBCCDD 3;
+		Loop;
+	Missile:
+		SSWV F 4;
+		SSWV E 4;
+		Goto Spawn;
+	Melee:
+		SSWV G 4 Bright;
+		Goto Missile;
+	Pain:
+		SSWV H 3;
+		SSWV H 3 A_Pain;
+		Goto Spawn;
+	Death:
+		SSWV I 5;
+		SSWV J 5 A_PlayerScream;
+		SSWV K 5 A_NoBlocking;
+		SSWV L 5;
+		SSWV M -1;
+		Stop;
+	XDeath:
+		SSWV O 5;
+		SSWV P 5 A_XScream;
+		SSWV Q 5 A_NoBlocking;
+		SSWV RSTUV 5;
+		SSWV W -1;
+		Stop;
+	}
+}
 // xdeath replacements
 CLASS CorpseTosser : Cyberdemon replaces Cyberdemon { 
 	Default {
