@@ -1,17 +1,18 @@
 # ![freedoom bad*ss edition](screenshots/logo.png)
 
-the most bad*ss freedoom mod on earth
+the most bad*ss freedoom mod on earth made for uzdoom
 
-wide arsenal of bad*ss weapons
+features:
+* bad*ssery
+* a wide arsenal of bad*ss weapons
+* bad*ss mappack made just for the mod with 20 brand new levels
+* two new player classes
+* bad*ss storyline
+* cocaine
 
-20 new bad*ss community made maps
+[official discord](https://discord.gg/Rb6DyWyNXV)
 
-made for gzdoom/lzdoom and freedoom phase 2
-
-
- [official discord](https://discord.gg/Rb6DyWyNXV)
-
- [official website](https://freedoom-badass-edition.github.io/)
+[official website](https://freedoom-badass-edition.github.io/)
 
 # screenshots
 
@@ -29,25 +30,18 @@ made for gzdoom/lzdoom and freedoom phase 2
 
 - functioning brain
 - a pulse
-- a device that runs your desired and supported sourceport
+- supported hardware that runs your desired and supported sourceport
 - any supported sourceport (see "sourceport compatibility")
 - freedoom phase 2 iwad
-- git for the turbo nerd way
+- `git` for the turbo nerd way
 
 ### instructions
 
-#### the stable way
-
-1. click on "Releases"
-
-2. click "Source code"
-
-3. drag and drop the downloaded file into your sourceport of choice or use a launcher
-
-4. enjoy (optional)
-
-if you want the newest experience you can try the other methods below
 #### the nice and quick way
+
+works like a charm and isn't a pain
+
+this is the recommended method although you won't be able to do funky git stuff
 
 1. click on "Code"
 
@@ -59,13 +53,31 @@ if you want the newest experience you can try the other methods below
 
 #### the turbo nerd way
 
+if you have some knowledge of git and/or you're a linux user this is the best option
+
 1. open your terminal of choice
 
 2. write `git clone https://github.com/freedoom-badass-edition/freedoom-badass-edition.git` and press enter
 
-3. type in the name of the executable of your sourceport and `freedoom-badass-edition` following it (`gzdoom freedoom-badass-edition` for example)
+3. type in the name of the executable of your sourceport and `freedoom-badass-edition` following it (`uzdoom freedoom-badass-edition` for example)
 
 4. enjoy (optional)
+
+#### the stable way
+
+this is the most stable out of the other ones but isn't the latest
+
+it is generally advised that you use the other methods
+
+1. click on "Releases"
+
+2. click "Source code"
+
+3. drag and drop the downloaded file into your sourceport of choice or use a launcher
+
+4. enjoy (optional)
+
+if you encounter problems you can contact the fine people at our [discord](https://discord.gg/Rb6DyWyNXV)
 
 # faq
 
@@ -100,15 +112,15 @@ if you need any help or want to find someone willing to play you can check out o
 
 #### is zandronum going to be supported?
 
-no, unless they catch up to the 2549 updates. in the meantime you still can play bad*ss deathmatch on your local network using gzdoom or lzdoom (check the question right above this)
+no, unless they catch up to the 2549 commits and add zscript support. in the meantime you still can play bad*ss deathmatch on your local network using gzdoom or lzdoom (check the question right above this)
 
 #### can I play on other iwads?
 
 the generally recommended experience is playing the mod through freedoom phase 2
 
-phase 1 and the official id software doom iwads are not supported and will not be a pleasant experience due to missing textures or sounds
+phase 1 and the official id software doom iwads are not supported and will not be a pleasant experience due to missing textures and sounds
 
-other iwads like strife, hexen, heretic and more are **DEFINITELY** not supported, and you will definitely have a very busted and janky experience
+other iwads like strife, hexen, heretic, etc., are **DEFINITELY** not supported, and you **will** have a very busted and janky experience
 
 #### i have no money for freedoom
 
@@ -122,19 +134,21 @@ too bad
 
 * gzdoom v4.13: perfect
 * gzdoom v4.14: perfect
-* lzdoom v3.88: alright (missing localization and text)
+* uzdoom v4.14: perfect
+* lzdoom v3.88: alright but it's missing localized text
+* questzdoom: alright but in vr
 * qzdoom: untested but might work
-* your toaster in the kitchen: only works on friday the 13th during a solar eclipse
 * zandronum: doesn't work (no zscript)
 * zdoom: doesn't work (dinosaur)
-* anything non-gzdoom/lzdoom based or vanilla ports: doesn't work (it's built on gzdoom dum dum)
+* anything non-gzdoom/lzdoom based: doesn't work (it's built on gzdoom dum dum)
+* your toaster in the kitchen: only works on friday the 13th during a solar eclipse
 
 # quotes
 
 > "Gapisz mi się na bebech?" - Rafał Walentowicz narrating Philadelphia Charlemagne "Phil" Collins III's translated dialogue
 
 
-> "Fuck this I'm making a  weapon pack for freedoom on my dead gpu for no particular reason" - Saver310
+> "Fuck this I'm making a weapon pack for freedoom on my dead gpu for no particular reason" - Saver310
 
 > "Oops I accidentally created freedoom badass edition" - Saver310
 
@@ -181,7 +195,7 @@ too bad
 
 these are some other cool projects you should check out if you haven't!
 
-[Freedoom](https://github.com/freedoom/freedoom) is a replacement IWAD for the Doom engine, and the whole project was based and built specifically for it
+[Freedoom](https://github.com/freedoom/freedoom) is a replacement iwad for the doom engine, and the whole project was based and built specifically for it
 
 [Biff Fraggar](https://github.com/SmekkyBoy/Biff-Fraggar) is a cool little standalone libre and foss game on the doom engine, created by some of our contributors
 
