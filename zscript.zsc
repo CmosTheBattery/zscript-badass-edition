@@ -23,6 +23,7 @@ CLASS BadassPlayer : DoomPlayer replaces DoomPlayer {
 CLASS SpanishPlayer : BadassPlayer { 
 	Default {
 		Player.Face "SSF";
+		Player.CrouchSprite "";
 		Player.DisplayName "Spanish Sailor";
 		Player.SoundClass "spanish";
 		Player.StartItem "SpanishPistol";
