@@ -20,11 +20,12 @@ IWANT3BIGMAC 3BIGMAC
 HOWCANSHESLAP SLAP
 cocaine/pickup "sounds/getcocaine.wav"
 
-$rumble vent/break HEAVY
-$rumble door/break HEAVY
-$rumble Sraka HEAVY
-$rumble HOWCANSHESLAP HEAVY
-$rumble misc/secret SECRET
+//these cause the sounds to not play
+//$rumble vent/break HEAVY
+//$rumble door/break HEAVY
+//$rumble Sraka HEAVY
+//$rumble HOWCANSHESLAP HEAVY
+//$rumble misc/secret SECRET
 
 $playersound	spanish	male	*death	DSSSDTH
 $playersound	spanish	male	*xdeath		DSSDIEHI
