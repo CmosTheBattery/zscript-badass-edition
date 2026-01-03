@@ -2,28 +2,31 @@ $random sawfail { DSSSTRT1 DSSSTRT2 }
 $limit weapons/rocklx 0
 $random menu/quit { Sraka bebech sailor/raise wolfss/sight door/break misc/secret }
 
-DSCOCKA DSCOCKA
-DSCOCKB DSCOCKB
-DSSGFIRE DSSGFIRE
-DSSSTRT1 DSSSTRT1 
-DSSSTRT2 DSSSTRT2
-DSSAWSAW DSSAWSAW
-Sraka DSSRAKA
-ZUMUPANCHI ZOOMPUNC
-ZUMUPANCHIcocaine COCAPUNC
-sailor/raise DSSSRES
-bebech DSBEBECH
-vent/break VENTBRK
-door/break DOORBRK
-misc/secret SECRET
-IWANT3BIGMAC 3BIGMAC
-HOWCANSHESLAP SLAP
+DSCOCKA "sounds/dscocka.wav"
+DSCOCKB "sounds/dscockb.wav"
+DSSGFIRE "sounds/dssgfire.wav"
+DSSSTRT1 "sounds/dssstrt1.wav" 
+DSSSTRT2 "sounds/dssstrt2.wav"
+DSSAWSAW "sounds/dssawsaw.wav"
+Sraka "sounds/dssraka.wav"
+ZUMUPANCHI "sounds/zoompunc.wav"
+ZUMUPANCHIcocaine "sounds/cocapunc.wav"
+sailor/raise "sounds/dsssres.wav"
+bebech "sounds/dsbebech.wav"
+vent/break "sounds/ventbrk.wav"
+door/break "sounds/doorbrk.wav"
+misc/secret "sounds/secret.wav"
+IWANT3BIGMAC "sounds/3bigmac.wav"
+HOWCANSHESLAP "sounds/slap.wav"
 cocaine/pickup "sounds/getcocaine.wav"
 
-$rumble vent/break HEAVY
-$rumble door/break HEAVY
-$rumble Sraka HEAVY
-$rumble HOWCANSHESLAP HEAVY
+// for some reason the in-game sounds won't play nicely with rumble
+// modern sourceports are a bitch
+// - saver310
+// $rumble vent/break HEAVY
+// $rumble door/break HEAVY
+// $rumble Sraka HEAVY
+// $rumble HOWCANSHESLAP HEAVY
 $rumble misc/secret SECRET
 
 $playersound	spanish	male	*death	DSSSDTH
