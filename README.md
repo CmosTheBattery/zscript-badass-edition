@@ -1,4 +1,4 @@
-# ![freedoom bad*ss edition](screenshots/logo.png)
+# <img src="screenshots/logo.png" title="" alt="freedoom bad*ss edition" data-align="center">
 
 the most bad*ss freedoom mod on earth made for uzdoom
 
@@ -17,13 +17,13 @@ features:
 
 # screenshots
 
-<img src="screenshots/Screenshot_Doom_20250418_111330.png" width="480" height="270">
-<img src="screenshots/Screenshot_Doom_20250418_111230.png" width="480" height="270">
-<img src="screenshots/Screenshot_Doom_20250418_111812.png" width="480" height="270">
-<img src="screenshots/Screenshot_Doom_20250418_111152.png" width="480" height="270">
-<img src="screenshots/Screenshot_Doom_20250418_111916.png" width="480" height="270">
-<img src="screenshots/Screenshot_Doom_20250418_112044.png" width="480" height="270">
-<img src="screenshots/Screenshot_Doom_20250418_111313.png" width="480" height="270">
+<img src="screenshots/Screenshot_Doom_20250418_111330.png" width="480" height="270" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111230.png" width="480" height="270" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111812.png" width="480" height="270" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111152.png" width="480" height="270" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111916.png" width="480" height="270" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_112044.png" width="480" height="270" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111313.png" width="480" height="270" data-align="center">
 
 # installing and launching the mod
 
@@ -137,7 +137,6 @@ too bad
 * gzdoom v4.13: perfect
 * lzdoom v3.88: alright but it's missing localized text
 * questzdoom: alright but in vr
-* 
 * zandronum: doesn't work (no zscript)
 * zdoom: doesn't work (dinosaur)
 * anything non-uzdoom/lzdoom based: doesn't work (it's built on uzdoom dum dum)
@@ -164,6 +163,10 @@ too bad
 > "we're so back I inserted 5 words into readme" - Saver310
 
 > "I swear to god if my computer breaks for the 6th time I'm gonna shoot myself with a 12gauge" - Saver310
+
+> "This fucking sucks my shit through a straw" - Saver310
+
+> "Ball acid dipping" - Saver310
 
 > "I'm gonna change myself, how do I kill this" - rostuhan
 
