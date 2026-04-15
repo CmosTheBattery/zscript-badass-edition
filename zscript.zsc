@@ -440,3 +440,19 @@ CLASS BulletGuru : doomimpball {
 			
 	}
 }
+
+class Harnas : HealthBonus replaces HealthBonus
+{
+	Default
+	{
+		Scale 0.01;
+		Inventory.PickupMessage "$GOTHARNAS";
+		Tag "$TAG_HARNAS";
+	}
+	States
+	{
+	Spawn:
+		HARN A -1;
+		Loop;
+	}
+}

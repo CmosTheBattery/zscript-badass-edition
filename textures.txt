@@ -87,4 +87,9 @@ Texture "riptimmy", 128, 128
 	Patch "textures/riptimmy.png", 0, 0
 }
 
+Texture "harnas", 720, 871
+{
+	Patch "textures/harnas.jpg", 0, 0
+}
+
 // End of texture definitions

@@ -12,6 +12,7 @@ GOTMARINELAUNCHER = "Got the fucket launcher!";
 GOTMARINE = "Picked up a fucket.";
 GOTMARINEBOX = "Picked up a chonk fucket.";
 STEPPEDNUCLEARFUCKET = "You stepped on a nuclear fucket.";
+GOTHARNAS = "Picked up a Harnaś.";
 
 TAG_DSFDCSHOTGUN = "DSFDC Shotgun";
 TAG_OVERCHARGEDMINIGUN = "Overcharged Minigun";
@@ -21,6 +22,7 @@ TAG_SBFKAG = "SBFKAG";
 TAG_SINGULARBULLET = "Singular Bullet";
 TAG_OPRM = "Overcharged Plasma Rifle Model v1";
 TAG_MARINELAUNCHER = "Fucket Launcher";
+TAG_HARNAS = "Harnaś";
 
 OB_DSFDCSHOTGUN = "%k blasted %o away.";
 OB_OVERCHARGEDMINIGUN = "%o was deleted from existence by %k.";
@@ -157,6 +159,7 @@ GOTMARINELAUNCHER = "Zebrano wyrzutnię żołnierzy!";
 GOTMARINE = "Podniesiono żołnierza.";
 GOTMARINEBOX = "Podniesiono grubego żołnierza.";
 STEPPEDNUCLEARFUCKET = "Nadepnąłeś na grubego żołnierza.";
+GOTHARNAS = "Podniesiono Harnasia.";
 
 TAG_DSFDCSHOTGUN = "Strzelba BPCS";
 TAG_OVERCHARGEDMINIGUN = "Nadładowany Minigun";
@@ -166,6 +169,7 @@ TAG_SBFKAG = "Broń Atomowa Marki SWKKD";
 TAG_SINGULARBULLET = "Pojedyńczy Pocisk";
 TAG_OPRM = "Ulepszony Karabin Plazmowy Marki v1";
 TAG_MARINELAUNCHER = "Wyrzutnia Żołnierzy";
+TAG_HARNAS = "Harnaś";
 
 OB_DSFDCSHOTGUN = "%o został@[ao_pl] odstrzelon@[adj_pl] przez %k.";
 OB_OVERCHARGEDMINIGUN = "%o został@[ao_pl] skasowan@[adj_pl] z istnienia przez %k.";
