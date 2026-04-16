@@ -95,9 +95,9 @@ TESTICLETEXT =
 	"After that you suddenly die\n"
 	"THE BAD*SS END.";
 
+BD06_1 = "The door must be unlocked with a terminal.";
 BD12_1 = "\c[Grey]Grey fucket:\c[Gold] Let's go!";
 BD12_2 = "\c[Grey]Grey fucket:\c[Gold] Oh fuck, you fucking fragged me, you bad*ss!";
-
 BD29_1 = "May 24: The Domain of Big Timmy";
 BD29_2 = "Royland, this is command. We've secured the area. Head in the portal, and do what comes natural.";
 BD29_3 = "Consider it done.";
@@ -235,9 +235,9 @@ TESTICLETEXT =
 	"Potem umierasz\n"
 	"Koniec\n";
 
+BD06_1 = "Drzwi muszą być odblokowane terminalem."
 BD12_1 = "\c[Grey]Szary kurwiszon:\c[Gold] Naprzód!";
 BD12_2 = "\c[Grey]Szary kurwiszon:\c[Gold] O kurwa, ty mnie zabiłeś, ty twar***elu!";
-
 BD29_1 = "Maj 24: Domena Wielkiego Timmy'ego";
 BD29_2 = "Royland, to komenda. Zabezpieczyliśmy teren. Wejdź do portalu i załatw wszystkich.";
 BD29_3 = "Robi się.";
