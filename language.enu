@@ -113,6 +113,14 @@ ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and 
 ENDLESS_PLAZA = "Paradise Plaza";
 ENDLESS_PARK = "Leisure Park";
 
+QUITMSG = "Have you tried Endless Mode?";
+QUITMSG1 = "Make sure to join our Discord!";
+QUITMSG2 = "Gapisz mi się na bebech?";
+QUITMSG3 = "Please for fucks sake somebody update the mod";
+QUITMSG4 = "Bad*ss life support";
+QUITMSG5 = "Ball acid dipping";
+QUITMSG6 = "This fucking sucks my shit through a straw";
+QUITMSG7 = "ill start working on map31 soon (when I feel like it)";
 
 [eng] 
 
@@ -251,3 +259,7 @@ BD29_9 = "Poinformuj Piotra Enisa, wróg jest zniszczalny bez Hiszpanii. Pora na
 ENDLESSMODE = "Tryb Nieskończony";
 ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";
 ENDLESS_PARK = "Park Wypoczynku";
+
+QUITMSG = "Czy probówałeś Tryb Nieskończony?";
+QUITMSG1 = "Dołącz się do naszego Discorda!";
+QUITMSG2 = "Gapisz mi się na bebech?";

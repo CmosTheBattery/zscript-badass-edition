@@ -497,6 +497,7 @@ GameInfo
 	PlayerClasses = "BadassPlayer", "SpanishPlayer"
 	TitleMusic = "D_TITLE"
 	CursorPic = "graphics/cursor.png"
+	QuitMessages = "$DEATHSCREEN", "$SKILL_ASS", "$SKILL_BAD", "$QUITMSG", "$QUITMSG1", "$QUITMSG2", "$QUITMSG3", "$QUITMSG4", "$QUITMSG5", "$QUITMSG6", "$QUITMSG7"
 }
 DoomEdNums
 {
