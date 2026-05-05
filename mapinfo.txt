@@ -2,9 +2,13 @@ Episode BADASS01
 {
 	Name = "Freedoom Bad*ss Mappack"
 }
-Episode BADASS34
+Episode ENDLES01
 {
-	Name = "$ENDLESSMODE"
+	Name = "$ENDLES01"
+}
+Episode ENDLES02
+{
+	Name = "$ENDLES02"
 }
 Episode TESTICLE
 {

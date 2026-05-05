@@ -1,6 +1,7 @@
-$random sawfail { DSSSTRT1 DSSSTRT2 }
 $limit weapons/rocklx 0
+$random sawfail { DSSSTRT1 DSSSTRT2 }
 $random menu/quit { Sraka bebech sailor/raise wolfss/sight door/break misc/secret }
+$random rozjebaneszklo {szklo2 szklo3 szklo4 szklo5 szklo6}
 
 DSCOCKA "sounds/dscocka.wav"
 DSCOCKB "sounds/dscockb.wav"
@@ -19,6 +20,11 @@ misc/secret "sounds/secret.wav"
 IWANT3BIGMAC "sounds/3bigmac.wav"
 HOWCANSHESLAP "sounds/slap.wav"
 cocaine/pickup "sounds/getcocaine.wav"
+szklo1 "sounds/glass_largesheet_break1.wav"
+szklo2 "sounds/glass_largesheet_break3.wav"
+szklo3 "sounds/glass_sheet_break1.wav"
+szklo4 "sounds/glass_sheet_break2.wav"
+szklo5 "sounds/glass_sheet_break3.wav"
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch
