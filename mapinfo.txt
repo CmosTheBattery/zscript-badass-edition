@@ -342,6 +342,7 @@ Map ENDLES02 "$ENDLES02" {
 	Next = ENDLES02
 	SecretNext = ENDLES02
 	Sky1 = SKY3
+	Sky2 = SKY1
 	Music = D_COUNT2
 	Author = SmekkyBoy
 }
