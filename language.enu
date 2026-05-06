@@ -72,6 +72,13 @@ BADASS30 = "Victory of Jaws";
 BADASS31 = "A Bad*ss Ride to Them";
 TESTICLE = "The very end of your PC if you're playing on GZDoom";
 TITLEMAP = "Stupid fucking TITLEMAP, which title you shouldn't see. Oh well.";
+ENDLES01 = "Endless: Penis Map";
+ENDLES02 = "Endless: Nacht Der Un Bad*ss";
+
+ENDLESSMODE = "Endless Mode";
+ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
+ENDLESS_PLAZA = "Paradise Plaza";
+ENDLESS_PARK = "Leisure Park";
 
 DEATHSCREEN = "You fucked up";
 SECRETTEXT =
@@ -108,12 +115,8 @@ BD29_7 = "Say hi to your brother in hell for me.";
 BD29_8 = "Roy! You magnificent bastard, you've done it! The population of Spain has been freed from the mind control!";
 BD29_9 = "Send word to Pete Enis, the enemy is vulnerable without Spain. Time for the final attack!";
 
-ENDLESSMODE = "Endless Mode";
-ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
-ENDLESS_PLAZA = "Paradise Plaza";
-ENDLESS_PARK = "Leisure Park";
 
-QUITMSG = "Have you tried Endless Mode?";
+QUITMSG = "Make sure to try Endless Mode!";
 QUITMSG1 = "Make sure to join our Discord!";
 QUITMSG2 = "Gapisz mi się na bebech?";
 QUITMSG3 = "Please for fucks sake somebody update the mod";
@@ -219,6 +222,12 @@ BADASS29 = "Domena Wielkiego Timmy'ego";
 BADASS30 = "Wygrana Szczęk";
 TESTICLE = "Koniec twojego komputera jeśli korzystasz z GZDoom";
 TITLEMAP = "Debilna TITLEMAPa, której tytułu nie powinno się widzieć. Dupa.";
+ENDLES01 = "Nieskończony: Penisowa Mapa";
+ENDLES02 = "Nieskończony: Nacht Der Un Bad*ss";
+
+ENDLESSMODE = "Tryb Nieskończony";
+ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";
+ENDLESS_PARK = "Park Wypoczynku";
 
 DEATHSCREEN = "Spierdoliłeś";
 SECRETTEXT =
@@ -255,10 +264,6 @@ BD29_6 = "NIE! TY TWARDZIELSYNU!";
 BD29_7 = "Pozdrów swojego brata w piekle.";
 BD29_8 = "Roy! Udało ci się! Populacja Hiszpanii jest uwolniona od kontroli umysłu!";
 BD29_9 = "Poinformuj Piotra Enisa, wróg jest zniszczalny bez Hiszpanii. Pora na ostateczny atak!";
-
-ENDLESSMODE = "Tryb Nieskończony";
-ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";
-ENDLESS_PARK = "Park Wypoczynku";
 
 QUITMSG = "Czy probówałeś Tryb Nieskończony?";
 QUITMSG1 = "Dołącz się do naszego Discorda!";

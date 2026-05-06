@@ -2,9 +2,13 @@ Episode BADASS01
 {
 	Name = "Freedoom Bad*ss Mappack"
 }
-Episode BADASS34
+Episode ENDLES01
 {
-	Name = "$ENDLESSMODE"
+	Name = "$ENDLES01"
+}
+Episode ENDLES02
+{
+	Name = "$ENDLES02"
 }
 Episode TESTICLE
 {
@@ -303,14 +307,6 @@ Map BADASS33 "Boring Test Map" {
 	Music = D_RUNNIN
 	Author = Saver310
 }
-Map BADASS34 "$ENDLESSMODE" {
-	LevelNum = 34
-	Next = BADASS34
-	SecretNext = BADASS34
-	Sky1 = SKY3
-	Music = D_RUNNIN
-	Author = SmekkyBoy
-}
 Map BADASS86 "Bad*ss Apple" {
 	LevelNum = 86
 	Next = BADASS28
@@ -334,6 +330,21 @@ Map TITLEMAP "$TITLEMAP"
 	NoJump
 	NoFreeLook
 	NoCrouch
+}
+Map ENDLES01 "$ENDLES01" {
+	Next = ENDLES01
+	SecretNext = ENDLES01
+	Sky1 = SKY3
+	Music = D_RUNNIN
+	Author = SmekkyBoy
+}
+Map ENDLES02 "$ENDLES02" {
+	Next = ENDLES02
+	SecretNext = ENDLES02
+	Sky1 = SKY3
+	Sky2 = SKY1
+	Music = D_COUNT2
+	Author = SmekkyBoy
 }
 Intermission Deth
 {

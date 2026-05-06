@@ -21,3 +21,8 @@ texture optional M_SKULL1
 	pic badskulf tics 3
 	pic badskule tics 3	
 	pic badskulc tics 3
+
+switch glass1
+ON
+sound rozjebaneszklo
+pic textures/glass2.png tics 0
