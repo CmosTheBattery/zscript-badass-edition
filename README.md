@@ -168,11 +168,21 @@ too bad
 
 > "Ball acid dipping" - Saver310
 
+> "Ssie dupsko" - Saver310
+
+> "Yeah hotter like haha you sex ha women spicy mama mia gifs internet videos" - Saver310
+
+> "Also I think I should throw a large brick at someone" - Saver310
+
+> "I was gonna update FD:B*E Until I got high" - Saver310
+
 > "I'm gonna change myself, how do I kill this" - rostuhan
 
 > "Imagine if Freedoom: Bad*ss Edition had a water gun that broke balls" - rostuhan
 
 > "Bad*ss life support" - rostuhan
+
+> "Having a broken GPU with glitched out colours is the intended way to play" - rostuhan
 
 > "WHITOID SPOTTED" - SmekkyBoy
 
@@ -180,11 +190,15 @@ too bad
 
 > "human rights REVOKED!!!!!" - SmekkyBoy
 
+> "Whoever fucking changed my username will know the wrath of gods employers if i find them" - SmekkyBoy
+
 > "ill start working on map31 soon (when I feel like it)" - Xiaojun Yue (Dari)
 
 > "i've had my job STOLEN i will be working on badass27 now if i feel like it" - Xiaojun Yue (Dari)
 
 > "why" - CMOS555
+
+> "Evil scary dillar 💀💀💀" - Morris
 
 > "Oops" - Everyone after a pull request is pushed to the main branch and it breaks everything
 
