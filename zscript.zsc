@@ -456,3 +456,19 @@ class Harnas : HealthBonus replaces HealthBonus
 		Loop;
 	}
 }
+
+class GlassJunkNew : GlassJunk replaces GlassJunk
+{
+	States
+	{
+	Spawn:
+		SHAR A 128;
+		Goto Death;
+		SHAR B 128;
+		Goto Death;
+		SHAR C 128;
+		Goto Death;
+		SHAR D 128;
+		Goto Death;
+	}
+} 
