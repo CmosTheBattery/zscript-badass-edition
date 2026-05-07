@@ -321,7 +321,7 @@ CLASS Convicts : ACTOR { //32420
 	Default {
 		
 		Radius 20;
-		health 9800;
+		health 3000;
 		Height 56;
 		Obituary "$OB_CONVICTS";
 		Speed 9;
@@ -424,9 +424,9 @@ CLASS Convicts : ACTOR { //32420
 CLASS BulletGuru : doomimpball { 
 	Default {
 		
-		speed 69;
+		speed 20;
 		SeeSound "weapons/pistol";
-		Damage 5;
+		Damage 2;
 		Decal "Scorch";
 		Obituary "$OB_CONVICTS";
 		+RIPPER;
@@ -474,4 +474,34 @@ class GlassJunkNew : GlassShard replaces GlassJunk
 		SHAR A 30;
 		Stop;
 	}
-} 
+}
+
+class EndlessBossEye : BossEye
+{
+	Default
+	{
+		DropItem "DoomImp",         255, 50;
+		DropItem "Demon",	        255, 40;
+		DropItem "Spectre",	        255, 30;
+		DropItem "PainElemental",   255, 10;
+		DropItem "Trilobyte",       255, 30;
+		DropItem "Archvile",        255,  2;
+		DropItem "Revenant",        255, 10;
+		DropItem "Arachnotron",     255, 20;
+		DropItem "Fatso",           255, 30;
+		DropItem "HellKnight",      255, 24;
+		DropItem "BaronOfHell",     255, 10;
+		DropItem "Convicts",		255, 4;
+		DropItem "WolfensteinSS",	255, 10;
+	}
+	States
+	{
+	Spawn:
+		SSWV A 10 A_Look;
+		Loop;
+	See:
+		SSWV A 181;
+		SSWV A 150 A_BrainSpit;
+		Wait;
+	}
+}

@@ -520,5 +520,6 @@ DoomEdNums
 	26021 = "FakeDeathSailor"
 	26022 = "WorkerZombie"
 	26023 = "NukeBarrel"
+	26024 = "EndlessBossEye"
 	32420 = "Convicts"
 }
