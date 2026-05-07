@@ -457,18 +457,21 @@ class Harnas : HealthBonus replaces HealthBonus
 	}
 }
 
-class GlassJunkNew : GlassJunk replaces GlassJunk
+class GlassJunkNew : GlassShard replaces GlassJunk
 {
+	Default
+	{
+		-NOGRAVITY;
+		Health 3;
+		Gravity 0.5;
+	}
 	States
 	{
 	Spawn:
-		SHAR A 128;
-		Goto Death;
-		SHAR B 128;
-		Goto Death;
-		SHAR C 128;
-		Goto Death;
-		SHAR D 128;
-		Goto Death;
+		SHAR ABCD 4;
+		Loop;
+	 Death:
+		SHAR A 30;
+		Stop;
 	}
 } 
