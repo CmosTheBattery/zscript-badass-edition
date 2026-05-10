@@ -99,4 +99,10 @@ Texture "glass2", 128, 128
 	Patch "textures/glass2.png", 0, 0
 }
 
+
+Texture "harnass", 720, 871
+{
+	Patch "textures/harnas.png", 0, 0
+}
+
 // End of texture definitions
