@@ -74,6 +74,9 @@ TESTICLE = "The very end of your PC if you're playing on GZDoom";
 TITLEMAP = "Stupid fucking TITLEMAP, which title you shouldn't see. Oh well.";
 ENDLES01 = "Endless: Penis Map";
 ENDLES02 = "Endless: Nacht Der Un Bad*ss";
+ATTICVOL1 = "FD Attic Vol. 1";
+BADE2M1 = "Watered Down E2M1 From Doom";
+BADE1M3 = "Ball Torture E1M3";
 
 ENDLESSMODE = "Endless Mode";
 ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
@@ -114,7 +117,6 @@ BD29_6 = "NO! YOU SON OF A BADASS!";
 BD29_7 = "Say hi to your brother in hell for me.";
 BD29_8 = "Roy! You magnificent bastard, you've done it! The population of Spain has been freed from the mind control!";
 BD29_9 = "Send word to Pete Enis, the enemy is vulnerable without Spain. Time for the final attack!";
-
 
 QUITMSG = "Make sure to try Endless Mode!";
 QUITMSG1 = "Make sure to join our Discord!";

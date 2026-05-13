@@ -14,6 +14,15 @@ Episode TESTICLE
 {
 	Name = "TESTICLES.wad"
 }
+Episode BADE1M3
+{
+	Name = "$BADE1M3"
+}
+Episode BADE2M1
+{
+	Name = "$BADE2M1"
+}
+
 Map BADASS01 "$BADASS01"
 {
 	LevelNum = 1
@@ -345,6 +354,18 @@ Map ENDLES02 "$ENDLES02" {
 	Sky2 = SKY1
 	Music = D_COUNT2
 	Author = SmekkyBoy
+}
+Map BADE2M1 "Watered Down E2M1 From Doom"
+{
+	Sky1 = SKY3
+	Music = D_RUNNIN
+	Author = Shadowrunner
+}
+Map BADE1M3 "Ball Torture E1M3"
+{
+	Sky1 = SKY3
+	Music = D_COCKER
+	Author = Siggi
 }
 Intermission Deth
 {
