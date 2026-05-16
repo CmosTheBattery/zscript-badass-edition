@@ -22,6 +22,10 @@ Episode BADE2M1
 {
 	Name = "$BADE2M1"
 }
+Episode CREDITS
+{
+	Name = "$CREDITS"
+}
 
 Map BADASS01 "$BADASS01"
 {
@@ -283,10 +287,17 @@ Map BADASS29 "$BADASS29"
 Map BADASS30 "$BADASS30"
 {
 	LevelNum = 30
-	Next = endsequence,TheBadassEnd
+	Next = CREDITS
 	Sky1 = SKY3
 	Music = D_OPENIN
 	Par = 45
+	Author = Saver310
+}
+Map CREDITS "$CREDITS"
+{
+	Next = endsequence,TheBadassEnd
+	Sky1 = SKY2
+	Music = D_CREDITS
 	Author = Saver310
 }
 Map BADASS31 "$BADASS31" {
@@ -355,13 +366,13 @@ Map ENDLES02 "$ENDLES02" {
 	Music = D_COUNT2
 	Author = SmekkyBoy
 }
-Map BADE2M1 "Watered Down E2M1 From Doom"
+Map BADE2M1 "$BADE2M1"
 {
 	Sky1 = SKY3
 	Music = D_RUNNIN
 	Author = Shadowrunner
 }
-Map BADE1M3 "Ball Torture E1M3"
+Map BADE1M3 "$BADE1M3"
 {
 	Sky1 = SKY3
 	Music = D_COCKER

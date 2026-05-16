@@ -109,4 +109,9 @@ Texture "harnass", 720, 871
 	Patch "textures/harnas.png", 0, 0
 }
 
+Texture "credits", 192, 1536
+{
+	Patch "textures/credits.png", 0, 0
+}
+
 // End of texture definitions

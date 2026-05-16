@@ -213,3 +213,8 @@ these are some other cool projects you should check out if you haven't!
 [SLADE](https://slade.mancubus.net/index.php), it's a doom editor and it is truly bad*ss
 
 [UZDoom](https://github.com/UZDoom/UZDoom) is a way better version of unoptimized but powerful spawn of hell, which powers our mod, [that doesn't use ChatGPT](https://github.com/ZDoom/gzdoom/issues/3395)
+
+[Aseprite](https://www.aseprite.org/) is one of the best pixel art programs I've ever used - Saver310
+
+[Inkscape](https://inkscape.org/) is a solid vector graphics editor, and I've used it to create the CREDITS texture - Saver310
+

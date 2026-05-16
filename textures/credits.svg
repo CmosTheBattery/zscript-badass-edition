@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="192"
+   height="1536"
+   viewBox="0 0 50.799994 406.39995"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="credits.svg"
+   inkscape:export-filename="credits.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5073232"
+     inkscape:cx="-164.86179"
+     inkscape:cy="1457.8824"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" /><defs
+     id="defs2"><rect
+       x="25.194825"
+       y="1406.6122"
+       width="110.67123"
+       height="86.868376"
+       id="rect1341" /><linearGradient
+       inkscape:collect="always"
+       id="linearGradient4222"><stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4218" /><stop
+         style="stop-color:#aaaaaa;stop-opacity:1;"
+         offset="1"
+         id="stop4220" /></linearGradient><rect
+       x="1.4417755e-06"
+       y="288"
+       width="192"
+       height="1056"
+       id="rect806" /><filter
+       style="color-interpolation-filters:sRGB"
+       height="1.0088694"
+       width="1.0507835"
+       y="-0.004434702"
+       x="-0.025391774"
+       inkscape:label="Outline"
+       id="filter2009"><feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="0.70686"
+         result="blur1"
+         id="feGaussianBlur1985" /><feComposite
+         in="SourceGraphic"
+         in2="blur1"
+         operator="out"
+         result="composite1"
+         id="feComposite1987" /><feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 19.8827 -1.97644 "
+         result="colormatrix1"
+         id="feColorMatrix1989" /><feGaussianBlur
+         stdDeviation="0.5"
+         result="blur2"
+         id="feGaussianBlur1991" /><feComposite
+         in="blur2"
+         in2="blur2"
+         operator="in"
+         result="composite2"
+         id="feComposite1993" /><feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 49.2938 -5 "
+         result="colormatrix2"
+         id="feColorMatrix1995" /><feGaussianBlur
+         stdDeviation="0.660824"
+         result="blur3"
+         id="feGaussianBlur1997" /><feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="colormatrix3"
+         id="feColorMatrix1999" /><feFlood
+         flood-opacity="1"
+         flood-color="rgb(255,255,255)"
+         result="flood"
+         id="feFlood2001" /><feComposite
+         in="flood"
+         in2="colormatrix3"
+         operator="in"
+         result="composite3"
+         id="feComposite2003" /><feComposite
+         in="SourceGraphic"
+         in2="colormatrix3"
+         operator="out"
+         result="composite4"
+         id="feComposite2005" /><feComposite
+         in="composite4"
+         in2="composite3"
+         k2="1"
+         k3="1"
+         operator="arithmetic"
+         result="composite5"
+         id="feComposite2007"
+         k1="0"
+         k4="0" /></filter><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4222"
+       id="linearGradient4224"
+       x1="14.111308"
+       y1="384.65509"
+       x2="174.46681"
+       y2="384.65509"
+       gradientUnits="userSpaceOnUse" /></defs><g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="reference bullshit hide when exporting"
+     style="display:none"><rect
+       style="fill:#a02c2c;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"
+       id="rect530"
+       width="50.799999"
+       height="50.799999"
+       x="3.8146973e-07"
+       y="50.799999" /><rect
+       style="display:inline;fill:#a02c2c;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"
+       id="rect530-3"
+       width="50.799999"
+       height="50.799999"
+       x="-6.6757201e-07"
+       y="355.59998" /><rect
+       style="fill:#782121;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"
+       id="rect644"
+       width="50.799999"
+       height="50.799999"
+       x="0"
+       y="0" /><rect
+       style="fill:#c83737;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"
+       id="rect698"
+       width="50.799999"
+       height="50.799999"
+       x="3.8146973e-07"
+       y="101.6" /><rect
+       style="display:inline;fill:#d35f5f;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"
+       id="rect698-8"
+       width="50.799999"
+       height="50.799999"
+       x="3.8146973e-07"
+       y="152.39999" /><rect
+       style="display:inline;fill:#de8787;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"
+       id="rect698-8-9"
+       width="50.799999"
+       height="50.799999"
+       x="3.8146973e-07"
+       y="203.19998" /><rect
+       style="display:inline;fill:#d35f5f;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"
+       id="rect698-8-9-3"
+       width="50.799999"
+       height="50.799999"
+       x="1.9073487e-07"
+       y="253.99998" /><rect
+       style="display:inline;fill:#c83737;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"
+       id="rect698-1"
+       width="50.799999"
+       height="50.799999"
+       x="-3.8146973e-07"
+       y="304.79999" /></g><g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline;fill:#ffffff"><image
+       width="42.068748"
+       height="12.964583"
+       preserveAspectRatio="none"
+       style="fill:#ffffff;image-rendering:optimizeSpeed"
+       xlink:href="data:image/png;base64,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 "
+       id="image264"
+       x="4.3656263"
+       y="53.306725" /><text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text804"
+       style="font-size:16px;font-family:Impact;-inkscape-font-specification:Impact;white-space:pre;shape-inside:url(#rect806);display:inline;fill:#ffffff;fill-opacity:1;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel;filter:url(#filter2009)"
+       x="84.015495"
+       y="0"><tspan
+         x="17.71875"
+         y="315.80381"
+         id="tspan2873"><tspan
+   style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+   id="tspan2871">a mod by:</tspan>
+</tspan><tspan
+         x="60.166656"
+         y="344.01732"
+         id="tspan2877"><tspan
+   style="font-family:Fallouty;-inkscape-font-specification:Fallouty"
+   id="tspan2875">Saver310</tspan>
+</tspan><tspan
+         x="63.222656"
+         y="366.30845"
+         id="tspan2879">rostuhan
+</tspan><tspan
+         x="52.964844"
+         y="388.59959"
+         id="tspan2883"><tspan
+   style="font-family:'Mortal Kombat 3';-inkscape-font-specification:'Mortal Kombat 3, '"
+   id="tspan2881">SmekkyBoy</tspan>
+</tspan><tspan
+         x="40.800781"
+         y="410.89073"
+         id="tspan2885">blitzdoughnuts
+</tspan><tspan
+         x="33.355469"
+         y="433.18187"
+         id="tspan2887">CmosTheBattery
+</tspan><tspan
+         x="80.046875"
+         y="455.473"
+         id="tspan2889">Dari
+</tspan><tspan
+         x="70.90625"
+         y="477.76414"
+         id="tspan2891">Morris
+</tspan><tspan
+         x="96"
+         y="500.05528"
+         id="tspan2893">
+</tspan><tspan
+         x="18.921997"
+         y="524.86495"
+         id="tspan2897"><tspan
+           style="font-weight:bold;font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan2895">special thanks:
+</tspan></tspan><tspan
+         x="59.207031"
+         y="549.01304"
+         id="tspan2901"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2899">Freedoom
+</tspan></tspan><tspan
+         x="64.335938"
+         y="571.30418"
+         id="tspan2905"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2903">Doomkid
+</tspan></tspan><tspan
+         x="27.234375"
+         y="593.59532"
+         id="tspan2909"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2907">Rafał Walentowicz
+</tspan></tspan><tspan
+         x="30.289062"
+         y="615.88646"
+         id="tspan2913"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2911">Bartosz Żukowski
+</tspan></tspan><tspan
+         x="68.074219"
+         y="638.17759"
+         id="tspan2917"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2915">Karolek
+</tspan></tspan><tspan
+         x="6.9648438"
+         y="660.46873"
+         id="tspan2921"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2919">Arnold Schwarzenegger
+</tspan></tspan><tspan
+         x="69.742188"
+         y="682.75987"
+         id="tspan2925"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2923">Harnaś
+</tspan></tspan><tspan
+         x="70.015625"
+         y="705.05101"
+         id="tspan2929"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2927">B.P.R.D
+</tspan></tspan><tspan
+         x="47.171875"
+         y="727.34215"
+         id="tspan2933"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2931">Chuck Norris
+</tspan></tspan><tspan
+         x="96"
+         y="749.63328"
+         id="tspan2937"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2935">
+</tspan></tspan><tspan
+         x="10.994926"
+         y="774.44295"
+         id="tspan2945"><tspan
+           style="font-size:21.3333px"
+           id="tspan2939">our benefactors</tspan><tspan
+           style="font-weight:bold;font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan2941">:</tspan><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2943">
+</tspan></tspan><tspan
+         x="59.207031"
+         y="798.82536"
+         id="tspan2949"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2947">Freedoom
+</tspan></tspan><tspan
+         x="48.96875"
+         y="821.1165"
+         id="tspan2953"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2951">Biff Fraggar
+</tspan></tspan><tspan
+         x="69.425781"
+         y="843.40764"
+         id="tspan2957"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2955">SLADE
+</tspan></tspan><tspan
+         x="64.15625"
+         y="865.69877"
+         id="tspan2961"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2959">UZDoom
+</tspan></tspan><tspan
+         x="63.355469"
+         y="887.98991"
+         id="tspan2965"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2963">Aseprite
+</tspan></tspan><tspan
+         x="62.363281"
+         y="910.28105"
+         id="tspan2969"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2967">Inkscape
+</tspan></tspan><tspan
+         x="96"
+         y="932.57219"
+         id="tspan2973"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2971">
+</tspan></tspan><tspan
+         x="96"
+         y="954.86332"
+         id="tspan2977"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2975">
+</tspan></tspan><tspan
+         x="28.8125"
+         y="977.15446"
+         id="tspan2981"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2979">thanks for playing
+</tspan></tspan><tspan
+         x="14.222656"
+         y="999.4456"
+         id="tspan2985"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2983">our mod! you are truly </tspan></tspan><tspan
+         x="31.871094"
+         y="1021.7367"
+         id="tspan2989"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2987">one tough bad*ss
+</tspan></tspan><tspan
+         x="96"
+         y="1044.0279"
+         id="tspan2993"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2991">
+</tspan></tspan><tspan
+         x="96"
+         y="1066.3191"
+         id="tspan2997"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan2995">
+</tspan></tspan><tspan
+         x="62.585938"
+         y="1100.3967"
+         id="tspan3001"><tspan
+           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan2999">THE </tspan></tspan><tspan
+         x="32"
+         y="1140.3967"
+         id="tspan3005"><tspan
+           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan3003">BAD*SS </tspan></tspan><tspan
+         x="54.515625"
+         y="1180.3967"
+         id="tspan3009"><tspan
+           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan3007">END.
+</tspan></tspan><tspan
+         x="96"
+         y="1220.3967"
+         id="tspan3013"><tspan
+           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan3011">
+</tspan></tspan><tspan
+         x="22.406366"
+         y="1250.8944"
+         id="tspan3017"><tspan
+           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3015">now press that </tspan></tspan><tspan
+         x="4.1511867"
+         y="1277.5611"
+         id="tspan3021"><tspan
+           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3019">exit switch behind </tspan></tspan><tspan
+         x="40.187588"
+         y="1304.2277"
+         id="tspan3027"><tspan
+           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3023">you will ya?</tspan><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3025">
+</tspan></tspan><tspan
+         x="96"
+         y="1328.6101"
+         id="tspan3031"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3029">
+</tspan></tspan><tspan
+         x="0"
+         y="1350.9012"
+         id="tspan3035"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3033">
+</tspan></tspan><tspan
+         x="0"
+         y="1360.0173"
+         id="tspan3039"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3037">
+</tspan></tspan><tspan
+         x="0"
+         y="1382.3085"
+         id="tspan3043"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3041">
+</tspan></tspan><tspan
+         x="0"
+         y="1404.5996"
+         id="tspan3047"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan3045">
+</tspan></tspan><tspan
+         x="0"
+         y="1426.8907"
+         id="tspan3049">
+</tspan><tspan
+         x="0"
+         y="1449.1819"
+         id="tspan3051">
+</tspan><tspan
+         x="0"
+         y="1471.473"
+         id="tspan3055"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3053">
+</tspan></tspan><tspan
+         x="0"
+         y="1493.7642"
+         id="tspan3059"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3057">
+</tspan></tspan><tspan
+         x="0"
+         y="1516.0553"
+         id="tspan3063"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3061">
+</tspan></tspan><tspan
+         x="0"
+         y="1538.3464"
+         id="tspan3067"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3065">
+</tspan></tspan><tspan
+         x="0"
+         y="1560.6376"
+         id="tspan3071"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3069">
+</tspan></tspan><tspan
+         x="0"
+         y="1582.9287"
+         id="tspan3075"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3073">
+</tspan></tspan><tspan
+         x="0"
+         y="1605.2199"
+         id="tspan3079"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3077">
+</tspan></tspan><tspan
+         x="0"
+         y="1627.511"
+         id="tspan3083"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3081">
+</tspan></tspan><tspan
+         x="0"
+         y="1649.8022"
+         id="tspan3087"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3085">
+</tspan></tspan><tspan
+         x="0"
+         y="1672.0933"
+         id="tspan3091"><tspan
+           dx="0 10.054688 8.1875 8.1328125 8.1875 3.6328125 4.78125 16.632812 8.1875 4.3828125 8.765625 8.375 7.5390625 8.4140625 10.945312 4.484375 8.21875"
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle"
+           id="tspan3089">Rafał Walentowicz</tspan></tspan></text><text
+       xml:space="preserve"
+       transform="matrix(0.50910569,0,0,0.26458333,-6.9295084,14.491328)"
+       id="text1339"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';white-space:pre;shape-inside:url(#rect1341);display:inline;fill:#848484;stroke:#3e3e3e;stroke-width:0;stroke-linejoin:bevel"><tspan
+         x="25.195312"
+         y="1424.9129"
+         id="tspan3095"><tspan
+           style="fill:#ffffff"
+           id="tspan3093">go away</tspan></tspan></text></g></svg>
