@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4.2633538"
-     inkscape:cx="81.743157"
+     inkscape:cx="76.817458"
      inkscape:cy="389.4821"
      inkscape:window-width="1920"
      inkscape:window-height="1022"
@@ -57,9 +57,9 @@
        height="1056"
        id="rect806" /><filter
        style="color-interpolation-filters:sRGB"
-       height="1.0065212"
+       height="1.0064672"
        width="1.0359146"
-       y="-0.003260606"
+       y="-0.0032336125"
        x="-0.01795731"
        inkscape:label="Outline"
        id="filter2009"><feGaussianBlur
@@ -195,339 +195,351 @@
        y="0"><tspan
          x="17.71875"
          y="315.80381"
-         id="tspan1670"><tspan
+         id="tspan1520"><tspan
    style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
-   id="tspan1668">a mod by:</tspan>
+   id="tspan1518">a mod by:</tspan>
 </tspan><tspan
          x="60.166656"
          y="344.01732"
-         id="tspan1674"><tspan
+         id="tspan1524"><tspan
    style="font-family:Fallouty;-inkscape-font-specification:Fallouty"
-   id="tspan1672">Saver310</tspan>
+   id="tspan1522">Saver310</tspan>
 </tspan><tspan
-         x="42.666801"
-         y="365.23463"
-         id="tspan1678"><tspan
-   style="font-size:13.3333px;font-family:touhou98;-inkscape-font-specification:touhou98"
-   id="tspan1676">rostuhan</tspan>
+         x="32"
+         y="367.21732"
+         id="tspan1528"><tspan
+   style="font-family:touhou98;-inkscape-font-specification:touhou98"
+   id="tspan1526">rostuhan</tspan>
 </tspan><tspan
          x="52.964844"
-         y="385.23463"
-         id="tspan1682"><tspan
+         y="387.21733"
+         id="tspan1532"><tspan
    style="font-family:'Mortal Kombat 3';-inkscape-font-specification:'Mortal Kombat 3, '"
-   id="tspan1680">SmekkyBoy</tspan>
+   id="tspan1530">SmekkyBoy</tspan>
 </tspan><tspan
-         x="46.707031"
-         y="407.09569"
-         id="tspan1684">blitzdoughnuts
-</tspan><tspan
-         x="41.570312"
-         y="427.09569"
-         id="tspan1686">CmosTheBattery
-</tspan><tspan
-         x="82.492188"
-         y="447.09569"
-         id="tspan1688">Dari
-</tspan><tspan
-         x="74.492188"
-         y="467.09569"
-         id="tspan1690">Morris
+         x="34.421875"
+         y="409.07838"
+         id="tspan1538"><tspan
+           style="font-family:Consolas;-inkscape-font-specification:Consolas"
+           id="tspan1534">blitzdoughnuts</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan1536">
+</tspan></tspan><tspan
+         x="40"
+         y="431.21287"
+         id="tspan1544"><tspan
+           style="font-family:Kongtext;-inkscape-font-specification:Kongtext"
+           id="tspan1540">CMOS555</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan1542">
+</tspan></tspan><tspan
+         x="78.40625"
+         y="452.81813"
+         id="tspan1548"><tspan
+           style="font-family:Consolas;-inkscape-font-specification:Consolas"
+           id="tspan1546">Dari
+</tspan></tspan><tspan
+         x="69.609375"
+         y="474.95262"
+         id="tspan1552"><tspan
+   style="font-family:Consolas;-inkscape-font-specification:Consolas"
+   id="tspan1550">Morris</tspan>
 </tspan><tspan
          x="96"
-         y="487.09569"
-         id="tspan1692">
+         y="497.08711"
+         id="tspan1554">
 </tspan><tspan
          x="18.921997"
-         y="509.61422"
-         id="tspan1696"><tspan
+         y="519.60564"
+         id="tspan1558"><tspan
            style="font-weight:bold;font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
-           id="tspan1694">special thanks:
+           id="tspan1556">special thanks:
 </tspan></tspan><tspan
          x="59.207031"
-         y="533.76231"
-         id="tspan1700"><tspan
+         y="543.75371"
+         id="tspan1562"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1698">Freedoom
+           id="tspan1560">Freedoom
 </tspan></tspan><tspan
          x="64.335938"
-         y="556.05345"
-         id="tspan1704"><tspan
+         y="566.04484"
+         id="tspan1566"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1702">Doomkid
+           id="tspan1564">Doomkid
 </tspan></tspan><tspan
          x="27.234375"
-         y="578.34459"
-         id="tspan1708"><tspan
+         y="588.33598"
+         id="tspan1570"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1706">Rafał Walentowicz
+           id="tspan1568">Rafał Walentowicz
 </tspan></tspan><tspan
          x="30.289062"
-         y="600.63572"
-         id="tspan1712"><tspan
+         y="610.62712"
+         id="tspan1574"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1710">Bartosz Żukowski
+           id="tspan1572">Bartosz Żukowski
 </tspan></tspan><tspan
          x="68.074219"
-         y="622.92686"
-         id="tspan1716"><tspan
+         y="632.91826"
+         id="tspan1578"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1714">Karolek
+           id="tspan1576">Karolek
 </tspan></tspan><tspan
          x="6.9648438"
-         y="645.218"
-         id="tspan1720"><tspan
+         y="655.20939"
+         id="tspan1582"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1718">Arnold Schwarzenegger
+           id="tspan1580">Arnold Schwarzenegger
 </tspan></tspan><tspan
          x="69.742188"
-         y="667.50914"
-         id="tspan1724"><tspan
+         y="677.50053"
+         id="tspan1586"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1722">Harnaś
+           id="tspan1584">Harnaś
 </tspan></tspan><tspan
          x="70.015625"
-         y="689.80028"
-         id="tspan1728"><tspan
+         y="699.79167"
+         id="tspan1590"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1726">B.P.R.D
+           id="tspan1588">B.P.R.D
 </tspan></tspan><tspan
          x="47.171875"
-         y="712.09141"
-         id="tspan1732"><tspan
+         y="722.08281"
+         id="tspan1594"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1730">Chuck Norris
+           id="tspan1592">Chuck Norris
 </tspan></tspan><tspan
          x="96"
-         y="734.38255"
+         y="744.37394"
+         id="tspan1598"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1596">
+</tspan></tspan><tspan
+         x="21.349076"
+         y="772.00415"
+         id="tspan1606"><tspan
+           style="font-size:21.3333px"
+           id="tspan1600">our benefactors</tspan><tspan
+           style="font-weight:bold;font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan1602">:</tspan><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1604">
+</tspan></tspan><tspan
+         x="59.207031"
+         y="796.15226"
+         id="tspan1610"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1608">Freedoom
+</tspan></tspan><tspan
+         x="48.96875"
+         y="818.4434"
+         id="tspan1614"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1612">Biff Fraggar
+</tspan></tspan><tspan
+         x="69.425781"
+         y="840.73454"
+         id="tspan1618"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1616">SLADE
+</tspan></tspan><tspan
+         x="64.15625"
+         y="863.02568"
+         id="tspan1622"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1620">UZDoom
+</tspan></tspan><tspan
+         x="63.355469"
+         y="885.31682"
+         id="tspan1626"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1624">Aseprite
+</tspan></tspan><tspan
+         x="62.363281"
+         y="907.60795"
+         id="tspan1630"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1628">Inkscape
+</tspan></tspan><tspan
+         x="96"
+         y="929.89909"
+         id="tspan1634"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1632">
+</tspan></tspan><tspan
+         x="96"
+         y="952.19023"
+         id="tspan1638"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1636">
+</tspan></tspan><tspan
+         x="28.8125"
+         y="974.48137"
+         id="tspan1642"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1640">thanks for playing
+</tspan></tspan><tspan
+         x="14.222656"
+         y="996.7725"
+         id="tspan1646"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1644">our mod! you are truly </tspan></tspan><tspan
+         x="31.871094"
+         y="1019.0636"
+         id="tspan1650"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1648">one tough bad*ss
+</tspan></tspan><tspan
+         x="96"
+         y="1041.3548"
+         id="tspan1654"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1652">
+</tspan></tspan><tspan
+         x="96"
+         y="1063.646"
+         id="tspan1658"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1656">
+</tspan></tspan><tspan
+         x="62.585938"
+         y="1097.7236"
+         id="tspan1662"><tspan
+           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan1660">THE </tspan></tspan><tspan
+         x="32"
+         y="1137.7236"
+         id="tspan1666"><tspan
+           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan1664">BAD*SS </tspan></tspan><tspan
+         x="54.515625"
+         y="1177.7236"
+         id="tspan1670"><tspan
+           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan1668">END.
+</tspan></tspan><tspan
+         x="96"
+         y="1217.7236"
+         id="tspan1674"><tspan
+           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
+           id="tspan1672">
+</tspan></tspan><tspan
+         x="22.406366"
+         y="1248.2213"
+         id="tspan1678"><tspan
+           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1676">now press that </tspan></tspan><tspan
+         x="4.1511867"
+         y="1274.888"
+         id="tspan1682"><tspan
+           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1680">exit switch behind </tspan></tspan><tspan
+         x="40.187588"
+         y="1301.5546"
+         id="tspan1688"><tspan
+           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1684">you will ya?</tspan><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1686">
+</tspan></tspan><tspan
+         x="96"
+         y="1325.937"
+         id="tspan1692"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1690">
+</tspan></tspan><tspan
+         x="0"
+         y="1348.2281"
+         id="tspan1696"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1694">
+</tspan></tspan><tspan
+         x="0"
+         y="1360.0173"
+         id="tspan1700"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1698">
+</tspan></tspan><tspan
+         x="0"
+         y="1382.3085"
+         id="tspan1704"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1702">
+</tspan></tspan><tspan
+         x="0"
+         y="1404.5996"
+         id="tspan1708"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1706">
+</tspan></tspan><tspan
+         x="0"
+         y="1426.8907"
+         id="tspan1710">
+</tspan><tspan
+         x="0"
+         y="1446.8907"
+         id="tspan1712">
+</tspan><tspan
+         x="0"
+         y="1466.8907"
+         id="tspan1716"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1714">
+</tspan></tspan><tspan
+         x="0"
+         y="1489.1819"
+         id="tspan1720"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1718">
+</tspan></tspan><tspan
+         x="0"
+         y="1511.473"
+         id="tspan1724"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1722">
+</tspan></tspan><tspan
+         x="0"
+         y="1533.7642"
+         id="tspan1728"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1726">
+</tspan></tspan><tspan
+         x="0"
+         y="1556.0553"
+         id="tspan1732"><tspan
+           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
+           id="tspan1730">
+</tspan></tspan><tspan
+         x="0"
+         y="1578.3464"
          id="tspan1736"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
            id="tspan1734">
 </tspan></tspan><tspan
-         x="21.349076"
-         y="762.01276"
-         id="tspan1744"><tspan
-           style="font-size:21.3333px"
-           id="tspan1738">our benefactors</tspan><tspan
-           style="font-weight:bold;font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
-           id="tspan1740">:</tspan><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1742">
-</tspan></tspan><tspan
-         x="59.207031"
-         y="786.16087"
-         id="tspan1748"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1746">Freedoom
-</tspan></tspan><tspan
-         x="48.96875"
-         y="808.45201"
-         id="tspan1752"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1750">Biff Fraggar
-</tspan></tspan><tspan
-         x="69.425781"
-         y="830.74315"
-         id="tspan1756"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1754">SLADE
-</tspan></tspan><tspan
-         x="64.15625"
-         y="853.03428"
-         id="tspan1760"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1758">UZDoom
-</tspan></tspan><tspan
-         x="63.355469"
-         y="875.32542"
-         id="tspan1764"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1762">Aseprite
-</tspan></tspan><tspan
-         x="62.363281"
-         y="897.61656"
-         id="tspan1768"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1766">Inkscape
-</tspan></tspan><tspan
-         x="96"
-         y="919.9077"
-         id="tspan1772"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1770">
-</tspan></tspan><tspan
-         x="96"
-         y="942.19883"
-         id="tspan1776"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1774">
-</tspan></tspan><tspan
-         x="28.8125"
-         y="964.48997"
-         id="tspan1780"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1778">thanks for playing
-</tspan></tspan><tspan
-         x="14.222656"
-         y="986.78111"
-         id="tspan1784"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1782">our mod! you are truly </tspan></tspan><tspan
-         x="31.871094"
-         y="1009.0722"
-         id="tspan1788"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1786">one tough bad*ss
-</tspan></tspan><tspan
-         x="96"
-         y="1031.3634"
-         id="tspan1792"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1790">
-</tspan></tspan><tspan
-         x="96"
-         y="1053.6545"
-         id="tspan1796"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1794">
-</tspan></tspan><tspan
-         x="62.585938"
-         y="1087.7322"
-         id="tspan1800"><tspan
-           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
-           id="tspan1798">THE </tspan></tspan><tspan
-         x="32"
-         y="1127.7322"
-         id="tspan1804"><tspan
-           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
-           id="tspan1802">BAD*SS </tspan></tspan><tspan
-         x="54.515625"
-         y="1167.7322"
-         id="tspan1808"><tspan
-           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
-           id="tspan1806">END.
-</tspan></tspan><tspan
-         x="96"
-         y="1207.7322"
-         id="tspan1812"><tspan
-           style="font-weight:bold;font-size:32px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold'"
-           id="tspan1810">
-</tspan></tspan><tspan
-         x="22.406366"
-         y="1238.2299"
-         id="tspan1816"><tspan
-           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1814">now press that </tspan></tspan><tspan
-         x="4.1511867"
-         y="1264.8965"
-         id="tspan1820"><tspan
-           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1818">exit switch behind </tspan></tspan><tspan
-         x="40.187588"
-         y="1291.5631"
-         id="tspan1826"><tspan
-           style="font-size:21.3333px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1822">you will ya?</tspan><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1824">
-</tspan></tspan><tspan
-         x="96"
-         y="1315.9455"
-         id="tspan1830"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1828">
-</tspan></tspan><tspan
-         x="96"
-         y="1338.2367"
-         id="tspan1834"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1832">
-</tspan></tspan><tspan
-         x="0"
-         y="1360.0173"
-         id="tspan1838"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1836">
-</tspan></tspan><tspan
-         x="0"
-         y="1382.3085"
-         id="tspan1842"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1840">
-</tspan></tspan><tspan
-         x="0"
-         y="1404.5996"
-         id="tspan1846"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1844">
-</tspan></tspan><tspan
-         x="0"
-         y="1426.8907"
-         id="tspan1848">
-</tspan><tspan
-         x="0"
-         y="1446.8907"
-         id="tspan1850">
-</tspan><tspan
-         x="0"
-         y="1466.8907"
-         id="tspan1854"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1852">
-</tspan></tspan><tspan
-         x="0"
-         y="1489.1819"
-         id="tspan1858"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1856">
-</tspan></tspan><tspan
-         x="0"
-         y="1511.473"
-         id="tspan1862"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1860">
-</tspan></tspan><tspan
-         x="0"
-         y="1533.7642"
-         id="tspan1866"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1864">
-</tspan></tspan><tspan
-         x="0"
-         y="1556.0553"
-         id="tspan1870"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1868">
-</tspan></tspan><tspan
-         x="0"
-         y="1578.3464"
-         id="tspan1874"><tspan
-           style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1872">
-</tspan></tspan><tspan
          x="0"
          y="1600.6376"
-         id="tspan1878"><tspan
+         id="tspan1740"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1876">
+           id="tspan1738">
 </tspan></tspan><tspan
          x="0"
          y="1622.9287"
-         id="tspan1882"><tspan
+         id="tspan1744"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1880">
+           id="tspan1742">
 </tspan></tspan><tspan
          x="0"
          y="1645.2199"
-         id="tspan1886"><tspan
+         id="tspan1748"><tspan
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1884">
+           id="tspan1746">
 </tspan></tspan><tspan
          x="0"
          y="1667.511"
-         id="tspan1890"><tspan
+         id="tspan1752"><tspan
            dx="0 10.054688 8.1875 8.1328125 8.1875 3.6328125 4.78125 16.632812 8.1875 4.3828125 8.765625 8.375 7.5390625 8.4140625 10.945312 4.484375 8.21875"
            style="font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'"
-           id="tspan1888">Rafał Walentowicz</tspan></tspan></text><text
+           id="tspan1750">Rafał Walentowicz</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.50910569,0,0,0.26458333,-6.9295084,14.491328)"
        id="text1339"
@@ -536,6 +548,6 @@
        y="0"><tspan
          x="25.195312"
          y="1424.9129"
-         id="tspan1894"><tspan
+         id="tspan1756"><tspan
            style="fill:#ffffff"
-           id="tspan1892">go away</tspan></tspan></text></g></svg>
+           id="tspan1754">go away</tspan></tspan></text></g></svg>
