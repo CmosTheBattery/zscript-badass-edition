@@ -400,13 +400,16 @@ class GlassJunkNew : GlassShard replaces GlassJunk
 	Default
 	{
 		-NOGRAVITY;
-		Health 3;
+		-NOCLIP;
+		-NOBLOCKMAP;
+		Health 8;
+		Speed 20;
 		Gravity 0.5;
 	}
 	States
 	{
 	Spawn:
-		SHAR ABCD 4;
+		SHAR ABCDABCD 4;
 		Loop;
 	 Death:
 		SHAR A 30;
