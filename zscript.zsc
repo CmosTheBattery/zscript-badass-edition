@@ -384,6 +384,7 @@ class Harnas : HealthBonus replaces HealthBonus
 	{
 		Scale 0.01;
 		Inventory.PickupMessage "$GOTHARNAS";
+		Inventory.PickupSound "harnas/pickup";
 		Tag "$TAG_HARNAS";
 	}
 	States

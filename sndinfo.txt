@@ -26,6 +26,7 @@ szklo2 "sounds/glass_largesheet_break3.wav"
 szklo3 "sounds/glass_sheet_break1.wav"
 szklo4 "sounds/glass_sheet_break2.wav"
 szklo5 "sounds/glass_sheet_break3.wav"
+harnas/pickup "sounds/dsharnas.wav"
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch
