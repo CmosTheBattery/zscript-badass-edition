@@ -286,6 +286,7 @@ Map BADASS29 "$BADASS29"
 }
 Map BADASS30 "$BADASS30"
 {
+	Cluster = 2
 	LevelNum = 30
 	Next = CREDITS
 	Sky1 = SKY3
@@ -388,9 +389,15 @@ Intermission Deth
 }
 Cluster 1
 {
-	flat = FLOOR5_1
-	music = D_LOW
+	flat = "FLOOR5_1"
+	music = "D_LOW"
 	entertext = "$SECRETTEXT"
+}
+Cluster 2
+{
+	flat = "FLOOR0_1"
+	music = "D_READ_M"
+	exittext = "$ENDTEXT"
 }
 Intermission TESTICLESEnd
 {
@@ -403,10 +410,9 @@ Intermission TESTICLESEnd
 }
 Intermission TheBadassEnd
 {
-	TextScreen
+	Image
 	{
-		Background = "FLOOR0_1", 1
-		Text = "$ENDTEXT"
+		Background = "CREDIT", 0
 	}
 	Link = TheBadassCast
 }
@@ -464,6 +470,12 @@ Intermission TheBadassCast
 	}
 	Cast
 	{
+		CastClass = "CMOS555"
+		CastName = "CMOS555"
+		AttackSound = "Missile", 1, ""
+	}
+	Cast
+	{
 		CastClass = "Dari"
 		CastName = "Xiaojun Yue (Dari)"
 		AttackSound = "Missile", 1, ""
@@ -472,12 +484,6 @@ Intermission TheBadassCast
 	{
 		CastClass = "Morris"
 		CastName = "Morris"
-		AttackSound = "Missile", 1, ""
-	}
-	Cast
-	{
-		CastClass = "CmosTheBattery"
-		CastName = "CmosTheBattery"
 		AttackSound = "Missile", 1, ""
 	}
 	Link = TheBadassCast
