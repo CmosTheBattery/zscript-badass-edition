@@ -23,25 +23,25 @@ Texture "tcamtex1", 256, 128
 Sprite "zooma0", 208, 96
 {
 	Offset -200, -100
-	Sprite "sprites/zooma0.png", 0, 0
+	Sprite "sprites/hands/zooma0.png", 0, 0
 }
 
 Sprite "zoomb0", 208, 96
 {
 	Offset -170, -70
-	Sprite "sprites/zooma0.png", 0, 0
+	Sprite "sprites/hands/zooma0.png", 0, 0
 }
 
 Sprite "zoomc0", 208, 96
 {
 	Offset -90, 0
-	Sprite "sprites/zooma0.png", 0, 0
+	Sprite "sprites/hands/zooma0.png", 0, 0
 }
 
 Sprite "zoomd0", 208, 96
 {
 	Offset -100, -10
-	Sprite "sprites/zooma0.png", 0, 0
+	Sprite "sprites/hands/zooma0.png", 0, 0
 }
 
 Texture "teevee", 48, 32
