@@ -124,7 +124,7 @@ Texture "harnass", 720, 871
 	Patch "textures/harnas.png", 0, 0
 }
 
-Texture "credits", 192, 1536
+Texture "credits", 192, 2112
 {
 	Patch "textures/credits.png", 0, 0
 }
