@@ -1,5 +1,4 @@
-freedoom_badass_edition.pk3
-freedoom-badass-edition.pk3
+*.pk3
 *.bak
 *.backup1
 *.backup2
@@ -10,6 +9,7 @@ freedoom-badass-edition.pk3
 *.autosave4
 *.autosave5
 *.dbs
+*.lmp_bak
 # Unused
 freedoom_badass_mappack.wad
 freedoom_badass_edition (wadinfo).wad
