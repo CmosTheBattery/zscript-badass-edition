@@ -13,6 +13,7 @@ GOTMARINE = "Picked up a fucket.";
 GOTMARINEBOX = "Picked up a chonk fucket.";
 STEPPEDNUCLEARFUCKET = "You stepped on a nuclear fucket.";
 GOTHARNAS = "Picked up a Harnaś.";
+GOTKARPACKIE = "Picked up a Karpackie.";
 
 TAG_DSFDCSHOTGUN = "DSFDC Shotgun";
 TAG_OVERCHARGEDMINIGUN = "Overcharged Minigun";
@@ -23,6 +24,7 @@ TAG_SINGULARBULLET = "Singular Bullet";
 TAG_OPRM = "Overcharged Plasma Rifle Model v1";
 TAG_MARINELAUNCHER = "Fucket Launcher";
 TAG_HARNAS = "Harnaś";
+TAG_KARPACKIE = "Karpackie";
 
 OB_DSFDCSHOTGUN = "%k blasted %o away.";
 OB_OVERCHARGEDMINIGUN = "%o was deleted from existence by %k.";
@@ -35,6 +37,7 @@ OB_NUKE = "%o got atomized.";
 OB_NUKE_TRIPOD = "%o got atomized by The Nuker.";
 OB_DUPERSHOTGUN = "%o was eviscerated by %k's Duper Shotgun.";
 OB_CONVICTS = "%o went guru.";
+OB_KARPACKIE = "%o drank a Karpackie.";
 
 SKILL_ASS = "I'm Ass";
 SKILL_BAD = "I'm Bad";
@@ -174,6 +177,7 @@ GOTMARINE = "Podniesiono żołnierza.";
 GOTMARINEBOX = "Podniesiono grubego żołnierza.";
 STEPPEDNUCLEARFUCKET = "Nadepnąłeś na grubego żołnierza.";
 GOTHARNAS = "Podniesiono Harnasia.";
+GOTKARPACKIE = "Podniesiono Karpackie.";
 
 TAG_DSFDCSHOTGUN = "Strzelba BPCS";
 TAG_OVERCHARGEDMINIGUN = "Nadładowany Minigun";
@@ -184,6 +188,7 @@ TAG_SINGULARBULLET = "Pojedyńczy Pocisk";
 TAG_OPRM = "Ulepszony Karabin Plazmowy Marki v1";
 TAG_MARINELAUNCHER = "Wyrzutnia Żołnierzy";
 TAG_HARNAS = "Harnaś";
+TAG_KARPACKIE = "Karpackie";
 
 OB_DSFDCSHOTGUN = "%o został@[ao_pl] odstrzelon@[adj_pl] przez %k.";
 OB_OVERCHARGEDMINIGUN = "%o został@[ao_pl] skasowan@[adj_pl] z istnienia przez %k.";
@@ -196,6 +201,7 @@ OB_NUKE = "%o został@[ao_pl] zatomizowan@[adj_pl].";
 OB_NUKE_TRIPOD = "%o został@[ao_pl] zatomizowan@[adj_pl] przez Jądrowca.";
 OB_DUPERSHOTGUN = "%o został@[ao_pl] odstrzelon@[adj_pl] i rozerwan@[adj_pl] na strzępy przez %k.";
 OB_CONVICTS = "%o został@[ao_pl] rozstrzelon@[adj_pl] przez więźniów.";
+OB_KARPACKIE = "%o wypił@[ao_pl] Karpackie.";
 
 SKILL_ASS = "Jestem Ard";
 SKILL_BAD = "Jestem Twardy";

@@ -27,6 +27,7 @@ szklo3 "sounds/glass_sheet_break1.wav"
 szklo4 "sounds/glass_sheet_break2.wav"
 szklo5 "sounds/glass_sheet_break3.wav"
 harnas/pickup "sounds/dsharnas.wav"
+karpackie "sounds/karpackie.wav"
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch
@@ -37,7 +38,14 @@ harnas/pickup "sounds/dsharnas.wav"
 // $rumble HOWCANSHESLAP HEAVY
 $rumble misc/secret SECRET
 
+
+$playersound    player  male    *death-karpackie  "sounds/karpackie.wav"
+$playersound    player  male    *xdeath-karpackie  "sounds/karpackie.wav"
+$playersound    player  male    *gibbed-karpackie  "sounds/karpackie.wav"
 $playersound	spanish	male	*death	DSSSDTH
+$playersound    spanish male    *death-karpackie  "sounds/karpackie.wav"
+$playersound    spanish male    *xdeath-karpackie  "sounds/karpackie.wav"
+$playersound    spanish male    *gibbed-karpackie  "sounds/karpackie.wav"
 $playersound	spanish	male	*xdeath		DSSDIEHI
 $playersound	spanish	male	*pain100	DSSSPAIN
 $playersound	spanish	male	*pain75 DSSSPAIN

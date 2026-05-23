@@ -395,6 +395,53 @@ class Harnas : HealthBonus replaces HealthBonus
 	}
 }
 
+CLASS Karpackie : CustomInventory  
+{
+	Default {
+		+COUNTITEM;
+		+INVENTORY.ALWAYSPICKUP;
+		Inventory.Amount 1;
+		Inventory.MaxAmount 200;
+		Scale 0.035;
+		Tag "$TAG_KARPACKIE";
+		Inventory.PickupMessage "$GOTKARPACKIE";
+		Inventory.PickupSound "harnas/pickup";
+	}
+	States 
+	{
+	Spawn:
+		KARP A -1;
+		Loop;
+	Pickup:
+		KARP A 1 A_SpawnItemEx("KarpackieEksplozja");
+	}
+}
+
+CLASS KarpackieEksplozja : ACTOR 
+{ 
+	Default 
+	{
+		Radius 4;
+		Height 4;
+		Speed 0;
+		Damage 50;
+		Projectile;
+		+RANDOMIZE;
+		+DEHEXPLOSION;
+		-ROCKETTRAIL;
+		DeathSound "Sraka";
+		Obituary "$OB_CORPSEBOOM";
+		DamageType "Karpackie";
+	}
+	States
+	{
+		Spawn:
+			KARP A 1 Bright A_Scream;
+			KARP A 1 Bright A_Explode(200,5,XF_THRUSTLESS|XF_HURTSOURCE);
+			Stop;
+	}
+}
+
 class GlassJunkNew : GlassShard replaces GlassJunk
 {
 	Default

@@ -24,7 +24,6 @@ CLASS DriverSailorCast : WolfensteinSS {
 
 CLASS TheNukerCast : TheNuker { 
 	Default {
-		
 		DeathSound "misc/gibbed";
 	}
 	States
