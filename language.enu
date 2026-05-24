@@ -131,6 +131,8 @@ QUITMSG5 = "Ball acid dipping";
 QUITMSG6 = "This fucking sucks my shit through a straw";
 QUITMSG7 = "ill start working on map31 soon (when I feel like it)";
 
+HOSTAGEDOWN = "You killed a hostage!";
+
 [eng] 
 
 GOTDSFDCSHOTGUN = "Got the UIBB shotgun!";
@@ -281,3 +283,5 @@ BD29_9 = "Poinformuj Piotra Enisa, wróg jest zniszczalny bez Hiszpanii. Pora na
 QUITMSG = "Czy probówałeś Tryb Nieskończony?";
 QUITMSG1 = "Dołącz się do naszego Discorda!";
 QUITMSG2 = "Gapisz mi się na bebech?";
+
+HOSTAGEDOWN = "Zabiłeś zakładnika!";

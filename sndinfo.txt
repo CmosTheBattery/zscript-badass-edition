@@ -32,6 +32,8 @@ garagedoor/move "sounds/door_metal_gate_move1.wav"
 garagedoor/stop "sounds/door_metal_gate_close1.wav"
 garagedoorheavy/move "sounds/heavy_metal_move1.wav"
 garagedoorheavy/stop "sounds/heavy_metal_stop1.wav"
+counterstrike/hosdown "sounds/hosdown.wav"
+counterstrike/rescued "sounds/rescued.wav"
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch
