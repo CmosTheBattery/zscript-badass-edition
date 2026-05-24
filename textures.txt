@@ -13,7 +13,7 @@ WallTexture "scrotumn", 1024, 8
 	Patch "textures/scrotumn.png", 0, 0
 }
 
-WallTexture "tcamtex1", 256, 128
+Texture "tcamtex1", 256, 128
 {
 	XScale 2.0
 	YScale 2.0
