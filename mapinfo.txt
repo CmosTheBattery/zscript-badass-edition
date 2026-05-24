@@ -382,6 +382,7 @@ Map BADE1M3 "$BADE1M3"
 Map OFFICE "cs_office"
 {
 	Sky1 = ofissky, 0.1
+	Music = D_EVIL
 	Author = Saver310
 }
 Intermission Deth
