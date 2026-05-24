@@ -1,0 +1,33 @@
+:GarageDoorOpen
+	play garagedoor/move
+	stopsound	 garagedoor/stop
+end
+
+:GarageDoorClose
+	play garagedoor/move
+	stopsound	 garagedoor/stop
+end
+
+[GarageDoor
+ 0  GarageDoorOpen
+ 1  GarageDoorClose
+ 2  GarageDoorOpen
+ 3  GarageDoorClose
+]
+
+:GarageDoorHeavyOpen
+	play garagedoorheavy/move
+	stopsound	 garagedoorheavy/stop
+end
+
+:GarageDoorHeavyClose
+	play garagedoorheavy/move
+	stopsound	 garagedoorheavy/stop
+end
+
+[GarageDoorHeavy
+ 0  GarageDoorHeavyOpen
+ 1  GarageDoorHeavyClose
+ 2  GarageDoorHeavyOpen
+ 3  GarageDoorHeavyClose
+]

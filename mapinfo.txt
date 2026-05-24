@@ -379,6 +379,11 @@ Map BADE1M3 "$BADE1M3"
 	Music = D_COCKER
 	Author = Siggi
 }
+Map OFFICE "cs_office"
+{
+	Sky1 = ofissky, 0.1
+	Author = Saver310
+}
 Intermission Deth
 {
 	TextScreen
