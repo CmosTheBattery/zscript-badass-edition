@@ -144,4 +144,9 @@ Texture "vending", 160, 256
 	Patch "textures/vending.png", 0, 0
 }
 
+WallTexture "skyline", 256, 160
+{
+	Patch "textures/skyline.png", 0, 0
+}
+
 // End of texture definitions
