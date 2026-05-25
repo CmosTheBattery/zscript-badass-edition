@@ -23,8 +23,6 @@ TAG_SBFKAG = "SBFKAG";
 TAG_SINGULARBULLET = "Singular Bullet";
 TAG_OPRM = "Overcharged Plasma Rifle Model v1";
 TAG_MARINELAUNCHER = "Fucket Launcher";
-TAG_HARNAS = "Harnaś";
-TAG_KARPACKIE = "Karpackie";
 
 OB_DSFDCSHOTGUN = "%k blasted %o away.";
 OB_OVERCHARGEDMINIGUN = "%o was deleted from existence by %k.";
@@ -189,8 +187,6 @@ TAG_SBFKAG = "Broń Atomowa Marki SWKKD";
 TAG_SINGULARBULLET = "Pojedyńczy Pocisk";
 TAG_OPRM = "Ulepszony Karabin Plazmowy Marki v1";
 TAG_MARINELAUNCHER = "Wyrzutnia Żołnierzy";
-TAG_HARNAS = "Harnaś";
-TAG_KARPACKIE = "Karpackie";
 
 OB_DSFDCSHOTGUN = "%o został@[ao_pl] odstrzelon@[adj_pl] przez %k.";
 OB_OVERCHARGEDMINIGUN = "%o został@[ao_pl] skasowan@[adj_pl] z istnienia przez %k.";

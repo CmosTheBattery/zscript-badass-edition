@@ -1,8 +1,9 @@
 $limit weapons/rocklx 0
-$random sawfail { DSSSTRT1 DSSSTRT2 }
-$random menu/quit { Sraka bebech sailor/raise wolfss/sight door/break misc/secret }
+$random sawfail {DSSSTRT1 DSSSTRT2}
+$random menu/quit {Sraka bebech sailor/raise wolfss/sight door/break misc/secret}
 $random rozjebaneszklo {szklo2 szklo3 szklo4 szklo5}
 $attenuation rozjebaneszklo 0.5
+$random hostage/pain {hostage/pain1 hostage/pain2 hostage/pain3 hostage/pain4 hostage/pain5 hostage/pain6}
 
 DSCOCKA "sounds/dscocka.wav"
 DSCOCKB "sounds/dscockb.wav"
@@ -38,6 +39,12 @@ vending/coinslot "sounds/coinslot1.wav"
 vending/button "sounds/button1.wav"
 vending/dispense "sounds/lever6.wav"
 vending/decline "sounds/weapon_cant_buy.wav"
+hostage/pain1 "sounds/hpain1.wav"
+hostage/pain2 "sounds/hpain2.wav"
+hostage/pain3 "sounds/hpain3.wav"
+hostage/pain4 "sounds/hpain4.wav"
+hostage/pain5 "sounds/hpain5.wav"
+hostage/pain6 "sounds/hpain6.wav"
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch

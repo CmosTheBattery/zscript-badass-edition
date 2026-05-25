@@ -565,5 +565,7 @@ DoomEdNums
 	26022 = "WorkerZombie"
 	26023 = "NukeBarrel"
 	26024 = "EndlessBossEye"
+	26025 = "Karpackie"
+	26026 = "HostageSS"
 	32420 = "Convicts"
 }
