@@ -1,7 +1,7 @@
 $limit weapons/rocklx 0
 $random sawfail { DSSSTRT1 DSSSTRT2 }
 $random menu/quit { Sraka bebech sailor/raise wolfss/sight door/break misc/secret }
-$random rozjebaneszklo {szklo2 szklo3 szklo4 szklo5 szklo6}
+$random rozjebaneszklo {szklo2 szklo3 szklo4 szklo5}
 $attenuation rozjebaneszklo 0.5
 
 DSCOCKA "sounds/dscocka.wav"
