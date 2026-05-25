@@ -34,6 +34,10 @@ garagedoorheavy/move "sounds/heavy_metal_move1.wav"
 garagedoorheavy/stop "sounds/heavy_metal_stop1.wav"
 counterstrike/hosdown "sounds/hosdown.wav"
 counterstrike/rescued "sounds/rescued.wav"
+vending/coinslot "sounds/coinslot1.wav"
+vending/button "sounds/button1.wav"
+vending/dispense "sounds/lever6.wav"
+vending/decline "sounds/weapon_cant_buy.wav"
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch

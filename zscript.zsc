@@ -429,15 +429,17 @@ CLASS KarpackieEksplozja : ACTOR
 		+RANDOMIZE;
 		+DEHEXPLOSION;
 		-ROCKETTRAIL;
+		+NOEXTREMEDEATH;
+		+PIERCEARMOR;
 		DeathSound "Sraka";
-		Obituary "$OB_CORPSEBOOM";
+		Obituary "$OB_KARPACKIE";
 		DamageType "Karpackie";
 	}
 	States
 	{
 		Spawn:
 			KARP A 1 Bright A_Scream;
-			KARP A 1 Bright A_Explode(200,5,XF_THRUSTLESS|XF_HURTSOURCE);
+			KARP A 1 Bright A_Explode(400,5,XF_THRUSTLESS|XF_HURTSOURCE);
 			Stop;
 	}
 }
