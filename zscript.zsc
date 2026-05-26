@@ -454,6 +454,8 @@ class GlassJunkNew : GlassShard replaces GlassJunk
 		Health 8;
 		Speed 20;
 		Gravity 0.5;
+		Radius 5;
+		Height 5;
 	}
 	States
 	{
