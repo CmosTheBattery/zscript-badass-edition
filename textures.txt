@@ -8,7 +8,7 @@ Texture "s3dummy", 128, 128
 	Patch "textures/s3dummy.png", 0, 0
 }
 
-Texture "scrotumn", 1024, 8
+WallTexture "scrotumn", 1024, 8
 {
 	Patch "textures/scrotumn.png", 0, 0
 }
@@ -44,22 +44,22 @@ Sprite "zoomd0", 208, 96
 	Sprite "sprites/hands/zooma0.png", 0, 0
 }
 
-Texture "teevee", 48, 32
+WallTexture "teevee", 48, 32
 {
 	Patch "textures/teevee.png", 0, 0
 }
 
-Texture "tvstatic", 40, 30
+WallTexture "tvstatic", 40, 30
 {
 	Patch "textures/tvstata.png", 0, 0
 }
 
-Texture "bdunive", 160, 64
+WallTexture "bdunive", 160, 64
 {
 	Patch "textures/bdunive.png", 0, 0
 }
 
-Texture "piss", 64, 64
+Flat "piss", 64, 64
 {
 	Patch "textures/pisage1.png", 0, 0
 }
@@ -84,7 +84,7 @@ Texture "mouseinbakedbeans", 256, 256
 	Patch "FLOOR7_1", 192, 192
 }
 
-Texture "badasspc", 256, 128
+WallTexture "badasspc", 256, 128
 {
 	Patch "textures/badasspc.png", 0, 0
 }
@@ -94,7 +94,7 @@ Flat "keyboard", 128, 48
 	Patch "textures/keyboard.png", 0, 0
 }
 
-Texture "riptimmy", 128, 128
+WallTexture "riptimmy", 128, 128
 {
 	Patch "textures/riptimmy.png", 0, 0
 }
@@ -104,17 +104,17 @@ Texture "harnas", 720, 871
 	Patch "textures/harnas.jpg", 0, 0
 }
 
-Texture "glass1", 128, 128
+WallTexture "glass1", 128, 128
 {
 	Patch "textures/glass1.png", 0, 0
 }
 
-Texture "glass2", 128, 128
+WallTexture "glass2", 128, 128
 {
 	Patch "textures/glass2.png", 0, 0
 }
 
-Texture "glass3", 128, 128
+WallTexture "glass3", 128, 128
 {
 	Patch "textures/glass3.png", 0, 0
 }
@@ -124,9 +124,29 @@ Texture "harnass", 720, 871
 	Patch "textures/harnas.png", 0, 0
 }
 
-Texture "credits", 192, 2112
+WallTexture "credits", 192, 2112
 {
 	Patch "textures/credits.png", 0, 0
+}
+
+Flat "snow", 64, 64
+{
+	Patch "textures/snow.png", 0, 0
+}
+
+Texture "ofissky", 400, 100
+{
+	Patch "textures/ofissky.jpg", 0, 0
+}
+
+Texture "vending", 160, 256
+{
+	Patch "textures/vending.png", 0, 0
+}
+
+WallTexture "skyline", 256, 160
+{
+	Patch "textures/skyline.png", 0, 0
 }
 
 // End of texture definitions

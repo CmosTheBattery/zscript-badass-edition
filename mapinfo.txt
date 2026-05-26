@@ -10,6 +10,10 @@ Episode ENDLES02
 {
 	Name = "$ENDLES02"
 }
+Episode OFFICE
+{
+	Name = "cs_office"
+}
 Episode TESTICLE
 {
 	Name = "TESTICLES.wad"
@@ -379,6 +383,12 @@ Map BADE1M3 "$BADE1M3"
 	Music = D_COCKER
 	Author = Siggi
 }
+Map OFFICE "cs_office"
+{
+	Sky1 = ofissky, 0.1
+	Music = D_EVIL
+	Author = Saver310
+}
 Intermission Deth
 {
 	TextScreen
@@ -559,5 +569,7 @@ DoomEdNums
 	26022 = "WorkerZombie"
 	26023 = "NukeBarrel"
 	26024 = "EndlessBossEye"
+	26025 = "Karpackie"
+	26026 = "HostageSS"
 	32420 = "Convicts"
 }

@@ -299,7 +299,6 @@ CLASS WorkerZombie : ZombieMan { //26022
 
 CLASS NukeBarrel : ExplosiveBarrel { // 26023
 	Default {
-		
 		Tag "Nuke Barrel";
 	}
 	States
@@ -385,7 +384,7 @@ class Harnas : HealthBonus replaces HealthBonus
 		Scale 0.01;
 		Inventory.PickupMessage "$GOTHARNAS";
 		Inventory.PickupSound "harnas/pickup";
-		Tag "$TAG_HARNAS";
+		Tag "Harnaś";
 	}
 	States
 	{
@@ -403,9 +402,10 @@ CLASS Karpackie : CustomInventory
 		Inventory.Amount 1;
 		Inventory.MaxAmount 200;
 		Scale 0.035;
-		Tag "$TAG_KARPACKIE";
+		Tag "Karpackie";
 		Inventory.PickupMessage "$GOTKARPACKIE";
 		Inventory.PickupSound "harnas/pickup";
+		Radius 10;
 	}
 	States 
 	{
@@ -429,15 +429,17 @@ CLASS KarpackieEksplozja : ACTOR
 		+RANDOMIZE;
 		+DEHEXPLOSION;
 		-ROCKETTRAIL;
+		+NOEXTREMEDEATH;
+		+PIERCEARMOR;
 		DeathSound "Sraka";
-		Obituary "$OB_CORPSEBOOM";
+		Obituary "$OB_KARPACKIE";
 		DamageType "Karpackie";
 	}
 	States
 	{
 		Spawn:
 			KARP A 1 Bright A_Scream;
-			KARP A 1 Bright A_Explode(200,5,XF_THRUSTLESS|XF_HURTSOURCE);
+			KARP A 1 Bright A_Explode(400,5,XF_THRUSTLESS|XF_HURTSOURCE);
 			Stop;
 	}
 }
@@ -491,5 +493,28 @@ class EndlessBossEye : BossEye
 		SSWV A 181;
 		SSWV A 150 A_BrainSpit;
 		Wait;
+	}
+}
+
+class HostageSS : WolfensteinSS
+{
+	Default
+	{
+		Speed 10;
+		PainChance 200;
+		SeeSound "";
+		PainSound "hostage/pain";
+		DeathSound "hostage/pain";
+		ActiveSound "";
+		AttackSound "";
+		Obituary "How the fuck";
+		Tag "Hostage";
+		+FRIENDLY;
+	}
+	States
+	{
+	Missile:
+		SSWV A 1 A_FaceTarget;
+		Goto See;
 	}
 }

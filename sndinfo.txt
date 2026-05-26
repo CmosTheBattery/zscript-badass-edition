@@ -1,8 +1,9 @@
 $limit weapons/rocklx 0
-$random sawfail { DSSSTRT1 DSSSTRT2 }
-$random menu/quit { Sraka bebech sailor/raise wolfss/sight door/break misc/secret }
-$random rozjebaneszklo {szklo2 szklo3 szklo4 szklo5 szklo6}
+$random sawfail {DSSSTRT1 DSSSTRT2}
+$random menu/quit {Sraka bebech sailor/raise wolfss/sight wolfss/death door/break misc/secret rozjebaneszklo hostage/pain karpackie vent/break IWANT3BIGMAC cocaine/pickup vending/decline}
+$random rozjebaneszklo {szklo2 szklo3 szklo4 szklo5}
 $attenuation rozjebaneszklo 0.5
+$random hostage/pain {hostage/pain1 hostage/pain2 hostage/pain3 hostage/pain4 hostage/pain5 hostage/pain6}
 
 DSCOCKA "sounds/dscocka.wav"
 DSCOCKB "sounds/dscockb.wav"
@@ -28,6 +29,22 @@ szklo4 "sounds/glass_sheet_break2.wav"
 szklo5 "sounds/glass_sheet_break3.wav"
 harnas/pickup "sounds/dsharnas.wav"
 karpackie "sounds/karpackie.wav"
+garagedoor/move "sounds/door_metal_gate_move1.wav"
+garagedoor/stop "sounds/door_metal_gate_close1.wav"
+garagedoorheavy/move "sounds/heavy_metal_move1.wav"
+garagedoorheavy/stop "sounds/heavy_metal_stop1.wav"
+counterstrike/hosdown "sounds/hosdown.wav"
+counterstrike/rescued "sounds/rescued.wav"
+vending/coinslot "sounds/coinslot1.wav"
+vending/button "sounds/button1.wav"
+vending/dispense "sounds/lever6.wav"
+vending/decline "sounds/weapon_cant_buy.wav"
+hostage/pain1 "sounds/hpain1.wav"
+hostage/pain2 "sounds/hpain2.wav"
+hostage/pain3 "sounds/hpain3.wav"
+hostage/pain4 "sounds/hpain4.wav"
+hostage/pain5 "sounds/hpain5.wav"
+hostage/pain6 "sounds/hpain6.wav"
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch
@@ -39,16 +56,16 @@ karpackie "sounds/karpackie.wav"
 $rumble misc/secret SECRET
 
 
-$playersound    player  male    *death-karpackie  "sounds/karpackie.wav"
+$playersound    player  male    *death-karpackie   "sounds/karpackie.wav"
 $playersound    player  male    *xdeath-karpackie  "sounds/karpackie.wav"
 $playersound    player  male    *gibbed-karpackie  "sounds/karpackie.wav"
-$playersound	spanish	male	*death	DSSSDTH
-$playersound    spanish male    *death-karpackie  "sounds/karpackie.wav"
+$playersound	spanish	male	*death			   "sounds/dsssdth.wav"
+$playersound    spanish male    *death-karpackie   "sounds/karpackie.wav"
 $playersound    spanish male    *xdeath-karpackie  "sounds/karpackie.wav"
 $playersound    spanish male    *gibbed-karpackie  "sounds/karpackie.wav"
-$playersound	spanish	male	*xdeath		DSSDIEHI
-$playersound	spanish	male	*pain100	DSSSPAIN
-$playersound	spanish	male	*pain75 DSSSPAIN
-$playersound	spanish	male	*pain50	DSSSPAIN
-$playersound	spanish	male	*pain25	DSSSPAIN
-$playersound	spanish	male	*jump	DSSSJUMP
+$playersound	spanish	male	*xdeath			   "sounds/dssdiehi.wav"
+$playersound	spanish	male	*pain100		   "sounds/dssspain.wav"
+$playersound	spanish	male	*pain75			   "sounds/dssspain.wav"
+$playersound	spanish	male	*pain50			   "sounds/dssspain.wav"
+$playersound	spanish	male	*pain25			   "sounds/dssspain.wav"
+$playersound	spanish	male	*jump			   "sounds/dsssjump.wav"
