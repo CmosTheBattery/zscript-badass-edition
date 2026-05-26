@@ -10,6 +10,10 @@ Episode ENDLES02
 {
 	Name = "$ENDLES02"
 }
+Episode OFFICE
+{
+	Name = "cs_office"
+}
 Episode TESTICLE
 {
 	Name = "TESTICLES.wad"

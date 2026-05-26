@@ -1,6 +1,6 @@
 $limit weapons/rocklx 0
 $random sawfail {DSSSTRT1 DSSSTRT2}
-$random menu/quit {Sraka bebech sailor/raise wolfss/sight door/break misc/secret}
+$random menu/quit {Sraka bebech sailor/raise wolfss/sight wolfss/death door/break misc/secret rozjebaneszklo hostage/pain karpackie vent/break IWANT3BIGMAC cocaine/pickup vending/decline}
 $random rozjebaneszklo {szklo2 szklo3 szklo4 szklo5}
 $attenuation rozjebaneszklo 0.5
 $random hostage/pain {hostage/pain1 hostage/pain2 hostage/pain3 hostage/pain4 hostage/pain5 hostage/pain6}
@@ -56,16 +56,16 @@ hostage/pain6 "sounds/hpain6.wav"
 $rumble misc/secret SECRET
 
 
-$playersound    player  male    *death-karpackie  "sounds/karpackie.wav"
+$playersound    player  male    *death-karpackie   "sounds/karpackie.wav"
 $playersound    player  male    *xdeath-karpackie  "sounds/karpackie.wav"
 $playersound    player  male    *gibbed-karpackie  "sounds/karpackie.wav"
-$playersound	spanish	male	*death	DSSSDTH
-$playersound    spanish male    *death-karpackie  "sounds/karpackie.wav"
+$playersound	spanish	male	*death			   "sounds/dsssdth.wav"
+$playersound    spanish male    *death-karpackie   "sounds/karpackie.wav"
 $playersound    spanish male    *xdeath-karpackie  "sounds/karpackie.wav"
 $playersound    spanish male    *gibbed-karpackie  "sounds/karpackie.wav"
-$playersound	spanish	male	*xdeath		DSSDIEHI
-$playersound	spanish	male	*pain100	DSSSPAIN
-$playersound	spanish	male	*pain75 DSSSPAIN
-$playersound	spanish	male	*pain50	DSSSPAIN
-$playersound	spanish	male	*pain25	DSSSPAIN
-$playersound	spanish	male	*jump	DSSSJUMP
+$playersound	spanish	male	*xdeath			   "sounds/dssdiehi.wav"
+$playersound	spanish	male	*pain100		   "sounds/dssspain.wav"
+$playersound	spanish	male	*pain75			   "sounds/dssspain.wav"
+$playersound	spanish	male	*pain50			   "sounds/dssspain.wav"
+$playersound	spanish	male	*pain25			   "sounds/dssspain.wav"
+$playersound	spanish	male	*jump			   "sounds/dsssjump.wav"
