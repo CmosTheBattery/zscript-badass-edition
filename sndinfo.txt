@@ -4,6 +4,8 @@ $random menu/quit {Sraka bebech sailor/raise wolfss/sight wolfss/death door/brea
 $random rozjebaneszklo {szklo2 szklo3 szklo4 szklo5}
 $attenuation rozjebaneszklo 0.5
 $random hostage/pain {hostage/pain1 hostage/pain2 hostage/pain3 hostage/pain4 hostage/pain5 hostage/pain6}
+$random badass/gibbed {gib gib gib gib gib gib gib gib oldgib oldgib Sraka}
+$alias misc/gibbed badass/gibbed
 
 DSCOCKA "sounds/dscocka.wav"
 DSCOCKB "sounds/dscockb.wav"
@@ -45,6 +47,8 @@ hostage/pain3 "sounds/hpain3.wav"
 hostage/pain4 "sounds/hpain4.wav"
 hostage/pain5 "sounds/hpain5.wav"
 hostage/pain6 "sounds/hpain6.wav"
+oldgib "sounds/rottking_dsslop.wav"
+gib	dsslop
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch
@@ -59,6 +63,7 @@ $rumble misc/secret SECRET
 $playersound    player  male    *death-karpackie   "sounds/karpackie.wav"
 $playersound    player  male    *xdeath-karpackie  "sounds/karpackie.wav"
 $playersound    player  male    *gibbed-karpackie  "sounds/karpackie.wav"
+$playeralias	player  male	*gibbed			   badass/gibbed
 $playersound	spanish	male	*death			   "sounds/dsssdth.wav"
 $playersound    spanish male    *death-karpackie   "sounds/karpackie.wav"
 $playersound    spanish male    *xdeath-karpackie  "sounds/karpackie.wav"
@@ -69,3 +74,4 @@ $playersound	spanish	male	*pain75			   "sounds/dssspain.wav"
 $playersound	spanish	male	*pain50			   "sounds/dssspain.wav"
 $playersound	spanish	male	*pain25			   "sounds/dssspain.wav"
 $playersound	spanish	male	*jump			   "sounds/dsssjump.wav"
+$playeralias	spanish male	*gibbed			   badass/gibbed
