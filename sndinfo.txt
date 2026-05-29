@@ -49,6 +49,8 @@ hostage/pain5 "sounds/hpain5.wav"
 hostage/pain6 "sounds/hpain6.wav"
 oldgib "sounds/rottking_dsslop.wav"
 gib	dsslop
+weapons/autoshotgun "sounds/shotgun_fire_1 (2).wav"
+weapons/m3 "sounds/xm1014-1.wav"
 
 // for some reason the in-game sounds won't play nicely with rumble
 // modern sourceports are a bitch
