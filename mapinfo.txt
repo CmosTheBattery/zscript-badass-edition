@@ -2,13 +2,9 @@ Episode BADASS01
 {
 	Name = "Freedoom Bad*ss Mappack"
 }
-Episode ENDLES01
+Episode ENDLESS
 {
-	Name = "$ENDLES01"
-}
-Episode ENDLES02
-{
-	Name = "$ENDLES02"
+	Name = "$ENDLESS"
 }
 Episode OFFICE
 {
@@ -355,14 +351,25 @@ Map TITLEMAP "$TITLEMAP"
 	NoFreeLook
 	NoCrouch
 }
-Map ENDLES01 "$ENDLES01" {
+Map ENDLESS "$ENDLESS"
+{
+	Sky1 = SKY3
+	Author = Saver310
+	Music = D_LOW
+	NoIntermission
+}
+Map ENDLES01 "$ENDLES01" 
+{
+	LevelNum = 100
 	Next = ENDLES01
 	SecretNext = ENDLES01
 	Sky1 = SKY3
 	Music = D_RUNNIN
 	Author = SmekkyBoy
 }
-Map ENDLES02 "$ENDLES02" {
+Map ENDLES02 "$ENDLES02" 
+{
+	LevelNum = 101
 	Next = ENDLES02
 	SecretNext = ENDLES02
 	Sky1 = SKY3
