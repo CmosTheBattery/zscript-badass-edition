@@ -22,7 +22,6 @@ texture optional M_SKULL1
 	pic badskule tics 3	
 	pic badskulc tics 3
 
-switch glass1
-ON
-sound rozjebaneszklo
-pic textures/glass2.png tics 0
+switch glass1 on sound rozjebaneszklo pic textures/glass2.png tics 0
+
+switch vending on sound "" pic textures/vendingpressed.png tics 4
