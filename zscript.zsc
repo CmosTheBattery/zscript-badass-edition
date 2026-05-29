@@ -384,12 +384,46 @@ class Harnas : HealthBonus replaces HealthBonus
 		Scale 0.01;
 		Inventory.PickupMessage "$GOTHARNAS";
 		Inventory.PickupSound "harnas/pickup";
-		Tag "Harnaś";
+		Tag "Harnaś (Puszka)";
 	}
 	States
 	{
 	Spawn:
 		HARN A -1;
+		Loop;
+	}
+}
+
+class HarnasBottle : Stimpack replaces Stimpack
+{
+	Default
+	{
+		Scale 0.022;
+		Inventory.PickupMessage "$GOTHARNAS";
+		Inventory.PickupSound "harnasbottle/pickup";
+		Tag "Harnaś";
+	}
+	States
+	{
+	Spawn:
+		HARN B -1;
+		Loop;
+	}
+}
+
+class HarnasPack : Medikit replaces Medikit
+{
+	Default
+	{
+		Scale 0.03;
+		Inventory.PickupMessage "$GOTHARNAS";
+		Inventory.PickupSound "harnas/pickup";
+		Tag "Harnaś (Czteropak)";
+	}
+	States
+	{
+	Spawn:
+		HARN C -1;
 		Loop;
 	}
 }
