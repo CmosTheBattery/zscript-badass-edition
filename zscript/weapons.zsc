@@ -147,9 +147,9 @@ CLASS SmallButPackingChaingun : Chaingun replaces Chaingun {
 		Weapon.BobRangeX 0.75;
 		Weapon.BobRangeY 0.25;
 		Weapon.BobSpeed 0.75 ;
-		Weapon.KickBack 30000;
+		Weapon.KickBack 1000;
 		Weapon.SelectionOrder 700;
-		Weapon.AmmoUse 8;
+		Weapon.AmmoUse 6;
 		Weapon.AmmoGive 100;
 		Weapon.AmmoType "Clip";
 		Inventory.PickupMessage "$GOTOVERCHARGEDMINIGUN";
@@ -172,7 +172,7 @@ CLASS SmallButPackingChaingun : Chaingun replaces Chaingun {
 			TNT1 A 0 A_GunFlash;
 			CHGG AB 2
 			{
-			    A_FireBullets(5.6, 1.4, 10, 15, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_FireBullets(7, 7, 16, random(25,50), "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
 			    A_Recoil(2);
 			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
 			}
@@ -184,7 +184,7 @@ CLASS SmallButPackingChaingun : Chaingun replaces Chaingun {
 			TNT1 A 0 A_GunFlash("FlashCocaine");
 			CHGG AB 1
 			{
-			    A_FireBullets(5.6, 1.4, 10, 15, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_FireBullets(10, 10, 32, random(50,200), "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
 			    A_Recoil(2);
 			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
 			}
