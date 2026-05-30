@@ -29,6 +29,7 @@ harnas/pickup "sounds/dsharnas.wav"
 karpackie "sounds/karpackie.wav"
 oldgib "sounds/rottking_dsslop.wav"
 gib	dsslop
+pong "sounds/dspong.wav"
 
 $random menu/quit {Sraka bebech sailor/raise wolfss/sight wolfss/death door/break misc/secret rozjebaneszklo hostage/pain karpackie vent/break IWANT3BIGMAC cocaine/pickup vending/decline}
 $random badass/gibbed {gib gib gib gib gib gib gib gib oldgib oldgib Sraka}

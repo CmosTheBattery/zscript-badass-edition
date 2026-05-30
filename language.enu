@@ -127,6 +127,7 @@ BD29_6 = "NO! YOU SON OF A BADASS!";
 BD29_7 = "Say hi to your brother in hell for me.";
 BD29_8 = "Roy! You magnificent bastard, you've done it! The population of Spain has been freed from the mind control!";
 BD29_9 = "Send word to Pete Enis, the enemy is vulnerable without Spain. Time for the final attack!";
+BD29_10 ="BIG TIMMY: ";
 
 QUITMSG = "Make sure to try Endless Mode!";
 QUITMSG1 = "Make sure to join our Discord!";

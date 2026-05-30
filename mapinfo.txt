@@ -591,4 +591,5 @@ DoomEdNums
 	26026 = "HostageSS"
 	26027 = "Shtjtjgtnzombo"
 	32420 = "Convicts"
+	6345 = "Timmy"
 }

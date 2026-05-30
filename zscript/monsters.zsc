@@ -470,3 +470,53 @@ class shittyhitscanass_mini : Chaingunguy
 		Stop;
 	}
 }
+
+
+CLASS Timmy : Revenant { 
+	Default {
+		Speed 35;
+		Tag "Big Timmy";	
+	}
+	States
+	{
+		Unhome:
+			SKEL J 0 BRIGHT A_FaceTarget;
+			SKEL K 2 A_SpawnProjectile("UnHomerTracer",50,-9,CMF_AIMOFFSET);
+			SKEL K 20 A_FaceTarget;
+			Goto See;
+		Missile:
+			SKEL J 0 BRIGHT A_FaceTarget;
+			SKEL K 2 A_SpawnProjectile("UnHomerTracer",50,-9,CMF_AIMOFFSET);
+			SKEL K 2 A_FaceTarget;
+			Goto See;
+	}
+}
+
+class UnHomerTracer : Actor
+{
+	Default
+	{
+		Radius 11;
+		Height 8;
+		Speed 40;
+		Damage 30;
+		Projectile;
+		+SEEKERMISSILE 
+		+RANDOMIZE
+		+ZDOOMTRANS
+		SeeSound "skeleton/attack";
+		DeathSound "skeleton/tracex";
+		RenderStyle "Add";
+	}
+	States
+	{
+	Spawn:
+		FATB AB 2 BRIGHT;
+		Loop;
+	Death:
+		FBXP A 8 BRIGHT;
+		FBXP B 6 BRIGHT;
+		FBXP C 4 BRIGHT;
+		Stop;
+	}
+}
