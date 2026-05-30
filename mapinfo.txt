@@ -366,6 +366,7 @@ Map ENDLES01 "$ENDLES01"
 	Sky1 = SKY3
 	Music = D_RUNNIN
 	Author = SmekkyBoy
+	NoIntermission
 }
 Map ENDLES02 "$ENDLES02" 
 {
@@ -376,6 +377,7 @@ Map ENDLES02 "$ENDLES02"
 	Sky2 = SKY1
 	Music = D_COUNT2
 	Author = SmekkyBoy
+	NoIntermission
 }
 Map BADE2M1 "$BADE2M1"
 {

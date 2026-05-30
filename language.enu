@@ -81,7 +81,7 @@ BADE2M1 = "Watered Down E2M1 From Doom";
 BADE1M3 = "Ball Torture E1M3";
 
 ENDLESS = "Endless Mode";
-ENDLESS_WELCOME = "Welcome to the Endless Mode! Survive as long as you can, and have fun!";
+ENDLESS_WELCOME = "Welcome to the Endless Mode! Select any map and have fun!";
 ENDLESS_PLAZA = "Paradise Plaza";
 ENDLESS_PARK = "Leisure Park";
 
@@ -237,7 +237,7 @@ BADE2M1 = "Rozwodnione E2M1 z Dooma";
 BADE1M3 = "Trudne w Chuja E1M3";
 
 ENDLESSMODE = "Tryb Nieskończony";
-ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Przeżyj jak najdłużej i baw się dobrze!";
+ENDLESS_WELCOME = "Witamy w Trybie Nieskończonym! Wybierz mapę i baw się dobrze!";
 ENDLESS_PARK = "Park Wypoczynku";
 
 DEATHSCREEN = "Spierdoliłeś";
