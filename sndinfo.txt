@@ -12,6 +12,7 @@ HOWCANSHESLAP "sounds/slap.wav"
 weapons/autoshotgun "sounds/shotgun_fire_1 (2).wav"
 weapons/m3 "sounds/xm1014-1.wav"
 weapons/spanishpistol "sounds/weap_miniuzi_slmn_9.wav"
+weapons/m249 "sounds/m249-1.wav"
 
 $limit weapons/rocklx 0
 $random sawfail {DSSSTRT1 DSSSTRT2}
