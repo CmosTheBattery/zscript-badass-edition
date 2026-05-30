@@ -72,6 +72,7 @@ if you encounter problems or the process is too bad*ss you can contact the fine 
 
 # screenshots
 
+<div class="grid" markdown>
 <img src="screenshots/Screenshot_Doom_20250418_111330.png" width="192" height="108" data-align="center">
 <img src="screenshots/Screenshot_Doom_20250418_111230.png" width="192" height="108" data-align="center">
 <img src="screenshots/Screenshot_Doom_20250418_111812.png" width="192" height="108" data-align="center">
@@ -82,6 +83,7 @@ if you encounter problems or the process is too bad*ss you can contact the fine 
 <img src="screenshots/Screenshot_Doom_20260529_221045.png" width="192" height="108" data-align="center">
 <img src="screenshots/Screenshot_Doom_20260529_221239.png" width="192" height="108" data-align="center">
 <img src="screenshots/Screenshot_Doom_20260530_112732.png" width="192" height="108" data-align="center">
+</div>
 
 # faq
 
@@ -147,7 +149,7 @@ too bad
 
 # quotes
 
-> "Gapisz mi siÄ? na bebech?" - RafaÅ? Walentowicz narrating Philadelphia Charlemagne "Phil" Collins III's translated dialogue
+> "Gapisz mi siï¿½? na bebech?" - Rafaï¿½? Walentowicz narrating Philadelphia Charlemagne "Phil" Collins III's translated dialogue
 
 > "Fuck this I'm making a weapon pack for freedoom on my dead gpu for no particular reason" - Saver310
 
@@ -201,7 +203,7 @@ too bad
 
 > "why" - CMOS555
 
-> "Evil scary dillar ?’€?’€?’€" - Morris
+> "Evil scary dillar ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½" - Morris
 
 > "Oops" - Everyone after a pull request is pushed to the main branch and it breaks everything
 
