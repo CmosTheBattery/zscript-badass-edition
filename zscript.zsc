@@ -4,7 +4,7 @@
 
 CLASS BadassPlayer : DoomPlayer replaces DoomPlayer { 
 	Default {
-		Player.DisplayName "The Bad*ss";
+		Player.DisplayName "$PLAYER_BADASS";
 		Player.StartItem "SingularBullet";
 		Player.StartItem "MarineGrenade";
 		Player.StartItem "BadassFist";
@@ -24,7 +24,7 @@ CLASS SpanishPlayer : BadassPlayer {
 	Default {
 		Player.Face "SSF";
 		Player.CrouchSprite "";
-		Player.DisplayName "Spanish Sailor";
+		Player.DisplayName "$PLAYER_SPANISH";
 		Player.SoundClass "spanish";
 		Player.StartItem "SpanishPistol";
 		Player.StartItem "MarineGrenade";
