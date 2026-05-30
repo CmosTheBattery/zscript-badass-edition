@@ -378,3 +378,95 @@ class Shtjtjgtnzombo : shotgunguy
 		Stop;
 	}
 }
+
+class shittyhitscanass : Chaingunguy
+{
+	Default
+	{
+		Health 350;
+		Scale 1.5;
+		Radius 30;
+		Height 84;
+		PainChance 85;
+		AttackSound "weapons/m249";
+		species "shittyhitscanass";
+		translation "170:191=112:127", "16:47=112:127";
+		+dontharmspecies
+		bloodcolor "00 A0 00";
+	}
+	States
+	{
+	Spawn:
+		CPOS AB 1 A_Look;
+		Loop;
+	See:
+		CPOS ABCD 1 A_Chase;
+		Loop;
+	Missile:
+		CPOS E 15 A_FaceTarget;
+		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,3,"shittypuffass",flags:CBAF_NORANDOM);
+		CPOS F 0 A_CPosRefire;
+		Goto Missile+1;
+	Xdeath:
+	Death:
+		CPOS O 0 A_NoBlocking;
+		CPOS OPQRS 3 {
+			A_XScream();
+			A_SpawnItemEX("shittyhitscanass_mini",0,0,0,frandom(-8,8),frandom(-8,8),frandom(0,16));
+			A_AlertMonsters(64);
+		}
+		CPOS T -1 A_XScream;
+		Stop;
+	}
+}
+
+class shittypuffass : actor
+{
+	default
+	{
+		+MTHRUSPECIES
+	}
+	states
+	{
+		Spawn:
+			tnt1 a 0 a_spawnitemex("bulletpuff");
+			stop;
+	}
+}
+
+class shittyhitscanass_mini : Chaingunguy
+{
+	Default
+	{
+		AttackSound "weapons/m249";
+		species "shittyhitscanass";
+		+dontharmspecies
+		+thruspecies
+		translation "170:191=112:127", "16:47=112:127";
+		bloodcolor "00 A0 00";
+	}
+	States
+	{
+	Spawn:
+		CPOS AB 1 A_Look;
+		Loop;
+	See:
+		CPOS ABCD 1 A_Chase;
+		Loop;
+	Missile:
+		CPOS E 15 A_FaceTarget;
+		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,1,"shittypuffass",flags:CBAF_NORANDOM);
+		CPOS F 0 A_CPosRefire;
+		Goto Missile+1;
+	Death:
+		CPOS H 3 A_ScreamAndUnblock;
+		CPOS IJKLM 3 A_Scream;
+		CPOS N -1 A_Scream;
+		Stop;
+	XDeath:
+		CPOS O 0 A_Noblocking;
+		CPOS OPQRS 3 A_XScream;
+		CPOS T -1 A_XScream;
+		Stop;
+	}
+}
