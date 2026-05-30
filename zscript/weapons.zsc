@@ -149,7 +149,7 @@ CLASS SmallButPackingChaingun : Chaingun replaces Chaingun {
 		Weapon.BobSpeed 0.75 ;
 		Weapon.KickBack 30000;
 		Weapon.SelectionOrder 700;
-		Weapon.AmmoUse 2;
+		Weapon.AmmoUse 5;
 		Weapon.AmmoGive 100;
 		Weapon.AmmoType "Clip";
 		Inventory.PickupMessage "$GOTOVERCHARGEDMINIGUN";
@@ -173,7 +173,7 @@ CLASS SmallButPackingChaingun : Chaingun replaces Chaingun {
 			CHGG AB 2
 			{
 			    A_FireBullets(5.6, 1.4, 10, 15, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
-			    A_Recoil(1);
+			    A_Recoil(2);
 			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
 			}
 			CHGG ABABABAB 2 A_ReFire;
@@ -185,7 +185,7 @@ CLASS SmallButPackingChaingun : Chaingun replaces Chaingun {
 			CHGG AB 1
 			{
 			    A_FireBullets(5.6, 1.4, 10, 15, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
-			    A_Recoil(1);
+			    A_Recoil(2);
 			    A_StartSound("weapons/sshotf", CHAN_WEAPON);
 			}
 			CHGG ABABABAB 1 A_ReFire;
