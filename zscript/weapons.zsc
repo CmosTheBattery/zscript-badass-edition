@@ -149,7 +149,7 @@ CLASS SmallButPackingChaingun : Chaingun replaces Chaingun {
 		Weapon.BobSpeed 0.75 ;
 		Weapon.KickBack 30000;
 		Weapon.SelectionOrder 700;
-		Weapon.AmmoUse 10;
+		Weapon.AmmoUse 8;
 		Weapon.AmmoGive 100;
 		Weapon.AmmoType "Clip";
 		Inventory.PickupMessage "$GOTOVERCHARGEDMINIGUN";
