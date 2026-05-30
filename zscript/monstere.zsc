@@ -1,0 +1,37 @@
+class Shtjtjgtnzombo : shotgunguy
+{
+	Default
+	{
+		Health 45;
+		AttackSound "weapons/sshotf";
+		Obituary "$OB_SHOTGUY";
+		Tag "$FN_SHOTGUN";
+		DropItem "Shotgun";
+	}
+	States
+	{
+	Spawn:
+		SPOS AB 1 A_Look;
+		Loop;
+	See:
+		SPOS ABCD 1 A_Chase;
+		Loop;
+	Missile:
+		SPOS E 10 A_FaceTarget;
+		SPOS F 10 BRIGHT { A_Custombulletattack(45,45,450,3,flags:CBAF_NORANDOM); A_Recoil(80); }
+		SPOS E 10;
+		Goto See;
+	Death:
+		SPOS H 2 A_Scream;
+		SPOS H 2 A_NoBlocking;
+		SPOS IJKLKJIHIJKL 2;
+		SPOS L -1 A_Scream;
+		Stop;
+	XDeath:
+		SPOS M 2 A_XScream;
+		SPOS N 2 A_NoBlocking;
+		SPOS OPQRQPOPQRST 2;
+		SPOS U -1 A_Xscream;
+		Stop;
+	}
+}
