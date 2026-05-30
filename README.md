@@ -15,16 +15,6 @@ features:
 
 [official website](https://freedoom-badass-edition.github.io/)
 
-# screenshots
-
-<img src="screenshots/Screenshot_Doom_20250418_111330.png" width="480" height="270" data-align="center">
-<img src="screenshots/Screenshot_Doom_20250418_111230.png" width="480" height="270" data-align="center">
-<img src="screenshots/Screenshot_Doom_20250418_111812.png" width="480" height="270" data-align="center">
-<img src="screenshots/Screenshot_Doom_20250418_111152.png" width="480" height="270" data-align="center">
-<img src="screenshots/Screenshot_Doom_20250418_111916.png" width="480" height="270" data-align="center">
-<img src="screenshots/Screenshot_Doom_20250418_112044.png" width="480" height="270" data-align="center">
-<img src="screenshots/Screenshot_Doom_20250418_111313.png" width="480" height="270" data-align="center">
-
 # installing and launching the mod
 
 ### prerequisites
@@ -79,6 +69,19 @@ it is generally advised that you use the other methods
 4. enjoy (optional)
 
 if you encounter problems or the process is too bad*ss you can contact the fine people at our [discord](https://discord.gg/Rb6DyWyNXV) for help
+
+# screenshots
+
+<img src="screenshots/Screenshot_Doom_20250418_111330.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111230.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111812.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111152.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111916.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_112044.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20250418_111313.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20260529_221045.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20260529_221239.png" width="192" height="108" data-align="center">
+<img src="screenshots/Screenshot_Doom_20260530_112732.png" width="192" height="108" data-align="center">
 
 # faq
 
