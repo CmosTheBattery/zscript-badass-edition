@@ -1,6 +1,6 @@
 #include "zscript/weapons.zsc"
 #include "zscript/cast.zsc"
-#include "zscript/monstere.zsc"
+#include "zscript/monsters.zsc"
 
 CLASS BadassPlayer : DoomPlayer replaces DoomPlayer { 
 	Default {
