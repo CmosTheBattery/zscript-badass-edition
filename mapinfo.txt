@@ -558,6 +558,33 @@ Skill Erect
 	Name = "$SKILL_ERECT"
 	MustConfirm = "$ERECT_SURE"
 }
+Skill Variety
+{
+	SpawnFilter = Easy
+	Name = "Variant Playground"
+	ReplaceActor = "ShotgunGuy", "Shtjtjgtnzombo"
+	ReplaceActor = "PainElemental", "FucketSpawnLocation"
+	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
+	ReplaceActor = "CorpseTosser", "TheNuker"
+}
+Skill Variety2
+{
+	SpawnFilter = Normal
+	Name = "Variant Battlefield"
+	ReplaceActor = "ShotgunGuy", "Shtjtjgtnzombo"
+	ReplaceActor = "PainElemental", "FucketSpawnLocation"
+	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
+	ReplaceActor = "CorpseTosser", "TheNuker"
+}
+Skill Variety3
+{
+	SpawnFilter = Hard
+	Name = "Variant Hell"
+	ReplaceActor = "ShotgunGuy", "Shtjtjgtnzombo"
+	ReplaceActor = "PainElemental", "FucketSpawnLocation"
+	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
+	ReplaceActor = "CorpseTosser", "TheNuker"
+}
 GameInfo
 {
 	QuitSound = "menu/quit"
