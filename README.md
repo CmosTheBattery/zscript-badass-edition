@@ -147,7 +147,7 @@ too bad
 
 # quotes
 
-> "Gapisz mi siÄ™ na bebech?" - RafaÅ‚ Walentowicz narrating Philadelphia Charlemagne "Phil" Collins III's translated dialogue
+> "Gapisz mi siÄ? na bebech?" - RafaÅ? Walentowicz narrating Philadelphia Charlemagne "Phil" Collins III's translated dialogue
 
 > "Fuck this I'm making a weapon pack for freedoom on my dead gpu for no particular reason" - Saver310
 
@@ -201,7 +201,7 @@ too bad
 
 > "why" - CMOS555
 
-> "Evil scary dillar ðŸ’€ðŸ’€ðŸ’€" - Morris
+> "Evil scary dillar ?’€?’€?’€" - Morris
 
 > "Oops" - Everyone after a pull request is pushed to the main branch and it breaks everything
 
@@ -220,4 +220,3 @@ these are some other cool projects you should check out if you haven't!
 [Aseprite](https://www.aseprite.org/) is one of the best pixel art programs I've ever used - Saver310
 
 [Inkscape](https://inkscape.org/) is a solid vector graphics editor, and I've used it to create the CREDITS texture - Saver310
-
