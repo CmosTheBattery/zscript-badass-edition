@@ -134,6 +134,10 @@ Texture "endles01", 1920, 1080
 	XScale 10.0
 	YScale 10.0
 	Patch "screenshots/Screenshot_Doom_20260529_221239.png", 0, 0
+	Patch "textures/frametransparent.png", 0, 0
+	{
+		Style Overlay
+	}
 	Patch "textures/frame.png", 0, 0
 }
 
@@ -142,6 +146,10 @@ Texture "endles02", 1920, 1080
 	XScale 10.0
 	YScale 10.0
 	Patch "screenshots/Screenshot_Doom_20260529_221045.png", 0, 0
+	Patch "textures/frametransparent.png", 0, 0
+	{
+		Style Overlay
+	}
 	Patch "textures/frame.png", 0, 0
 }
 
