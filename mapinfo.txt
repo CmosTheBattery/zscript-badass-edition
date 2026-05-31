@@ -591,7 +591,7 @@ DoomEdNums
 	26024 = "EndlessBossEye"
 	26025 = "Karpackie"
 	26026 = "HostageSS"
-	26027 = "Shtjtjgtnzombo"
+	26027 = "DumbShotgunZombo"
 	26028 = "shittyhitscanass"
 	26029 = "shittyhitscanass_mini"
 	32420 = "Convicts"
