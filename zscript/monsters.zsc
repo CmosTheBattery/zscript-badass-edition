@@ -240,6 +240,7 @@ CLASS Convicts : ACTOR { //32420
 		+AMBUSH;
 		+SOLID;
 		+SHOOTABLE;
+		DropItem "ClipBox";
 	}
 	States
 	{
@@ -262,7 +263,7 @@ CLASS Convicts : ACTOR { //32420
 			Goto See;
 		Death:
 			CONV I 8 A_Scream;
-			CONV J 8;
+			CONV J 8 A_NoBlocking;
 			CONV K 8;
 			CONV L 8;
 			CONV M -1;
