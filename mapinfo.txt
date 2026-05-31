@@ -563,7 +563,9 @@ Skill Variety
 	SpawnFilter = Hard
 	Name = "$SKILL_VARIETY"
 	MustConfirm = "$VARIETY_SURE"
-	ReplaceActor = "ShotgunGuy", "Shtjtjgtnzombo"
+	ReplaceActor = "ShotgunGuy", "DumbShotgunZombo"
+	ReplaceActor = "ChaingunGuy", "shittyhitscanass_mini"
+	ReplaceActor = "HellKnight", "shittyhitscanass"
 	ReplaceActor = "PainElemental", "FucketSpawnLocation"
 	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
 	ReplaceActor = "CorpseTosser", "TheNuker"
@@ -590,5 +592,7 @@ DoomEdNums
 	26025 = "Karpackie"
 	26026 = "HostageSS"
 	26027 = "DumbShotgunZombo"
+	26028 = "shittyhitscanass"
+	26029 = "shittyhitscanass_mini"
 	32420 = "Convicts"
 }
