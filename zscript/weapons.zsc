@@ -705,12 +705,13 @@ CLASS BCG9000 : BFG9000 replaces BFG9000 {
 	Default {
 		Height 20;
 		Weapon.SelectionOrder 2800;
-		Weapon.AmmoUse 4;
+		Weapon.AmmoUse 100;
 		Weapon.AmmoGive 200;
 		Weapon.AmmoType "Cell";
 		+WEAPON.NOAUTOFIRE;
 		Inventory.PickupMessage "$GOTSBFKAG";
 		Tag "$TAG_SBFKAG";
+		Obituary "$OB_SBFKAG";
 	}
 	States
 	{
@@ -729,34 +730,54 @@ CLASS BCG9000 : BFG9000 replaces BFG9000 {
 			BFGG B 0
 			{
 			    A_Quake(8,12,0,1000);
-			    A_FireBullets (64, 48, 160, 25, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
-			    A_StartSound ("weapons/sshotf", CHAN_WEAPON);
+			    A_FireBullets (64, 48, 160, random(25,100),"BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_StartSound("Sraka",CHAN_AUTO,CHANF_DEFAULT,1.0,ATTN_NORM,0.75);
 			    A_GunFlash();
 			    A_Recoil(320);
+                A_RailAttack(random(1000,2000),0,false);
+				A_FireProjectile("BFGBall", -15, false);
+				A_FireProjectile("BFGBall", 0, false);
+				A_FireProjectile("BFGBall", 15, false);
 			}
-			BFGG BB 0 A_FireProjectile("BFGBall", 0, false);
-			BFGG BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 0 A_FireOldBFG;
-			BFGG BB 0 A_FireRailgunLeft;
-			BFGG BB 0 A_FireRailgun;
-			BFGG BB 0 A_FireRailgunRight;
-			BFGG B 35 A_ReFire;
+			BFGG BBBBBBBBBBBBBBBBBBBB 0
+			{
+				A_FireProjectile("BCGPlasmaBall",random(-75,75),false,0,0,0,random(-22.5,22.5));
+				A_FireProjectile("BCGPlasmaBall",random(-45,45),false,0,0,0,random(-15,15));	
+				A_FireProjectile("BCGPlasmaBall",random(-75,75),false,0,0,0,random(-22.5,22.5));
+				A_FireProjectile("BCGPlasmaBall",random(-45,45),false,0,0,0,random(-15,15));
+				A_FireProjectile("BCGPlasmaBall",random(-22.5,22.5),false,0,0,0,random(-7.5,7.5));
+			}
+			BFGG B 35;
+			BFGG B 0 A_Refire();
 			Goto Ready;
 		FireCocaine:
 			BFGG A 10 A_BFGSound;
 			BFGG B 0
 			{
 			    A_Quake(8,12,0,1000);
-			    A_FireBullets (128, 64, 320, 160, "BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
-			    A_StartSound ("weapons/sshotf", CHAN_WEAPON);
+			    A_FireBullets (96, 64, 320, random(100,400),"BulletPuff", FBF_USEAMMO|FBF_NORANDOM);
+			    A_StartSound("Sraka",CHAN_AUTO,CHANF_DEFAULT,1.0,ATTN_NORM,0.75);
 			    A_GunFlash();
 			    A_Recoil(320);
+                A_RailAttack(random(4000,8000),0,false);
+				A_FireProjectile("BFGBall", -45, false);
+				A_FireProjectile("BFGBall", -30, false);
+				A_FireProjectile("BFGBall", -15, false);
+				A_FireProjectile("BFGBall", 0, false);
+				A_FireProjectile("BFGBall", 15, false);
+				A_FireProjectile("BFGBall", 30, false);
+				A_FireProjectile("BFGBall", 45, false);
 			}
-			BFGG BBBB 0 A_FireProjectile("BFGBall", 0, false);
-			BFGG BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 0 A_FireOldBFG;
-			BFGG BB 0 A_FireRailgunLeft;
-			BFGG BB 0 A_FireRailgun;
-			BFGG BB 0 A_FireRailgunRight;
-			BFGG B 10 A_ReFire;
+			BFGG BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 0
+			{
+				A_FireProjectile("BCGPlasmaBall",random(-75,75),false,0,0,0,random(-22.5,22.5));
+				A_FireProjectile("BCGPlasmaBall",random(-45,45),false,0,0,0,random(-15,15));	
+				A_FireProjectile("BCGPlasmaBall",random(-75,75),false,0,0,0,random(-22.5,22.5));
+				A_FireProjectile("BCGPlasmaBall",random(-45,45),false,0,0,0,random(-15,15));
+				A_FireProjectile("BCGPlasmaBall",random(-22.5,22.5),false,0,0,0,random(-7.5,7.5));
+			}
+			BFGG B 10;
+			BFGG B 0 A_Refire();
 			Goto Ready;
 		Flash:
 			BFGF A 11 Bright A_Light1;
@@ -765,6 +786,15 @@ CLASS BCG9000 : BFG9000 replaces BFG9000 {
 		Spawn:
 			BFUG A -1;
 			Stop;
+	}
+}
+
+CLASS BCGPlasmaBall : PlasmaBall
+{
+	Default
+	{
+		SeeSound "";
+		Obituary "$OB_SBFKAG";
 	}
 }
 
