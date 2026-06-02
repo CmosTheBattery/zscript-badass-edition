@@ -289,7 +289,7 @@ Map BADASS30 "$BADASS30"
 	LevelNum = 30
 	Next = CREDITS
 	Sky1 = SKY3
-	Music = D_OPENIN
+	Music = D_MAP30
 	Par = 45
 	Author = Saver310
 }
