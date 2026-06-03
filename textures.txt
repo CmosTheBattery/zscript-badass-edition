@@ -20,30 +20,6 @@ Texture "tcamtex1", 256, 128
 	Patch "textures/tcamtex1.png", 0, 0
 }
 
-Sprite "zooma0", 208, 96
-{
-	Offset -200, -100
-	Sprite "sprites/hands/zooma0.png", 0, 0
-}
-
-Sprite "zoomb0", 208, 96
-{
-	Offset -170, -70
-	Sprite "sprites/hands/zooma0.png", 0, 0
-}
-
-Sprite "zoomc0", 208, 96
-{
-	Offset -90, 0
-	Sprite "sprites/hands/zooma0.png", 0, 0
-}
-
-Sprite "zoomd0", 208, 96
-{
-	Offset -100, -10
-	Sprite "sprites/hands/zooma0.png", 0, 0
-}
-
 WallTexture "teevee", 48, 32
 {
 	Patch "textures/teevee.png", 0, 0
