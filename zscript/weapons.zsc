@@ -997,13 +997,24 @@ CLASS MarineLauncher : RocketLauncher replaces RocketLauncher {
 			Loop;
 		Fire:
 			MISM A 0 A_JumpIfInventory("CocainePower", 1, "FireCocaine");
-			MISM B 8 A_GunFlash;
-			MISM B 12 A_FireMissile;
+			MISM B 2 A_GunFlash;
+			MISM B 6 A_FireMissile;
 			MISM B 0 A_ReFire;
 			Goto Ready;
 		FireCocaine:
-			MISM D 12 A_GunFlash;
-			MISM D 8 A_FireProjectile ("NuclearActualFucket");
+			MISM D 2 A_GunFlash;
+			MISM D 4 A_FireProjectile("NuclearActualFucket");
+			MISM D 0 A_ReFire;
+			Goto Ready;
+		AltFire:
+			MISM A 0 A_JumpIfInventory("CocainePower", 1, "AltFireCocaine");
+			MISM B 2 A_GunFlash;
+			MISM B 6 A_FireProjectile("FucketGrenadeGravity");
+			MISM B 0 A_ReFire;
+			Goto Ready;
+		AltFireCocaine:
+			MISM D 2 A_GunFlash;
+			MISM D 4 A_FireProjectile("NuclearFucketGrenadeGravity");
 			MISM D 0 A_ReFire;
 			Goto Ready;
 		Flash:
