@@ -471,6 +471,7 @@ class shittyhitscanass_mini : Chaingunguy
 	}
 }
 
+//big timmy boss fight
 
 CLASS Timmy : Revenant { 
 	Default {
@@ -517,6 +518,36 @@ class UnHomerTracer : Actor
 		FBXP A 8 BRIGHT;
 		FBXP B 6 BRIGHT;
 		FBXP C 4 BRIGHT;
+		Stop;
+	}
+}
+
+class Warner : Actor
+{
+	Default
+	{
+		+NOBLOCKMAP
+		+NOGRAVITY
+	}
+	States
+	{
+	Spawn:
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
 		Stop;
 	}
 }
