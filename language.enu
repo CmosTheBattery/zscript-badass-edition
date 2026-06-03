@@ -283,7 +283,7 @@ TESTICLETEXT =
 	"Potem umierasz\n"
 	"Koniec\n";
 
-BD06_1 = "Drzwi muszą być odblokowane terminalem."
+BD06_1 = "Drzwi muszą być odblokowane terminalem.";
 BD12_1 = "\c[Grey]Szary kurwiszon:\c[Gold] Naprzód!";
 BD12_2 = "\c[Grey]Szary kurwiszon:\c[Gold] O kurwa, ty mnie zabiłeś, ty twar***elu!";
 BD29_1 = "Maj 24: Domena Wielkiego Timmy'ego";
