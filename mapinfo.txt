@@ -357,6 +357,7 @@ Map ENDLESS "$ENDLESS"
 	Author = Saver310
 	Music = D_LOW
 	NoIntermission
+    NoInfighting
 }
 Map ENDLES01 "$ENDLES01" 
 {
@@ -594,5 +595,6 @@ DoomEdNums
 	26027 = "DumbShotgunZombo"
 	26028 = "shittyhitscanass"
 	26029 = "shittyhitscanass_mini"
+	26030 = "ShopkeeperSS"
 	32420 = "Convicts"
 }
