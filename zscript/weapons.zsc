@@ -96,7 +96,7 @@ CLASS DumbassShitFuckDickCockShotgun : Shotgun replaces Shotgun {
 			SHTG A 0 A_JumpIfInventory("CocainePower", 1, "FireSailorCocaine");
 			SHTG A 2
 			{
-			  A_FireBullets (5.6,5.6,8,random(4,8),"BulletPuff",FBF_USEAMMO|FBF_NORANDOM);
+			  A_FireBullets (5.6,5.6,10,random(7,11),"BulletPuff",FBF_USEAMMO|FBF_NORANDOM);
 			  A_StartSound("weapons/autoshotgun", CHAN_WEAPON);
 			  A_GunFlash();
 			  A_WeaponOffset(0.0, 48.0, WOF_INTERPOLATE);
@@ -109,7 +109,7 @@ CLASS DumbassShitFuckDickCockShotgun : Shotgun replaces Shotgun {
 		FireSailorCocaine:
 			SHTG A 2
 			{
-			  A_FireBullets (5.6,5.6,16,random(16,32),"BulletPuff",FBF_USEAMMO|FBF_NORANDOM);
+			  A_FireBullets (5.6,5.6,20,random(21,33),"BulletPuff",FBF_USEAMMO|FBF_NORANDOM);
 			  A_StartSound("weapons/m3", CHAN_WEAPON);
 			  A_GunFlash();
 			  A_WeaponOffset(0.0, 56.0, WOF_INTERPOLATE);
