@@ -476,7 +476,7 @@ class shittyhitscanass_mini : Chaingunguy
 
 CLASS Timmy : Revenant { 
 	Default {
-		Speed 35;
+		Speed 25;
 		Tag "Big Timmy";	
 	}
 	States
