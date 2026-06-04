@@ -476,6 +476,9 @@ class shittyhitscanass_mini : Chaingunguy
 
 CLASS Timmy : Revenant { 
 	Default {
+		Scale 2.5;
+		Height 120;
+		Radius 64;
 		Speed 25;
 		Tag "Big Timmy";	
 	}
