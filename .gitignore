@@ -6,6 +6,7 @@
 *.autosave??
 *.dbs
 *.lmp_bak
+*-export.png
 # Unused
 freedoom_badass_mappack.wad
 freedoom_badass_edition (wadinfo).wad
