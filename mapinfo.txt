@@ -289,7 +289,7 @@ Map BADASS30 "$BADASS30"
 	LevelNum = 30
 	Next = CREDITS
 	Sky1 = SKY3
-	Music = D_OPENIN
+	Music = D_MAP30
 	Par = 45
 	Author = Saver310
 }
@@ -563,7 +563,9 @@ Skill Variety
 	SpawnFilter = Hard
 	Name = "$SKILL_VARIETY"
 	MustConfirm = "$VARIETY_SURE"
-	ReplaceActor = "ShotgunGuy", "Shtjtjgtnzombo"
+	ReplaceActor = "ShotgunGuy", "DumbShotgunZombo"
+	ReplaceActor = "ChaingunGuy", "shittyhitscanass_mini"
+	ReplaceActor = "HellKnight", "shittyhitscanass"
 	ReplaceActor = "PainElemental", "FucketSpawnLocation"
 	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
 	ReplaceActor = "CorpseTosser", "TheNuker"
@@ -589,7 +591,9 @@ DoomEdNums
 	26024 = "EndlessBossEye"
 	26025 = "Karpackie"
 	26026 = "HostageSS"
-	26027 = "Shtjtjgtnzombo"
+	26027 = "DumbShotgunZombo"
+	26028 = "shittyhitscanass"
+	26029 = "shittyhitscanass_mini"
 	32420 = "Convicts"
 	6345 = "Timmy"
 }

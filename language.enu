@@ -36,6 +36,7 @@ OB_NUKE_TRIPOD = "%o got atomized by The Nuker.";
 OB_DUPERSHOTGUN = "%o was eviscerated by %k's Duper Shotgun.";
 OB_CONVICTS = "%o went guru.";
 OB_KARPACKIE = "%o drank a Karpackie.";
+OB_SBFKAG = "%o was eviscerated and vaporized by %k.";
 
 SKILL_ASS = "I'm Ass";
 SKILL_BAD = "I'm Bad";
@@ -283,7 +284,7 @@ TESTICLETEXT =
 	"Potem umierasz\n"
 	"Koniec\n";
 
-BD06_1 = "Drzwi muszą być odblokowane terminalem."
+BD06_1 = "Drzwi muszą być odblokowane terminalem.";
 BD12_1 = "\c[Grey]Szary kurwiszon:\c[Gold] Naprzód!";
 BD12_2 = "\c[Grey]Szary kurwiszon:\c[Gold] O kurwa, ty mnie zabiłeś, ty twar***elu!";
 BD29_1 = "Maj 24: Domena Wielkiego Timmy'ego";
