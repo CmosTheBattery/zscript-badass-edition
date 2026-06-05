@@ -144,6 +144,36 @@ HOSTAGEDOWN = "You killed a hostage!";
 PLAYER_BADASS = "The Bad*ss";
 PLAYER_SPANISH = "Spanish Sailor";
 
+SAILORCOUNT = "Sailor Count";
+
+TXT_SEBASTIAN = "Sebastian the Shopkeeper";
+TXT_RANDOM_SAILOR_01 = "What will it be now?";
+TXT_RANDOM_SAILOR_02 = "You won't find cheaper deals elsewhere!";
+TXT_RANDOM_SAILOR_03 = "Hello and welcome!";
+TXT_RANDOM_SAILOR_04 = "Check this shit out!";
+TXT_RANDOM_SAILOR_05 = "Yeah?";
+TXT_RANDOM_SAILOR_06 = "Whachu want?";
+TXT_RANDOM_SAILOR_07 = "Certified Spanish arms!";
+TXT_RANDOM_SAILOR_08 = "This one is illegal in over 20 countries.";
+TXT_RANDOM_SAILOR_09 = "Wassup?";
+TXT_RANDOM_SAILOR_10 = "Don't ask me where I got these!";
+TXT_RANDOM_SAILORBUY_01 = "Another satisfied customer.";
+TXT_RANDOM_SAILORBUY_02 = "Thaaaaanks!";
+TXT_RANDOM_SAILORBUY_03 = "Anything else?";
+TXT_RANDOM_SAILORBUY_04 = "Thank you and come again please!";
+TXT_RANDOM_SAILORBUY_05 = "Good luck!";
+TXT_RANDOM_SAILORBUY_06 = "If you come back alive I'll buy you a beer!";
+TXT_RANDOM_SAILORBUY_07 = "Remember trigger discipline!";
+TXT_RANDOM_SAILORBUY_08 = "That one's on the house.";
+TXT_RANDOM_SAILORBUY_09 = "Enjoy!";
+TXT_RANDOM_SAILORBUY_10 = "Lock and load!";
+TXT_SHOTGUN = "The shotgun.";
+TXT_DUPERSHOTGUN = "The duper shotgun.";
+TXT_MINIGUN = "The minigun.";
+TXT_FUCKETLAUNCHER = "The fucket launcher.";
+TXT_BACKPACK = "Some ammo and a backpack.";
+TXT_HARNAS = "A Harnaś.";
+
 [eng] 
 
 GOTDSFDCSHOTGUN = "Got the UIBB shotgun!";
@@ -305,3 +335,33 @@ HOSTAGEDOWN = "Zabiłeś zakładnika!";
 
 PLAYER_BADASS = "Twar***el";
 PLAYER_SPANISH = "Hiszpański Marynarz";
+
+SAILORCOUNT = "Ilość Marynarzy";
+
+TXT_SEBASTIAN = "Sebastian Sklepikarz";
+TXT_RANDOM_SAILOR_01 = "Co teraz?";
+TXT_RANDOM_SAILOR_02 = "Taniej indziej nie ma!";
+TXT_RANDOM_SAILOR_03 = "Witam i zapraszam do zakupu!";
+TXT_RANDOM_SAILOR_04 = "Zoba na te cacko!";
+TXT_RANDOM_SAILOR_05 = "No?";
+TXT_RANDOM_SAILOR_06 = "Co dziś zamówisz?";
+TXT_RANDOM_SAILOR_07 = "Certyfikowany Hiszpański arsenał!";
+TXT_RANDOM_SAILOR_08 = "To coś jest zakazane w ponad 20 krajach.";
+TXT_RANDOM_SAILOR_09 = "Siema!";
+TXT_RANDOM_SAILOR_10 = "Nie pytaj skąd mam te.";
+TXT_RANDOM_SAILORBUY_01 = "Kolejny zadowolony klient.";
+TXT_RANDOM_SAILORBUY_02 = "Dzięki!";
+TXT_RANDOM_SAILORBUY_03 = "Coś jeszcze?";
+TXT_RANDOM_SAILORBUY_04 = "Świetny wybór!";
+TXT_RANDOM_SAILORBUY_05 = "Życzę szczęścia!";
+TXT_RANDOM_SAILORBUY_06 = "Upijemy się do upadłego jeśli przeżyjesz!";
+TXT_RANDOM_SAILORBUY_07 = "Ostrożnie z tym paluchem na spuście!";
+TXT_RANDOM_SAILORBUY_08 = "To dostaniesz na koszt firmy.";
+TXT_RANDOM_SAILORBUY_09 = "Smacznego!";
+TXT_RANDOM_SAILORBUY_10 = "Szykuje się jesień średniowiecza!";
+TXT_SHOTGUN = "Strzelba.";
+TXT_DUPERSHOTGUN = "Duper Shotgun.";
+TXT_MINIGUN = "Minigun.";
+TXT_FUCKETLAUNCHER = "Wyrzutnia rakiet.";
+TXT_BACKPACK = "Amunicja.";
+TXT_HARNAS = "Harnaś.";

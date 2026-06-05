@@ -343,6 +343,24 @@ class HostageSS : WolfensteinSS
 	}
 }
 
+
+class ShopkeeperSS : HostageSS
+{
+	Default
+	{
+		Health 250;
+		Speed 0;
+		Mass 10000;
+		Tag "Shopkeeper";
+	}
+	States
+	{
+	See:
+		SSWV AB 10;
+		Loop;
+    }
+}
+
 class DumbShotgunZombo : shotgunguy
 {
 	Default

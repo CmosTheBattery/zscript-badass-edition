@@ -65,9 +65,19 @@ WallTexture "glass1", 128, 128
 	Patch "textures/glass1.png", 0, 0
 }
 
+WallTexture "glass1h", 128, 128
+{
+	Patch "textures/glass1.png", 0, 0
+}
+
 WallTexture "glass2", 128, 128
 {
 	Patch "textures/glass2.png", 0, 0
+}
+
+WallTexture "glass2h", 128, 128
+{
+	Patch "textures/glass2h.png", 0, 0
 }
 
 WallTexture "glass3", 128, 128
