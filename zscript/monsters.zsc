@@ -489,3 +489,87 @@ class shittyhitscanass_mini : Chaingunguy
 		Stop;
 	}
 }
+
+//big timmy boss fight
+
+CLASS Timmy : Revenant { 
+	Default {
+		Scale 2.5;
+		Height 120;
+		Radius 64;
+		Speed 25;
+		Tag "Big Timmy";	
+	}
+	States
+	{
+		Unhome:
+			SKEL J 0 BRIGHT A_FaceTarget;
+			SKEL K 2 A_SpawnProjectile("UnHomerTracer",50,-9,CMF_AIMOFFSET);
+			SKEL K 20 A_FaceTarget;
+			Goto See;
+		Missile:
+			SKEL J 5 BRIGHT A_FaceTarget;
+			SKEL K 2 A_SpawnProjectile("UnHomerTracer",50,-9,CMF_AIMOFFSET);
+			SKEL K 2 A_FaceTarget;
+			Goto See;
+	}
+}
+
+class UnHomerTracer : Actor
+{
+	Default
+	{
+		Radius 11;
+		Height 8;
+		Speed 40;
+		Damage 30;
+		Projectile;
+		+SEEKERMISSILE 
+		+RANDOMIZE
+		+ZDOOMTRANS
+		SeeSound "skeleton/attack";
+		DeathSound "skeleton/tracex";
+		RenderStyle "Add";
+	}
+	States
+	{
+	Spawn:
+		FATB AB 2 BRIGHT;
+		Loop;
+	Death:
+		FBXP A 8 BRIGHT;
+		FBXP B 6 BRIGHT;
+		FBXP C 4 BRIGHT;
+		Stop;
+	}
+}
+
+class Warner : Actor
+{
+	Default
+	{
+		+NOBLOCKMAP
+		+NOGRAVITY
+	}
+	States
+	{
+	Spawn:
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		UNKN A 2 BRIGHT;
+		TNT1 A 2 BRIGHT;
+		Stop;
+	}
+}
