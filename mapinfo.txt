@@ -279,8 +279,8 @@ Map BADASS29 "$BADASS29"
 	SecretNext = BADASS30
 	Sky1 = SKY3
 	Music = D_SHAWN3
-	Par = 20
-	Author = SmekkyBoy
+	Par = 60
+	Author = CMOS555
 	ResetHealth
 }
 Map BADASS30 "$BADASS30"
