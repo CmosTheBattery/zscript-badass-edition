@@ -90,7 +90,7 @@ Texture "harnass", 720, 871
 	Patch "textures/harnas.png", 0, 0
 }
 
-WallTexture "credits", 192, 2112
+WallTexture "credits", 192, 2304
 {
 	Patch "textures/credits.png", 0, 0
 }
