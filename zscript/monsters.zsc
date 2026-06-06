@@ -241,6 +241,7 @@ CLASS Convicts : ACTOR { //32420
 		+SOLID;
 		+SHOOTABLE;
 		DropItem "ClipBox";
+		DeathSound "convicts/death";
 	}
 	States
 	{
