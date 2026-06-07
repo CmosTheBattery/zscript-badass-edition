@@ -24,7 +24,7 @@ features:
 - supported hardware that runs your desired and supported sourceport
 - any supported sourceport (see "sourceport compatibility")
 - freedoom phase 2 iwad
-- `git` for the turbo nerd way
+- `git` for the turbo nerd way and launcher way
 
 ### instructions
 
@@ -32,15 +32,19 @@ features:
 
 works like a charm and isn't a pain
 
-this is the recommended method although you won't be able to do funky git stuff
+this is the recommended method although you will need to redownload the whole thing every time you want to update
 
 1. click on "Code"
+<img width="925" height="389" alt="obraz" src="https://github.com/user-attachments/assets/3a61cf8f-0e00-425d-a414-f1a0ff53d866" />
 
 2. click "Download ZIP"
+<img width="475" height="336" alt="obraz" src="https://github.com/user-attachments/assets/ac6f4ddd-f708-4ac6-b9ce-10a233e423cd" />
 
 3. drag and drop the downloaded file into your sourceport of choice or use a launcher
 
 4. enjoy (optional)
+
+you can also press "download (latest)" on the official website instead
 
 #### the turbo nerd way
 
@@ -50,9 +54,35 @@ if you have some knowledge of git and/or you're a linux user this is the best op
 
 2. write `git clone https://github.com/freedoom-badass-edition/freedoom-badass-edition.git` and press enter
 
-3. type in the name of the executable of your sourceport and `freedoom-badass-edition` following it (`uzdoom freedoom-badass-edition` for example) (or just use a launcher)
+3. type in the name of the executable of your sourceport and `freedoom-badass-edition` following it (`uzdoom freedoom-badass-edition` for example) or use a launcher
 
 4. enjoy (optional)
+
+5. you can update by opening your terminal in the freedoom-badass-edition directory and writing `git pull`
+
+#### the launcher way
+
+this method is highly experimental, but it's more comfortable and easier than the other methods by far
+
+you will also need to install [git](https://git-scm.com/install/)
+
+1. go to https://github.com/freedoom-badass-edition/badass-launcher
+
+2. click on "Releases" (you can also download the latest build artifact) (you can also press "download (launcher)" on the official website instead)
+
+3. download `badass-launcher-windows.zip` if you're on windows or `badass-launcher-linux.zip` if you're on linux
+
+4. launch `main.exe` if you're on windows or just `main` if you're on linux
+
+5. click "download fdb*e"
+
+6. select your sourceport
+
+7. press "start game"
+
+8. enjoy
+
+9. you can easily update by pressing the "update fdb*e" button
 
 #### the stable way
 
@@ -67,6 +97,8 @@ it is generally advised that you use the other methods
 3. drag and drop the downloaded file into your sourceport of choice or use a launcher
 
 4. enjoy (optional)
+
+you can also press "download (stable)" on the official website instead
 
 if you encounter problems or the process is too bad*ss you can contact the fine people at our [discord](https://discord.gg/Rb6DyWyNXV) for help
 
