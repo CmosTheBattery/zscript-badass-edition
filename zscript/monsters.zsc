@@ -38,7 +38,7 @@ CLASS FucketSpawnLocation : PainElemental { // 26016
 	States 
 	{
 		Missile:
-			PAIN E 5 A_FaceTarget;
+			PAIN E 5 A_FaceTarget A_StartSound("IWANT3BIGMAC",CHAN_VOICE);
 			PAIN A 5 A_FaceTarget;
 			PAIN E 5 A_FaceTarget;
 			PAIN A 5 A_FaceTarget;
@@ -56,12 +56,13 @@ CLASS FucketSpawnLocation : PainElemental { // 26016
 		Death:
 			PAIN H 8 Bright;
 			PAIN I 8 Bright A_Scream;
-			PAIN JK 8 Bright;
-			PAIN L 1 Bright A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 0, CMF_AIMDIRECTION);
-			PAIN L 1 Bright A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 90, CMF_AIMDIRECTION);
-			PAIN L 1 Bright A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 180, CMF_AIMDIRECTION);
-			PAIN L 1 Bright A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 270, CMF_AIMDIRECTION);
-			PAIN M 8 Bright;
+			PAIN J 8 Bright;
+			PAIN K 8 Bright {
+				for (int i; i < 4; i++) {
+					A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 90*i, CMF_AIMDIRECTION);
+				}
+			}
+			PAIN LM 8 Bright;
 			Stop;
 	}
 }
@@ -517,9 +518,9 @@ class badsstrilobite : cacodemon
 		}
 		HEAD C 1 A_FaceTarget;
 		HEAD DDDDDDDDDDDD 1 bright {
-			a_spawnprojectile("trilobiteball2");
-			a_spawnprojectile("trilobiteball2",angle:spread);
-			a_spawnprojectile("trilobiteball2",angle:(spread*-1.0));
+			a_spawnprojectile("trilobiteball");
+			a_spawnprojectile("trilobiteball",angle:spread);
+			a_spawnprojectile("trilobiteball",angle:(spread*-1.0));
 			a_facetarget();
 			spread += 1.5;
 		}
@@ -544,23 +545,14 @@ class badsstrilobite : cacodemon
 	}
 }
 
-class trilobiteball : cacodemonball replaces cacodemonball
-{
-	default
-	{
-		speed 20;
-		fastspeed 40;
-		damagefunction (15);
-	}
-}
-
-class trilobiteball2 : trilobiteball
+class trilobiteball : cacodemonball
 {
 	default
 	{
 		speed 25;
 		fastspeed 50;
 		obituary "%o was out-bad*ss'd by a bad*ss trilobite";
+		damagefunction (15);
 	}
 }
 
