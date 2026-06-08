@@ -38,7 +38,7 @@ CLASS FucketSpawnLocation : PainElemental { // 26016
 	States 
 	{
 		Missile:
-			PAIN E 5 A_FaceTarget A_StartSound("IWANT3BIGMAC",CHAN_VOICE);
+			PAIN E 5 A_StartSound("IWANT3BIGMAC",CHAN_VOICE);
 			PAIN A 5 A_FaceTarget;
 			PAIN E 5 A_FaceTarget;
 			PAIN A 5 A_FaceTarget;
