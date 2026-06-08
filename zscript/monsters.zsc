@@ -32,15 +32,13 @@ CLASS Trilobyte : Cacodemon replaces Cacodemon {
 
 // custom monsters
 CLASS FucketSpawnLocation : PainElemental { // 26016 
-	Default {
-		
+	Default {		
 		Tag "Fucket Spawner";
 	}
 	States 
 	{
 		Missile:
-			PAIN A 0 A_StartSound("IWANT3BIGMAC",CHAN_AUTO);
-			PAIN E 5 A_FaceTarget;
+			PAIN E 5 A_StartSound("IWANT3BIGMAC",CHAN_VOICE);
 			PAIN A 5 A_FaceTarget;
 			PAIN E 5 A_FaceTarget;
 			PAIN A 5 A_FaceTarget;
@@ -58,12 +56,13 @@ CLASS FucketSpawnLocation : PainElemental { // 26016
 		Death:
 			PAIN H 8 Bright;
 			PAIN I 8 Bright A_Scream;
-			PAIN JK 8 Bright;
-			PAIN L 1 Bright A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 0, CMF_AIMDIRECTION);
-			PAIN L 1 Bright A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 90, CMF_AIMDIRECTION);
-			PAIN L 1 Bright A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 180, CMF_AIMDIRECTION);
-			PAIN L 1 Bright A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 270, CMF_AIMDIRECTION);
-			PAIN M 8 Bright;
+			PAIN J 8 Bright;
+			PAIN K 8 Bright {
+				for (int i; i < 4; i++) {
+					A_SpawnProjectile("FucketGrenadeGravity", 32, 0, 0, 90*i, CMF_AIMDIRECTION);
+				}
+			}
+			PAIN LM 8 Bright;
 			Stop;
 	}
 }
@@ -238,8 +237,7 @@ CLASS Convicts : ACTOR { //32420
 		PainChance 200;
 		Mass 200;
 		+AMBUSH;
-		+SOLID;
-		+SHOOTABLE;
+		Monster;
 		DropItem "ClipBox";
 		DeathSound "convicts/death";
 	}
@@ -424,7 +422,7 @@ class shittyhitscanass : Chaingunguy
 		Loop;
 	Missile:
 		CPOS E 15 A_FaceTarget;
-		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,3,"shittypuffass",flags:CBAF_NORANDOM);
+		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,4,"shittypuffass",flags:CBAF_NORANDOM);
 		CPOS F 0 A_CPosRefire;
 		Goto Missile+1;
 	Xdeath:
@@ -475,7 +473,7 @@ class shittyhitscanass_mini : Chaingunguy
 		Loop;
 	Missile:
 		CPOS E 15 A_FaceTarget;
-		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,1,"shittypuffass",flags:CBAF_NORANDOM);
+		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,2,"shittypuffass",flags:CBAF_NORANDOM);
 		CPOS F 0 A_CPosRefire;
 		Goto Missile+1;
 	Death:
@@ -488,6 +486,73 @@ class shittyhitscanass_mini : Chaingunguy
 		CPOS OPQRS 3 A_XScream;
 		CPOS T -1 A_XScream;
 		Stop;
+	}
+}
+
+class badsstrilobite : cacodemon
+{
+	double spread;
+	default
+	{
+		health 696;
+		tag "bad*ss trilobite";
+		obituary "%o was out-bad*ss'd by a bad*ss trilobite";
+		translation "170:191=112:127", "16:47=112:127", "193:207=112:123", "240:247=124:127";
+		bloodcolor "00 A0 00";
+	}
+	states
+	{
+	Spawn:
+		HEAD A 1 A_Look;
+		Loop;
+	See:
+		HEAD A 1 A_FastChase;
+		Loop;
+	Missile:
+		HEAD B 1 {
+			int mul = (2*random(1,2))-3; // picks either -1 or 1
+			velfromangle(40,angle+(90*mul));
+			a_facetarget();
+			bNOPAIN = true;
+			spread = 1.5;
+		}
+		HEAD C 1 A_FaceTarget;
+		HEAD DDDDDDDDDDDD 1 bright {
+			a_spawnprojectile("trilobiteball");
+			a_spawnprojectile("trilobiteball",angle:spread);
+			a_spawnprojectile("trilobiteball",angle:(spread*-1.0));
+			a_facetarget();
+			spread += 1.5;
+		}
+		HEAD A 0 { a_scalevelocity(0); bNOPAIN = false; }
+		Goto See;
+	Pain:
+		HEAD E 3 { A_Pain(); bNOPAIN = true;}
+		Goto Missile;
+	Death:
+		HEAD G 1 A_ScreamAndUnblock;
+		HEAD HIJKL 1;
+		HEAD G 1 A_Scream;
+		HEAD HIJKL 1;
+		HEAD G 1 A_Scream;
+		HEAD HIJKL 1;
+		HEAD G 1 A_Scream;
+		HEAD HIJKL 1;
+		HEAD G 1 A_Scream;
+		HEAD HIJK 1;
+		HEAD L -1;
+		Stop;
+	}
+}
+
+class trilobiteball : cacodemonball
+{
+	default
+	{
+		speed 25;
+		fastspeed 50;
+		obituary "%o was out-bad*ss'd by a bad*ss trilobite";
+		damagefunction (15);
 	}
 }
 
