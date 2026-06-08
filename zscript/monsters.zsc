@@ -34,10 +34,6 @@ CLASS Trilobyte : Cacodemon replaces Cacodemon {
 CLASS FucketSpawnLocation : PainElemental { // 26016 
 	Default {		
 		Tag "Fucket Spawner";
-		seesound "IWANT3BIGMAC";
-		painsound "IWANT3BIGMAC";
-		activesound "IWANT3BIGMAC";
-		deathsound "IWANT3BIGMAC";
 	}
 	States 
 	{
