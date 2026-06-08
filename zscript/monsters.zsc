@@ -14,9 +14,9 @@ CLASS CorpseTosser : Cyberdemon replaces Cyberdemon {
 	}
 }
 
-CLASS Trilobyte : Cacodemon replaces Cacodemon { 
+CLASS Trilobite : Cacodemon replaces Cacodemon { 
 	Default {
-		Tag "Trilobyte";	
+		Tag "Trilobite";	
 	}
 	States
 	{
@@ -297,7 +297,7 @@ class EndlessBossEye : BossEye
 		DropItem "Demon",	        255, 40;
 		DropItem "Spectre",	        255, 30;
 		DropItem "PainElemental",   255, 10;
-		DropItem "Trilobyte",       255, 30;
+		DropItem "Trilobite",       255, 30;
 		DropItem "Archvile",        255,  2;
 		DropItem "Revenant",        255, 10;
 		DropItem "Arachnotron",     255, 20;
@@ -489,58 +489,56 @@ class shittyhitscanass_mini : Chaingunguy
 	}
 }
 
-class badsstrilobite : cacodemon
+class BadassTrilobite : cacodemon
 {
 	double spread;
 	default
 	{
 		health 696;
-		tag "bad*ss trilobite";
-		obituary "%o was out-bad*ss'd by a bad*ss trilobite";
-		translation "170:191=112:127", "16:47=112:127", "193:207=112:123", "240:247=124:127";
-		bloodcolor "00 A0 00";
+		tag "Bad*ss Trilobite";
+		obituary "%o was out-bad*ss'd by a Bad*ss Trilobite.";
 	}
 	states
 	{
 	Spawn:
-		HEAD A 1 A_Look;
+		HDBD A 1 A_Look;
 		Loop;
 	See:
-		HEAD A 1 A_FastChase;
+		HDBD A 1 A_FastChase;
 		Loop;
 	Missile:
-		HEAD B 1 {
+		HDBD B 1 {
 			int mul = (2*random(1,2))-3; // picks either -1 or 1
 			velfromangle(40,angle+(90*mul));
 			a_facetarget();
 			bNOPAIN = true;
 			spread = 1.5;
 		}
-		HEAD C 1 A_FaceTarget;
-		HEAD DDDDDDDDDDDD 1 bright {
+		HDBD C 1 A_FaceTarget;
+		HDBD DDDDDDDDDDDD 1 bright {
 			a_spawnprojectile("trilobiteball");
 			a_spawnprojectile("trilobiteball",angle:spread);
 			a_spawnprojectile("trilobiteball",angle:(spread*-1.0));
 			a_facetarget();
 			spread += 1.5;
 		}
-		HEAD A 0 { a_scalevelocity(0); bNOPAIN = false; }
+		HDBD A 0 { a_scalevelocity(0); bNOPAIN = false; }
 		Goto See;
 	Pain:
-		HEAD E 3 { A_Pain(); bNOPAIN = true;}
+		HDBD E 3 { A_Pain(); bNOPAIN = true;}
 		Goto Missile;
 	Death:
-		HEAD G 1 A_ScreamAndUnblock;
-		HEAD HIJKL 1;
-		HEAD G 1 A_Scream;
-		HEAD HIJKL 1;
-		HEAD G 1 A_Scream;
-		HEAD HIJKL 1;
-		HEAD G 1 A_Scream;
-		HEAD HIJKL 1;
-		HEAD G 1 A_Scream;
-		HEAD HIJK 1;
-		HEAD L -1;
+		HDBD G 1 A_ScreamAndUnblock;
+		HDBD HIJKL 1;
+		HDBD G 1 A_Scream;
+		HDBD HIJKL 1;
+		HDBD G 1 A_Scream;
+		HDBD HIJKL 1;
+		HDBD G 1 A_Scream;
+		HDBD HIJKL 1;
+		HDBD G 1 A_Scream;
+		HDBD HIJK 1;
+		HDBD L -1;
 		Stop;
 	}
 }
