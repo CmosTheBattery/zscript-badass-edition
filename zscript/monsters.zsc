@@ -32,14 +32,16 @@ CLASS Trilobyte : Cacodemon replaces Cacodemon {
 
 // custom monsters
 CLASS FucketSpawnLocation : PainElemental { // 26016 
-	Default {
-		
+	Default {		
 		Tag "Fucket Spawner";
+		seesound "IWANT3BIGMAC";
+		painsound "IWANT3BIGMAC";
+		activesound "IWANT3BIGMAC";
+		deathsound "IWANT3BIGMAC";
 	}
 	States 
 	{
 		Missile:
-			PAIN A 0 A_StartSound("IWANT3BIGMAC",CHAN_AUTO);
 			PAIN E 5 A_FaceTarget;
 			PAIN A 5 A_FaceTarget;
 			PAIN E 5 A_FaceTarget;
@@ -423,7 +425,7 @@ class shittyhitscanass : Chaingunguy
 		Loop;
 	Missile:
 		CPOS E 15 A_FaceTarget;
-		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,3,"shittypuffass",flags:CBAF_NORANDOM);
+		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,4,"shittypuffass",flags:CBAF_NORANDOM);
 		CPOS F 0 A_CPosRefire;
 		Goto Missile+1;
 	Xdeath:
@@ -474,7 +476,7 @@ class shittyhitscanass_mini : Chaingunguy
 		Loop;
 	Missile:
 		CPOS E 15 A_FaceTarget;
-		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,1,"shittypuffass",flags:CBAF_NORANDOM);
+		CPOS FE 2 BRIGHT A_CustomBulletAttack(22.5,22.5,16,2,"shittypuffass",flags:CBAF_NORANDOM);
 		CPOS F 0 A_CPosRefire;
 		Goto Missile+1;
 	Death:
