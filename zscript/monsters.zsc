@@ -238,8 +238,7 @@ CLASS Convicts : ACTOR { //32420
 		PainChance 200;
 		Mass 200;
 		+AMBUSH;
-		+SOLID;
-		+SHOOTABLE;
+		Monster;
 		DropItem "ClipBox";
 		DeathSound "convicts/death";
 	}
@@ -488,6 +487,82 @@ class shittyhitscanass_mini : Chaingunguy
 		CPOS OPQRS 3 A_XScream;
 		CPOS T -1 A_XScream;
 		Stop;
+	}
+}
+
+class badsstrilobite : cacodemon
+{
+	double spread;
+	default
+	{
+		health 696;
+		tag "bad*ss trilobite";
+		obituary "%o was out-bad*ss'd by a bad*ss trilobite";
+		translation "170:191=112:127", "16:47=112:127", "193:207=112:123", "240:247=124:127";
+		bloodcolor "00 A0 00";
+	}
+	states
+	{
+	Spawn:
+		HEAD A 1 A_Look;
+		Loop;
+	See:
+		HEAD A 1 A_FastChase;
+		Loop;
+	Missile:
+		HEAD B 1 {
+			int mul = (2*random(1,2))-3; // picks either -1 or 1
+			velfromangle(40,angle+(90*mul));
+			a_facetarget();
+			bNOPAIN = true;
+			spread = 1.5;
+		}
+		HEAD C 1 A_FaceTarget;
+		HEAD DDDDDDDDDDDD 1 bright {
+			a_spawnprojectile("trilobiteball2");
+			a_spawnprojectile("trilobiteball2",angle:spread);
+			a_spawnprojectile("trilobiteball2",angle:(spread*-1.0));
+			a_facetarget();
+			spread += 1.5;
+		}
+		HEAD A 0 { a_scalevelocity(0); bNOPAIN = false; }
+		Goto See;
+	Pain:
+		HEAD E 3 { A_Pain(); bNOPAIN = true;}
+		Goto Missile;
+	Death:
+		HEAD G 1 A_ScreamAndUnblock;
+		HEAD HIJKL 1;
+		HEAD G 1 A_Scream;
+		HEAD HIJKL 1;
+		HEAD G 1 A_Scream;
+		HEAD HIJKL 1;
+		HEAD G 1 A_Scream;
+		HEAD HIJKL 1;
+		HEAD G 1 A_Scream;
+		HEAD HIJK 1;
+		HEAD L -1;
+		Stop;
+	}
+}
+
+class trilobiteball : cacodemonball replaces cacodemonball
+{
+	default
+	{
+		speed 20;
+		fastspeed 40;
+		damagefunction (15);
+	}
+}
+
+class trilobiteball2 : trilobiteball
+{
+	default
+	{
+		speed 25;
+		fastspeed 50;
+		obituary "%o was out-bad*ss'd by a bad*ss trilobite";
 	}
 }
 
