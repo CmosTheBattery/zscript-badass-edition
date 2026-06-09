@@ -1,14 +1,14 @@
 # <img src="screenshots/logo.png" title="" alt="freedoom bad*ss edition" data-align="center">
 
-the most bad*ss freedoom mod on earth made for uzdoom
+the single most bad*ss freedoom mod to ever hit the internet
 
 features:
 
-* bad*ssery
+* sheer bad*ssery
 * a wide arsenal of bad*ss weapons
-* bad*ss mappack made just for the mod with 20 brand new levels
+* a bad*ss mappack made just for the mod with over 20 brand new levels
 * two new player classes
-* bad*ss storyline
+* a bad*ss storyline
 * cocaine
 
 [official discord](https://discord.gg/Rb6DyWyNXV)
@@ -17,90 +17,7 @@ features:
 
 # installing and launching the mod
 
-### prerequisites
-
-- functioning brain
-- a pulse
-- supported hardware that runs your desired and supported sourceport
-- any supported sourceport (see "sourceport compatibility")
-- freedoom phase 2 iwad
-- `git` for the turbo nerd way and launcher way
-
-### instructions
-
-#### the nice and quick way
-
-works like a charm and isn't a pain
-
-this is the recommended method although you will need to redownload the whole thing every time you want to update
-
-1. click on "Code"
-<img width="925" height="389" alt="obraz" src="https://github.com/user-attachments/assets/3a61cf8f-0e00-425d-a414-f1a0ff53d866" />
-
-2. click "Download ZIP"
-<img width="475" height="336" alt="obraz" src="https://github.com/user-attachments/assets/ac6f4ddd-f708-4ac6-b9ce-10a233e423cd" />
-
-3. drag and drop the downloaded file into your sourceport of choice or use a launcher
-
-4. enjoy (optional)
-
-you can also press "download (latest)" on the official website instead
-
-#### the turbo nerd way
-
-if you have some knowledge of git and/or you're a linux user this is the best option
-
-1. open your terminal of choice
-
-2. write `git clone https://github.com/freedoom-badass-edition/freedoom-badass-edition.git` and press enter
-
-3. type in the name of the executable of your sourceport and `freedoom-badass-edition` following it (`uzdoom freedoom-badass-edition` for example) or use a launcher
-
-4. enjoy (optional)
-
-5. you can update by opening your terminal in the freedoom-badass-edition directory and writing `git pull`
-
-#### the launcher way
-
-this method is highly experimental, but it's more comfortable and easier than the other methods by far
-
-you will also need to install [git](https://git-scm.com/install/)
-
-1. go to https://github.com/freedoom-badass-edition/badass-launcher
-
-2. click on "Releases" (you can also download the latest build artifact) (you can also press "download (launcher)" on the official website instead)
-
-3. download `badass-launcher-windows.zip` if you're on windows or `badass-launcher-linux.zip` if you're on linux
-
-4. launch `main.exe` if you're on windows or just `main` if you're on linux
-
-5. click "download fdb*e"
-
-6. select your sourceport
-
-7. press "start game"
-
-8. enjoy
-
-9. you can easily update by pressing the "update fdb*e" button
-
-#### the stable way
-
-this is the most stable out of the other ones but isn't the latest
-
-it is generally advised that you use the other methods
-
-1. click on "Releases"
-
-2. click "Source code"
-
-3. drag and drop the downloaded file into your sourceport of choice or use a launcher
-
-4. enjoy (optional)
-
-you can also press "download (stable)" on the official website instead
-
-if you encounter problems or the process is too bad*ss you can contact the fine people at our [discord](https://discord.gg/Rb6DyWyNXV) for help
+see [installing and launching the mod](https://github.com/freedoom-badass-edition/freedoom-badass-edition/wiki/installing-and-launching-the-mod) on the wiki
 
 # screenshots
 
@@ -125,35 +42,35 @@ an overly ambitious stupid joke wad for freedoom
 
 #### update when?
 
-when anyone in the team feels like doing so, or you can update it yourself if you have the proper skills and making a pull request
+when anyone in the team feels like doing so, or you can update it yourself if you have the proper skills
 
 #### i would like to contribute to the project pretty please
 
-go right ahead, fork the project, make some changes and make a pull request!
+go right ahead, [fork the project](https://github.com/freedoom-badass-edition/freedoom-badass-edition/fork), make some changes and make a pull request!
 
-you can also join our [discord](https://discord.gg/Rb6DyWyNXV) if you want to get in contact with most of the team
+you can also [join our discord](https://discord.gg/Rb6DyWyNXV) if you want to get in contact with most of the team
 
-if you want to contribute to the mappack, check the CREDITS file included for any open map slots
+if you want to contribute to the mappack, check the [CREDITS file](CREDITS) to check for any open map slots
 
 #### what should I do if I spot an unusual and possibly game breaking bug, or just want you guys to add something?
 
-you can just send an issue to our github page
+you can just [send an issue](https://github.com/freedoom-badass-edition/freedoom-badass-edition/issues/new/choose) to our [github issues page](https://github.com/freedoom-badass-edition/freedoom-badass-edition/issues)
 
 #### how do I play multiplayer?
 
 [check the zdoom wiki article about multiplayer](https://zdoom.org/wiki/Multiplayer) for the basic stuff
 
-the multiplayer is sadly only possible on lan, unless you're willing to go through doxxing yourself and port forwarding, but even then zdoom's sloppy netcode will give you a headache when playing with more than 2 players or with your homeboy in somalia or serbia
+the multiplayer is possible on lan and online if you're willing to go through the pain of port forwarding, but even then zdoom's sloppy netcode will give you a headache when playing with more than 2 players or with your homeboy in somalia or serbia
 
-if you need any help or want to find someone willing to play you can check out our [discord](https://discord.gg/Rb6DyWyNXV)
+if you need any help or want to find someone willing to play you can check out [our discord](https://discord.gg/Rb6DyWyNXV)
 
-#### is zandronum going to be supported?
+#### is zandronum ever going to be supported?
 
 no, unless they catch up to the 2549 commits and add zscript support. in the meantime you still can play bad*ss deathmatch on your local network using uzdoom or lzdoom (check the question right above this)
 
-#### can I play on other iwads?
+#### which iwads does this support?
 
-the generally recommended experience is playing the mod through freedoom phase 2
+the generally recommended experience is playing the mod through the latest freedoom phase 2 iwad
 
 phase 1 and the official id software doom iwads are not supported and will not be a pleasant experience due to missing textures and sounds
 
@@ -165,7 +82,7 @@ what
 
 #### this is too bad*ss for me
 
-too bad
+too bad(*ss)
 
 # sourceport compatibility
 
@@ -176,12 +93,12 @@ too bad
 * questzdoom: alright but in vr
 * zandronum: doesn't work (no zscript)
 * zdoom: doesn't work (dinosaur)
-* anything non-uzdoom/lzdoom based: doesn't work (it's built on uzdoom dum dum)
+* anything non-uzdoom based: doesn't work
 * your toaster in the kitchen: only works on friday the 13th during a solar eclipse
 
 # quotes
 
-> "Gapisz mi si�? na bebech?" - Rafa�? Walentowicz narrating Philadelphia Charlemagne "Phil" Collins III's translated dialogue
+> "Gapisz mi się na bebech?" - Rafał Walentowicz narrating Philadelphia Charlemagne "Phil" Collins III's translated dialogue
 
 > "Fuck this I'm making a weapon pack for freedoom on my dead gpu for no particular reason" - Saver310
 
@@ -235,7 +152,7 @@ too bad
 
 > "why" - CMOS555
 
-> "Evil scary dillar ?��?��?��" - Morris
+> "Evil scary dillar 💀💀💀" - Morris
 
 > "Oops" - Everyone after a pull request is pushed to the main branch and it breaks everything
 
@@ -254,3 +171,5 @@ these are some other cool projects you should check out if you haven't!
 [Aseprite](https://www.aseprite.org/) is one of the best pixel art programs I've ever used - Saver310
 
 [Inkscape](https://inkscape.org/) is a solid vector graphics editor, and I've used it to create the CREDITS texture - Saver310
+
+[GIMP](https://www.gimp.org/) is kickass - Saver310
