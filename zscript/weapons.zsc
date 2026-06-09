@@ -869,12 +869,13 @@ CLASS BCGPlasmaBall : PlasmaBall
 
 CLASS RechargablePlasmaRifleModelv1 : PlasmaRifle replaces PlasmaRifle { 
 	Default {
-		Weapon.SelectionOrder 100;
+		Weapon.SelectionOrder 9999;
 		Weapon.AmmoUse 300;
 		Weapon.AmmoGive 300;
 		Weapon.AmmoType "Cell";
 		Inventory.PickupMessage "$GOTOPRM";
 		Tag "$TAG_OPRM";
+		+WEAPON.NOAUTOFIRE
 	}
 	States
 	{
