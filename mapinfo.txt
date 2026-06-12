@@ -258,7 +258,7 @@ Map BADASS22 "$BADASS22"
 	Next = BADASS23
 	SecretNext = BADASS32
 	Sky1 = SKY3
-	Music = D_IN_CIT
+	Music = D_CITYSTR
 	Author = Saver310
 	StrifeFallingDamage
 }
