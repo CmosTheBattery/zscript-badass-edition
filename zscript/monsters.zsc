@@ -516,9 +516,9 @@ class BadassTrilobite : cacodemon
 		}
 		HDBD C 1 A_FaceTarget;
 		HDBD DDDDDDDDDDDD 1 bright {
-			a_spawnprojectile("trilobiteball");
-			a_spawnprojectile("trilobiteball",angle:spread);
-			a_spawnprojectile("trilobiteball",angle:(spread*-1.0));
+			a_spawnprojectile("trilobyteball");
+			a_spawnprojectile("trilobyteball",angle:spread);
+			a_spawnprojectile("trilobyteball",angle:(spread*-1.0));
 			a_facetarget();
 			spread += 1.5;
 		}
@@ -543,7 +543,7 @@ class BadassTrilobite : cacodemon
 	}
 }
 
-class trilobiteball : cacodemonball
+class trilobyteball : cacodemonball
 {
 	default
 	{
