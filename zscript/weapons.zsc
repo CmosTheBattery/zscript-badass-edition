@@ -198,6 +198,7 @@ CLASS SmallButPackingChaingun : Chaingun replaces Chaingun {
 }
 
 CLASS SingularBullet : Weapon { 
+	double angley;
 	Default {
 		Weapon.SelectionOrder 3700;
 		Weapon.Kickback 100;
