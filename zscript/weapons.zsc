@@ -291,10 +291,10 @@ CLASS SingularBullet : Weapon {
 
 class ThrownBullet : actor {
 	default {
-		Radius 2;
-		Height 5;
+		Radius 8;
+		Height 8;
 		Speed 52;
-		DamageFunction (random(10,20));
+		DamageFunction (random(16,40));
 		Projectile;
 		scale 1.25;
 		-NOGRAVITY
@@ -319,7 +319,7 @@ class ThrownBullet : actor {
 
 class ThrownBulletCrack : ThrownBullet {
 	default {
-		damagefunction (random(25,75));
+		damagefunction (random(32,96));
 		scale 2;
 	}
 }
