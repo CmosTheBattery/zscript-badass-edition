@@ -927,12 +927,13 @@ CLASS BCGPlasmaBall : PlasmaBall
 
 CLASS RechargablePlasmaRifleModelv1 : PlasmaRifle replaces PlasmaRifle { 
 	Default {
-		Weapon.SelectionOrder 100;
+		Weapon.SelectionOrder 9999;
 		Weapon.AmmoUse 300;
 		Weapon.AmmoGive 300;
 		Weapon.AmmoType "Cell";
 		Inventory.PickupMessage "$GOTOPRM";
 		Tag "$TAG_OPRM";
+		+WEAPON.NOAUTOFIRE
 	}
 	States
 	{
@@ -1245,9 +1246,20 @@ CLASS NuclearFucketGrenadeGravity : FucketGrenadeGravity {
 			DEBI M 140;
 			GoTo Death;
 		Death:
-			PLAY WWWWWWWWWWWW 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-3,3),random(-3,3),random(-3,3),random(-10,10),random(-10,10),random(-10,10));
+			PLAY W 0 Bright A_SpawnItemEx("NuclearFucketGrenadeExplosion");
 			PLAY W 0 A_Scream;
 			PLAY W -1;
+			Stop;
+	}
+}
+
+CLASS NuclearFucketGrenadeExplosion : ThatThingThatGoesBoom {
+	States
+	{
+		Spawn:
+			MISL A 1 Bright;
+		Death:
+			MISL WWWWWWWWWWWW 0 Bright A_SpawnItemEx("ThatThingThatGoesBoom",random(-3,3),random(-3,3),random(-3,3),random(-10,10),random(-10,10),random(-10,10));
 			Stop;
 	}
 }

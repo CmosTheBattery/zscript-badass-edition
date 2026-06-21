@@ -258,7 +258,7 @@ Map BADASS22 "$BADASS22"
 	Next = BADASS23
 	SecretNext = BADASS32
 	Sky1 = SKY3
-	Music = D_IN_CIT
+	Music = D_CITYSTR
 	Author = Saver310
 	StrifeFallingDamage
 }
@@ -566,7 +566,7 @@ Skill Variety
 	MustConfirm = "$VARIETY_SURE"
 	ReplaceActor = "ShotgunGuy", "DumbShotgunZombo"
 	ReplaceActor = "ChaingunGuy", "shittyhitscanass_mini"
-	ReplaceActor = "Trilobyte", "badsstrilobite"
+	ReplaceActor = "Trilobite", "BadassTrilobite"
 	ReplaceActor = "HellKnight", "shittyhitscanass"
 	ReplaceActor = "PainElemental", "FucketSpawnLocation"
 	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
@@ -597,7 +597,7 @@ DoomEdNums
 	26028 = "shittyhitscanass"
 	26029 = "shittyhitscanass_mini"
 	26030 = "ShopkeeperSS"
-	26031 = "badsstrilobite"
+	26031 = "BadassTrilobite"
 	32420 = "Convicts"
 	6345 = "Timmy"
 }
