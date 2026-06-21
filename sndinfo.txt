@@ -15,6 +15,7 @@ weapons/spanishpistol "sounds/weap_miniuzi_slmn_9.wav"
 weapons/m249 "sounds/m249-1.wav"
 
 $limit weapons/rocklx 0
+$limit weapons/pistol 0
 $random sawfail {DSSSTRT1 DSSSTRT2}
 
 // misc
@@ -34,6 +35,7 @@ convicts/death "sounds/dsguruxp.wav"
 
 $random menu/quit {Sraka bebech sailor/raise wolfss/sight wolfss/death door/break misc/secret rozjebaneszklo hostage/pain karpackie vent/break IWANT3BIGMAC cocaine/pickup vending/decline}
 $random badass/gibbed {gib gib gib gib gib gib gib gib oldgib oldgib Sraka}
+$limit misc/gibbed 0
 $alias misc/gibbed badass/gibbed
 
 // glass
