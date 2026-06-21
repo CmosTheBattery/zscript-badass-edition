@@ -271,12 +271,12 @@ CLASS SingularBullet : Weapon {
 			OIJG A 1 { A_StartSound("skeleton/swing"); invoker.angley = -6; }
 			OIJG BC 1 {
 				for(int i = 1; i <= 4; i++) {
-					if(countinv("clip"))A_FireProjectile("ThrownBulletcrack",invoker.angley,true); invoker.angley++;
+					if(countinv("clip"))A_FireProjectile("ThrownBulletCrack",invoker.angley,true); invoker.angley++;
 				}
 			}
 			OIJG D 1 {
 				for(int i = 1; i <= 4; i++) {
-					if(countinv("clip"))A_FireProjectile("ThrownBulletcrack",invoker.angley,true); invoker.angley++;
+					if(countinv("clip"))A_FireProjectile("ThrownBulletCrack",invoker.angley,true); invoker.angley++;
 				}
 				A_CustomPunch(random(40,120), false, 0, "BulletPuff", 70,0,0,"ArmorBonus","HOWCANSHESLAP");
 			}
@@ -289,12 +289,12 @@ CLASS SingularBullet : Weapon {
 	}
 }
 
-class thrownbullet : actor {
+class ThrownBullet : actor {
 	default {
 		Radius 2;
 		Height 5;
 		Speed 52;
-		DamageFunction (random(20,50));
+		DamageFunction (random(10,20));
 		Projectile;
 		scale 1.25;
 		-NOGRAVITY
@@ -317,9 +317,9 @@ class thrownbullet : actor {
 	}
 }
 
-class thrownbulletcrack : thrownbullet {
+class ThrownBulletCrack : ThrownBullet {
 	default {
-		damagefunction (random(50,200));
+		damagefunction (random(25,75));
 		scale 2;
 	}
 }
