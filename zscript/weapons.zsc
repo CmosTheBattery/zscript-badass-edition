@@ -204,7 +204,9 @@ CLASS SingularBullet : Weapon {
 		Weapon.Kickback 100;
 		Weapon.AmmoUse 1;
 		Weapon.AmmoGive 1;
-		Weapon.AmmoType "Clip" ;
+		Weapon.AmmoType "Clip";
+		Weapon.AmmoUse2 1;
+		Weapon.AmmoType2 "Clip";
 		Inventory.PickupMessage "$GOTSINGULARBULLET" ;
 		Obituary "$OB_SINGULARBULLET";
 		Tag "$TAG_SINGULARBULLET";
