@@ -366,6 +366,36 @@ class ShopkeeperSS : HostageSS
     }
 }
 
+//bad*ssery variety
+
+class FiveHundredBullets : Zombieman
+{
+	Default
+	{
+		ReactionTime 1;
+		Speed 30;
+		+dontharmclass
+	}
+	States
+	{
+	Missile:
+		POSS V 38
+		{
+			A_FaceTarget();
+			A_StartSound("fivehundred",CHAN_AUTO);
+		}
+		POSS W 1 BRIGHT
+		{
+			A_CustomBulletAttack(50,10,500,5,"shittypuffass");
+			for (int i=0;i<40;i++)
+			{
+				A_StartSound("weapons/m249",CHAN_AUTO);
+			}
+		}
+		Goto See;
+	}
+}
+
 class DumbShotgunZombo : shotgunguy
 {
 	Default

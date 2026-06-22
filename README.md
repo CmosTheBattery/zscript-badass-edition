@@ -150,9 +150,9 @@ too bad(*ss)
 
 > "i've had my job STOLEN i will be working on badass27 now if i feel like it" - Xiaojun Yue (Dari)
 
-> "why" - CMOS555
-
 > "Evil scary dillar 💀💀💀" - Morris
+
+> "why" - CMOS555
 
 > "Oops" - Everyone after a pull request is pushed to the main branch and it breaks everything
 
