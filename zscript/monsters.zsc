@@ -81,11 +81,17 @@ CLASS TheNuker : Cyberdemon  { //26017
 			CYBR A 8 A_FaceTarget;
 			CYBR FFF 2 A_SpawnProjectile("PlasmaTesticle");
 			Goto See;
-		XDeath:
-			CYBG A 4;
-			CYBG B 4 A_XScream;
-			CYBG C 4 A_NoBlocking;
-			CYBG D -1;
+		Death:
+			PLAY O 3 {
+				a_settranslation("nukergib");
+				a_xscream();
+				a_noblocking();
+				a_setscale(2.5,2.5);
+			}
+			PLAY PQRSTUV 3;
+			PLAY W 35;
+			PLAY WWWWWWWW 1 A_SetScale(scale.x,scale.y-0.3);
+			PLAY W -1;
 			Stop;
 	}
 }
