@@ -564,6 +564,7 @@ Skill Variety
 	SpawnFilter = Hard
 	Name = "$SKILL_VARIETY"
 	MustConfirm = "$VARIETY_SURE"
+	ReplaceActor = "ZombieMan", "FiveHundredBullets"
 	ReplaceActor = "ShotgunGuy", "DumbShotgunZombo"
 	ReplaceActor = "ChaingunGuy", "shittyhitscanass_mini"
 	ReplaceActor = "DoomImp", "serpentilliondollars"
