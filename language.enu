@@ -293,7 +293,7 @@ ENDLESS_PARK = "Park Wypoczynku";
 
 DEATHSCREEN = "Spierdoliłeś";
 SECRETTEXT =
-	"Wchodzisz to tajemniczego teleportera który\n"
+	"Wchodzisz do tajemniczego teleportera który\n"
 	"otworzył się w dolnym piętrze metra.\n"
 	"Odcień zielonego świeci ci się przed oczami, i wszystko\n"
 	"się przyciemnia. Po 4 godzinach budzisz się, i już wiesz\n"
@@ -318,7 +318,7 @@ BD06_1 = "Drzwi muszą być odblokowane terminalem.";
 BD12_1 = "\c[Grey]Szary kurwiszon:\c[Gold] Naprzód!";
 BD12_2 = "\c[Grey]Szary kurwiszon:\c[Gold] O kurwa, ty mnie zabiłeś, ty twar***elu!";
 BD29_1 = "Maj 24: Domena Wielkiego Timmy'ego";
-BD29_2 = "Royland, to komenda. Zabezpieczyliśmy teren. Wejdź do portalu i załatw wszystkich.";
+BD29_2 = "Royland, tu komenda. Zabezpieczyliśmy teren. Wejdź do portalu i załatw wszystkich.";
 BD29_3 = "Robi się.";
 BD29_4 = "WITAM, BARNSTABLE. CZY JESTEŚ GOTOWY ABY UMRZEĆ?";
 BD29_5 = "Nawzajem.";
