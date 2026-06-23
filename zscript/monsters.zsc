@@ -679,7 +679,7 @@ class miniserpent : doomimpball
 			troo opqrstu 2;
 			stop;
 		xdeath:
-			troo efg 3 { a_explode(8,48,0); a_playsound("imp/melee"); }
+			troo efgefg 2 { a_explode(8,48,0); a_playsound("imp/melee"); }
 			stop;
 	}
 }
