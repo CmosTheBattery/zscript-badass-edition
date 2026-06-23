@@ -573,6 +573,28 @@ Skill Variety
 	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
 	ReplaceActor = "CorpseTosser", "TheNuker"
 }
+Skill ErectVariety
+{
+	SpawnFilter = Nightmare
+	AmmoFactor = 2
+	DisableCheats
+	NoPain
+	NoInfighting
+	MonsterHealth = 2
+	HealthFactor = 2
+	KickbackFactor = 4
+	DamageFactor = 2
+	Name = "$SKILL_ERECTVARIETY"
+	MustConfirm = "$ERECTVARIETY_SURE"
+	ReplaceActor = "ZombieMan", "FiveHundredBullets"
+	ReplaceActor = "ShotgunGuy", "DumbShotgunZombo"
+	ReplaceActor = "ChaingunGuy", "shittyhitscanass_mini"
+	ReplaceActor = "Trilobite", "BadassTrilobite"
+	ReplaceActor = "HellKnight", "shittyhitscanass"
+	ReplaceActor = "PainElemental", "FucketSpawnLocation"
+	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
+	ReplaceActor = "CorpseTosser", "TheNuker"
+}
 GameInfo
 {
 	QuitSound = "menu/quit"

@@ -54,6 +54,8 @@ VARIETY_SURE = "This difficulty replaces some of the\n"
 "Also the monsters are placed like in the I'm Bad*ss difficulty.\n"
 "\n"
 "Do you really want to experience agony?";
+SKILL_ERECTVARIETY = "Infertile Variety";
+ERECTVARIETY_SURE = "Abandon hope all ye who enter here.";
 
 BADASS01 = "Hydroelectronic Plant";
 BADASS02 = "I eat the concrete from the sidewalk";
@@ -260,6 +262,8 @@ VARIETY_SURE = "Ten poziom trudności zamienia\n"
 "Potwory są ułożone na mapie jak w Jestem Twar***el.\n"
 "\n"
 "Czy chcesz doświadczyć agonii?";
+SKILL_ERECTVARIETY = "Bezpłodna Różnorodność";
+ERECTVARIETY_SURE = "Porzućcie wszelką nadzieję, wy, którzy tu wchodzicie.";
 
 BADASS02 = "Jem beton z chodnika";
 BADASS03 = "Epicki Labirynt Śmierci Geoffa";
