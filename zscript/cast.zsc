@@ -1,7 +1,6 @@
 
 CLASS DriverSailorCast : WolfensteinSS { 
-	Default {
-		
+	Default {	
 		DeathSound "misc/gibbed";
 	}
 	States
@@ -23,8 +22,8 @@ CLASS DriverSailorCast : WolfensteinSS {
 }
 
 CLASS TheNukerCast : TheNuker { 
-	Default {
-		DeathSound "misc/gibbed";
+	default {
+		deathsound "misc/gibbed";
 	}
 	States
 	{
@@ -32,19 +31,10 @@ CLASS TheNukerCast : TheNuker {
 			CYBR F 4 A_SpawnProjectile("PlasmaTesticle");
 			CYBR EA 8 A_FaceTarget;
 			Goto See;
-		Death:
-			CYBG A 4;
-			CYBG B 4 A_Scream;
-			CYBG C 4 A_NoBlocking;
-			CYBG D -1;
-			Stop;
 	}
 }
 
 CLASS ZombieCast : ZombieMan { 
-	Default {
-		
-	}
 	States
 	{
 		Missile:
@@ -63,8 +53,7 @@ CLASS ZombieCast : ZombieMan {
 }
 
 CLASS WorkerZombieCast : ZombieMan { 
-	Default {
-		
+	Default {		
 		DeathSound "misc/gibbed";
 	}
 	States

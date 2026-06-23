@@ -567,6 +567,7 @@ Skill Variety
 	ReplaceActor = "ZombieMan", "FiveHundredBullets"
 	ReplaceActor = "ShotgunGuy", "DumbShotgunZombo"
 	ReplaceActor = "ChaingunGuy", "shittyhitscanass_mini"
+	ReplaceActor = "DoomImp", "serpentilliondollars"
 	ReplaceActor = "Trilobite", "BadassTrilobite"
 	ReplaceActor = "HellKnight", "shittyhitscanass"
 	ReplaceActor = "PainElemental", "FucketSpawnLocation"
@@ -621,6 +622,7 @@ DoomEdNums
 	26029 = "shittyhitscanass_mini"
 	26030 = "ShopkeeperSS"
 	26031 = "BadassTrilobite"
+	26032 = "serpentilliondollars"
 	32420 = "Convicts"
 	6345 = "Timmy"
 }
