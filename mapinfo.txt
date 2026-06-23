@@ -58,7 +58,7 @@ Map BADASS03 "$BADASS03"
 	Sky1 = SKY1
 	Par = 45
 	Music = D_COUNTD
-	Author = Saver310
+	Author = CMOS555
 	ResetHealth
 }
 Map BADASS04 "$BADASS04"
@@ -623,6 +623,7 @@ DoomEdNums
 	26030 = "ShopkeeperSS"
 	26031 = "BadassTrilobite"
 	26032 = "serpentilliondollars"
+	26033 = "FiveHundredBullets"
 	32420 = "Convicts"
 	6345 = "Timmy"
 }
