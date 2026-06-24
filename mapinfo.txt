@@ -345,7 +345,8 @@ Map TESTICLE "$TESTICLE" {
 Map TITLEMAP "$TITLEMAP" 
 {
 	Next = BADASS01
-	Sky1 = SKY1
+	Sky1 = ofissky, 0.1
+	Sky2 = SKY3
 	Author = Saver310
 	NoJump
 	NoFreeLook
