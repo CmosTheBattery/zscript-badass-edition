@@ -190,6 +190,7 @@ Map BADASS15 "$BADASS15"
 	Music = D_MAP15
 	Par = 30
 	Author = Saver310
+	Sky1 = CEIL4_2
 	ClipMidTextures
 }
 Map BADASS16 "$BADASS16" {
